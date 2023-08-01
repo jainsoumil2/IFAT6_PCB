@@ -1,0 +1,395 @@
+Removed Pin From Net: NetName=MC2_18 Pin=IFAT6-27
+Removed Pin From Net: NetName=MC2_62 Pin=IFAT6-47
+Removed Pin From Net: NetName=MC2_52 Pin=IFAT6-49
+Removed Pin From Net: NetName=DAC3_L\D\A\C\ Pin=J1-27
+Removed Pin From Net: NetName=DAC3_S\Y\N\C\ Pin=J1-29
+Removed Pin From Net: NetName=DAC3_SDI Pin=J1-31
+Removed Pin From Net: NetName=DAC2_L\D\A\C\ Pin=J1-32
+Removed Pin From Net: NetName=DAC3_C\L\R\ Pin=J1-33
+Removed Pin From Net: NetName=DAC2_S\Y\N\C\ Pin=J1-34
+Removed Pin From Net: NetName=ADC_SDO Pin=J1-37
+Removed Pin From Net: NetName=DAC2_SDI Pin=J1-38
+Removed Pin From Net: NetName=ADC_C\S\ Pin=J1-39
+Removed Pin From Net: NetName=DAC2_C\L\R\ Pin=J1-40
+Removed Pin From Net: NetName=DAC1_SDI Pin=J2-2
+Removed Pin From Net: NetName=ADC_SDI Pin=J2-3
+Removed Pin From Net: NetName=DAC1_C\L\R\ Pin=J2-4
+Removed Pin From Net: NetName=DAC1_L\D\A\C\ Pin=J2-6
+Removed Pin From Net: NetName=DAC1_S\Y\N\C\ Pin=J2-8
+Removed Pin From Net: NetName=ADC_SCLK Pin=J2-9
+Removed Pin From Net: NetName=DAC5_C\L\R\ Pin=J2-10
+Removed Pin From Net: NetName=DAC4_S\Y\N\C\ Pin=J2-11
+Removed Pin From Net: NetName=DAC5_S\Y\N\C\ Pin=J2-12
+Removed Pin From Net: NetName=DAC4_L\D\A\C\ Pin=J2-13
+Removed Pin From Net: NetName=DAC5_L\D\A\C\ Pin=J2-14
+Removed Pin From Net: NetName=DAC4_C\L\R\ Pin=J2-17
+Removed Pin From Net: NetName=DAC_SCLK Pin=J2-18
+Removed Pin From Net: NetName=DAC4_SDI Pin=J2-19
+Removed Pin From Net: NetName=DAC5_SDI Pin=J2-20
+Removed Pin From Net: NetName=INPUT_DATA_ACK Pin=J3-16
+Removed Pin From Net: NetName=COL_SHIFT_REG_CLK Pin=J3-20
+Removed Pin From Net: NetName=ASYNC_RST Pin=J3-24
+Removed Pin From Net: NetName=ARRAY_SHIFT_REG_CLK Pin=J3-28
+Removed Pin From Net: NetName=OUTPUT_DATA13 Pin=J3-30
+Removed Pin From Net: NetName=OUTPUT_DATA12 Pin=J3-32
+Removed Pin From Net: NetName=OUTPUT_DATA11 Pin=J3-34
+Removed Pin From Net: NetName=OUTPUT_DATA10 Pin=J4-2
+Removed Pin From Net: NetName=OUTPUT_DATA9 Pin=J4-4
+Removed Pin From Net: NetName=OUTPUT_DATA8 Pin=J4-6
+Removed Pin From Net: NetName=OUTPUT_DATA7 Pin=J4-8
+Removed Pin From Net: NetName=_setLFSR Pin=J4-10
+Removed Pin From Net: NetName=INPUT_DATA20 Pin=J4-23
+Removed Pin From Net: NetName=OUTPUT_DATA0 Pin=J4-24
+Removed Pin From Net: NetName=INPUT_DATA21 Pin=J4-25
+Removed Pin From Net: NetName=OUTPUT_DATA1 Pin=J4-26
+Removed Pin From Net: NetName=INPUT_DATA22 Pin=J4-27
+Removed Pin From Net: NetName=OUTPUT_DATA2 Pin=J4-28
+Removed Pin From Net: NetName=INPUT_DATA23 Pin=J4-29
+Removed Pin From Net: NetName=OUTPUT_DATA3 Pin=J4-30
+Removed Pin From Net: NetName=OUTPUT_DATA4 Pin=J4-31
+Removed Pin From Net: NetName=OUTPUT_DATA5 Pin=J4-32
+Removed Pin From Net: NetName=INPUT_DATA_REQ Pin=J4-33
+Removed Pin From Net: NetName=OUTPUT_DATA6 Pin=J4-34
+Removed Pin From Net: NetName=DAC3_L\D\A\C\ Pin=MC1-27
+Removed Pin From Net: NetName=DAC3_S\Y\N\C\ Pin=MC1-29
+Removed Pin From Net: NetName=DAC3_SDI Pin=MC1-31
+Removed Pin From Net: NetName=DAC2_L\D\A\C\ Pin=MC1-32
+Removed Pin From Net: NetName=DAC3_C\L\R\ Pin=MC1-33
+Removed Pin From Net: NetName=DAC2_S\Y\N\C\ Pin=MC1-34
+Removed Pin From Net: NetName=ADC_SDO Pin=MC1-37
+Removed Pin From Net: NetName=DAC2_SDI Pin=MC1-38
+Removed Pin From Net: NetName=ADC_C\S\ Pin=MC1-39
+Removed Pin From Net: NetName=DAC2_C\L\R\ Pin=MC1-40
+Removed Pin From Net: NetName=DAC1_SDI Pin=MC1-42
+Removed Pin From Net: NetName=ADC_SDI Pin=MC1-43
+Removed Pin From Net: NetName=DAC1_C\L\R\ Pin=MC1-44
+Removed Pin From Net: NetName=DAC1_L\D\A\C\ Pin=MC1-46
+Removed Pin From Net: NetName=DAC1_S\Y\N\C\ Pin=MC1-48
+Removed Pin From Net: NetName=ADC_SCLK Pin=MC1-49
+Removed Pin From Net: NetName=DAC5_C\L\R\ Pin=MC1-50
+Removed Pin From Net: NetName=DAC4_S\Y\N\C\ Pin=MC1-51
+Removed Pin From Net: NetName=DAC5_S\Y\N\C\ Pin=MC1-52
+Removed Pin From Net: NetName=DAC4_L\D\A\C\ Pin=MC1-53
+Removed Pin From Net: NetName=DAC5_L\D\A\C\ Pin=MC1-54
+Removed Pin From Net: NetName=DAC4_C\L\R\ Pin=MC1-57
+Removed Pin From Net: NetName=DAC_SCLK Pin=MC1-58
+Removed Pin From Net: NetName=DAC4_SDI Pin=MC1-59
+Removed Pin From Net: NetName=DAC5_SDI Pin=MC1-60
+Removed Pin From Net: NetName=INPUT_DATA_ACK Pin=MC2-16
+Removed Pin From Net: NetName=COL_SHIFT_REG_CLK Pin=MC2-20
+Removed Pin From Net: NetName=ASYNC_RST Pin=MC2-24
+Removed Pin From Net: NetName=ARRAY_SHIFT_REG_CLK Pin=MC2-28
+Removed Pin From Net: NetName=OUTPUT_DATA13 Pin=MC2-30
+Removed Pin From Net: NetName=OUTPUT_DATA12 Pin=MC2-32
+Removed Pin From Net: NetName=OUTPUT_DATA11 Pin=MC2-34
+Removed Pin From Net: NetName=OUTPUT_DATA10 Pin=MC2-42
+Removed Pin From Net: NetName=OUTPUT_DATA9 Pin=MC2-44
+Removed Pin From Net: NetName=OUTPUT_DATA8 Pin=MC2-46
+Removed Pin From Net: NetName=OUTPUT_DATA7 Pin=MC2-48
+Removed Pin From Net: NetName=_setLFSR Pin=MC2-50
+Removed Pin From Net: NetName=INPUT_DATA20 Pin=MC2-63
+Removed Pin From Net: NetName=OUTPUT_DATA0 Pin=MC2-64
+Removed Pin From Net: NetName=INPUT_DATA21 Pin=MC2-65
+Removed Pin From Net: NetName=OUTPUT_DATA1 Pin=MC2-66
+Removed Pin From Net: NetName=INPUT_DATA22 Pin=MC2-67
+Removed Pin From Net: NetName=OUTPUT_DATA2 Pin=MC2-68
+Removed Pin From Net: NetName=INPUT_DATA23 Pin=MC2-69
+Removed Pin From Net: NetName=OUTPUT_DATA3 Pin=MC2-70
+Removed Pin From Net: NetName=OUTPUT_DATA4 Pin=MC2-71
+Removed Pin From Net: NetName=OUTPUT_DATA5 Pin=MC2-72
+Removed Pin From Net: NetName=INPUT_DATA_REQ Pin=MC2-73
+Removed Pin From Net: NetName=OUTPUT_DATA6 Pin=MC2-74
+Removed Member From Class: ClassName=Digital Member=ADC_SDO
+Removed Member From Class: ClassName=Digital Member=MC1_62
+Removed Member From Class: ClassName=Digital Member=MC1_64
+Removed Member From Class: ClassName=Digital Member=MC1_66
+Removed Member From Class: ClassName=Digital Member=MC1_67
+Removed Member From Class: ClassName=Digital Member=MC1_68
+Removed Member From Class: ClassName=Digital Member=MC1_69
+Removed Member From Class: ClassName=Digital Member=MC1_70
+Removed Member From Class: ClassName=Digital Member=MC1_71
+Removed Member From Class: ClassName=Digital Member=MC1_72
+Removed Member From Class: ClassName=Digital Member=MC1_73
+Removed Member From Class: ClassName=Digital Member=MC1_74
+Removed Member From Class: ClassName=Digital Member=MC1_75
+Removed Member From Class: ClassName=Digital Member=MC1_76
+Removed Member From Class: ClassName=Digital Member=MC2_22
+Removed Member From Class: ClassName=Digital Member=MC2_26
+Removed Member From Class: ClassName=Digital Member=MC2_38
+Removed Member From Class: ClassName=Digital Member=MC2_40
+Removed Member From Class: ClassName=Digital Member=MC2_59
+Removed Member From Class: ClassName=Digital Member=MC2_60
+Removed Member From Class: ClassName=Digital Member=MC2_61
+Removed Member From Class: ClassName=Digital Member=MC2_75
+Removed Member From Class: ClassName=Digital Member=MC2_76
+Removed Member From Class: ClassName=Digital Member=VCCO_MC2
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Change Component Designator: OldDesignator=C1_C_VCCO1_FPGA NewDesignator=C1_C_VCCO2_FPGA
+Change Component Designator: OldDesignator=C2_C_VCCO1_FPGA NewDesignator=C2_C_VCCO2_FPGA
+Change Component Designator: OldDesignator=C3_C_VCCO1_FPGA NewDesignator=C3_C_VCCO2_FPGA
+Added Component: Designator=C1_C_VCCO1_FPGA(Samsung CL21B Series)
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-2424-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1nF"; VariantName = "[No Variations]"
+Added Component: Designator=C2_C_VCCO1_FPGA(CAPC1608X90N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "06035A101FAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/06035a101fat2a/avx?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "06035A101FAT2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "581-06035A101F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/AVX/06035A101FAT2A?qs=AGOxcRBkg6ajfVvm2Jvp8A%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "478-6202-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C3_C_VCCO1_FPGA(CAPC2012X88N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "C0805C100J5GACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/c0805c100j5gactu/kemet-corporation?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.mouser.com/ds/2/212/KEM_C1003_C0G_SMD-356956.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.88mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Kemet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "C0805C100J5GACTU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "80-C0805C100J5G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KEMET/C0805C100J5GACTU?qs=nxj9Bpd7lumc4YIny1qjLA%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "399-C0805C100J5GAC7800CT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCCO_MC2 Pin=C1_C_VCCO1_FPGA-1
+Added Pin To Net: NetName=DGND Pin=C1_C_VCCO1_FPGA-2
+Added Pin To Net: NetName=DGND Pin=C2_C_VCCO1_FPGA-1
+Added Pin To Net: NetName=VCCO_MC2 Pin=C2_C_VCCO1_FPGA-2
+Added Pin To Net: NetName=DGND Pin=C3_C_VCCO1_FPGA-1
+Added Pin To Net: NetName=VCCO_MC2 Pin=C3_C_VCCO1_FPGA-2
+Added Pin To Net: NetName=MC2_18 Pin=IFAT6-31
+Added Pin To Net: NetName=MC2_52 Pin=IFAT6-47
+Added Pin To Net: NetName=MC2_54 Pin=IFAT6-48
+Added Pin To Net: NetName=MC2_58 Pin=IFAT6-49
+Added Pin To Net: NetName=MC2_62 Pin=IFAT6-51
+Added Pin To Net: NetName=VCCO_MC2 Pin=J1-36
+Added Pin To Net: NetName=COL_SHIFT_REG_CLK Pin=J2-14
+Added Pin To Net: NetName=VCCO_MC2 Pin=J2-16
+Added Pin To Net: NetName=INPUT_DATA_ACK Pin=J2-20
+Added Pin To Net: NetName=INPUT_DATA_REQ Pin=J2-22
+Added Pin To Net: NetName=DAC2_S\Y\N\C\ Pin=J2-24
+Added Pin To Net: NetName=DAC2_SDI Pin=J2-26
+Added Pin To Net: NetName=DAC3_L\D\A\C\ Pin=J2-27
+Added Pin To Net: NetName=DAC2_C\L\R\ Pin=J2-28
+Added Pin To Net: NetName=DAC3_S\Y\N\C\ Pin=J2-29
+Added Pin To Net: NetName=DAC5_C\L\R\ Pin=J2-30
+Added Pin To Net: NetName=DAC3_SDI Pin=J2-31
+Added Pin To Net: NetName=DAC5_L\D\A\C\ Pin=J2-32
+Added Pin To Net: NetName=DAC3_C\L\R\ Pin=J2-33
+Added Pin To Net: NetName=DAC_SCLK Pin=J2-34
+Added Pin To Net: NetName=DAC2_L\D\A\C\ Pin=J2-35
+Added Pin To Net: NetName=DAC5_SDI Pin=J2-36
+Added Pin To Net: NetName=ADC_SDO Pin=J3-5
+Added Pin To Net: NetName=ASYNC_RST Pin=J3-16
+Added Pin To Net: NetName=ARRAY_SHIFT_REG_CLK Pin=J3-20
+Added Pin To Net: NetName=OUTPUT_DATA13 Pin=J3-22
+Added Pin To Net: NetName=OUTPUT_DATA12 Pin=J3-24
+Added Pin To Net: NetName=OUTPUT_DATA11 Pin=J3-26
+Added Pin To Net: NetName=OUTPUT_DATA10 Pin=J3-28
+Added Pin To Net: NetName=OUTPUT_DATA9 Pin=J3-30
+Added Pin To Net: NetName=OUTPUT_DATA8 Pin=J3-32
+Added Pin To Net: NetName=OUTPUT_DATA7 Pin=J3-34
+Added Pin To Net: NetName=OUTPUT_DATA6 Pin=J3-38
+Added Pin To Net: NetName=OUTPUT_DATA5 Pin=J3-40
+Added Pin To Net: NetName=OUTPUT_DATA4 Pin=J4-2
+Added Pin To Net: NetName=OUTPUT_DATA3 Pin=J4-4
+Added Pin To Net: NetName=OUTPUT_DATA2 Pin=J4-6
+Added Pin To Net: NetName=OUTPUT_DATA1 Pin=J4-8
+Added Pin To Net: NetName=OUTPUT_DATA0 Pin=J4-10
+Added Pin To Net: NetName=INPUT_DATA20 Pin=J4-19
+Added Pin To Net: NetName=_setLFSR Pin=J4-20
+Added Pin To Net: NetName=INPUT_DATA21 Pin=J4-21
+Added Pin To Net: NetName=INPUT_DATA22 Pin=J4-23
+Added Pin To Net: NetName=DAC5_S\Y\N\C\ Pin=J4-24
+Added Pin To Net: NetName=INPUT_DATA23 Pin=J4-25
+Added Pin To Net: NetName=DAC4_L\D\A\C\ Pin=J4-26
+Added Pin To Net: NetName=ADC_SDI Pin=J4-27
+Added Pin To Net: NetName=DAC4_S\Y\N\C\ Pin=J4-28
+Added Pin To Net: NetName=ADC_SCLK Pin=J4-29
+Added Pin To Net: NetName=DAC4_SDI Pin=J4-30
+Added Pin To Net: NetName=ADC_C\S\ Pin=J4-31
+Added Pin To Net: NetName=DAC4_C\L\R\ Pin=J4-32
+Added Pin To Net: NetName=DAC1_SDI Pin=J4-33
+Added Pin To Net: NetName=DAC1_S\Y\N\C\ Pin=J4-34
+Added Pin To Net: NetName=DAC1_C\L\R\ Pin=J4-35
+Added Pin To Net: NetName=DAC1_L\D\A\C\ Pin=J4-36
+Added Pin To Net: NetName=VCCO_MC2 Pin=MC1-36
+Added Pin To Net: NetName=COL_SHIFT_REG_CLK Pin=MC1-54
+Added Pin To Net: NetName=VCCO_MC2 Pin=MC1-56
+Added Pin To Net: NetName=INPUT_DATA_ACK Pin=MC1-60
+Added Pin To Net: NetName=INPUT_DATA_REQ Pin=MC1-62
+Added Pin To Net: NetName=DAC2_S\Y\N\C\ Pin=MC1-64
+Added Pin To Net: NetName=DAC2_SDI Pin=MC1-66
+Added Pin To Net: NetName=DAC3_L\D\A\C\ Pin=MC1-67
+Added Pin To Net: NetName=DAC2_C\L\R\ Pin=MC1-68
+Added Pin To Net: NetName=DAC3_S\Y\N\C\ Pin=MC1-69
+Added Pin To Net: NetName=DAC5_C\L\R\ Pin=MC1-70
+Added Pin To Net: NetName=DAC3_SDI Pin=MC1-71
+Added Pin To Net: NetName=DAC5_L\D\A\C\ Pin=MC1-72
+Added Pin To Net: NetName=DAC3_C\L\R\ Pin=MC1-73
+Added Pin To Net: NetName=DAC_SCLK Pin=MC1-74
+Added Pin To Net: NetName=DAC2_L\D\A\C\ Pin=MC1-75
+Added Pin To Net: NetName=DAC5_SDI Pin=MC1-76
+Added Pin To Net: NetName=ASYNC_RST Pin=MC2-16
+Added Pin To Net: NetName=ARRAY_SHIFT_REG_CLK Pin=MC2-20
+Added Pin To Net: NetName=OUTPUT_DATA13 Pin=MC2-22
+Added Pin To Net: NetName=OUTPUT_DATA12 Pin=MC2-24
+Added Pin To Net: NetName=OUTPUT_DATA11 Pin=MC2-26
+Added Pin To Net: NetName=OUTPUT_DATA10 Pin=MC2-28
+Added Pin To Net: NetName=OUTPUT_DATA9 Pin=MC2-30
+Added Pin To Net: NetName=OUTPUT_DATA8 Pin=MC2-32
+Added Pin To Net: NetName=OUTPUT_DATA7 Pin=MC2-34
+Added Pin To Net: NetName=OUTPUT_DATA6 Pin=MC2-38
+Added Pin To Net: NetName=OUTPUT_DATA5 Pin=MC2-40
+Added Pin To Net: NetName=OUTPUT_DATA4 Pin=MC2-42
+Added Pin To Net: NetName=OUTPUT_DATA3 Pin=MC2-44
+Added Pin To Net: NetName=OUTPUT_DATA2 Pin=MC2-46
+Added Pin To Net: NetName=OUTPUT_DATA1 Pin=MC2-48
+Added Pin To Net: NetName=OUTPUT_DATA0 Pin=MC2-50
+Added Pin To Net: NetName=INPUT_DATA20 Pin=MC2-59
+Added Pin To Net: NetName=_setLFSR Pin=MC2-60
+Added Pin To Net: NetName=INPUT_DATA21 Pin=MC2-61
+Added Pin To Net: NetName=INPUT_DATA22 Pin=MC2-63
+Added Pin To Net: NetName=DAC5_S\Y\N\C\ Pin=MC2-64
+Added Pin To Net: NetName=INPUT_DATA23 Pin=MC2-65
+Added Pin To Net: NetName=DAC4_L\D\A\C\ Pin=MC2-66
+Added Pin To Net: NetName=ADC_SDI Pin=MC2-67
+Added Pin To Net: NetName=DAC4_S\Y\N\C\ Pin=MC2-68
+Added Pin To Net: NetName=ADC_SCLK Pin=MC2-69
+Added Pin To Net: NetName=DAC4_SDI Pin=MC2-70
+Added Pin To Net: NetName=ADC_C\S\ Pin=MC2-71
+Added Pin To Net: NetName=DAC4_C\L\R\ Pin=MC2-72
+Added Pin To Net: NetName=DAC1_SDI Pin=MC2-73
+Added Pin To Net: NetName=DAC1_S\Y\N\C\ Pin=MC2-74
+Added Pin To Net: NetName=DAC1_C\L\R\ Pin=MC2-75
+Added Pin To Net: NetName=DAC1_L\D\A\C\ Pin=MC2-76
+Change Net Name : Old Net Name=VCCO_MC2 New Net Name=VCCO_MC1
+Added Pin To Net: NetName=MC1_27 Pin=J1-27
+Added Pin To Net: NetName=MC1_27 Pin=MC1-27
+Added Net: Name=MC1_27
+Added Pin To Net: NetName=MC1_29 Pin=J1-29
+Added Pin To Net: NetName=MC1_29 Pin=MC1-29
+Added Net: Name=MC1_29
+Added Pin To Net: NetName=MC1_31 Pin=J1-31
+Added Pin To Net: NetName=MC1_31 Pin=MC1-31
+Added Net: Name=MC1_31
+Added Pin To Net: NetName=MC1_32 Pin=J1-32
+Added Pin To Net: NetName=MC1_32 Pin=MC1-32
+Added Net: Name=MC1_32
+Added Pin To Net: NetName=MC1_33 Pin=J1-33
+Added Pin To Net: NetName=MC1_33 Pin=MC1-33
+Added Net: Name=MC1_33
+Added Pin To Net: NetName=MC1_34 Pin=J1-34
+Added Pin To Net: NetName=MC1_34 Pin=MC1-34
+Added Net: Name=MC1_34
+Added Pin To Net: NetName=MC1_37 Pin=J1-37
+Added Pin To Net: NetName=MC1_37 Pin=MC1-37
+Added Net: Name=MC1_37
+Added Pin To Net: NetName=MC1_38 Pin=J1-38
+Added Pin To Net: NetName=MC1_38 Pin=MC1-38
+Added Net: Name=MC1_38
+Added Pin To Net: NetName=MC1_39 Pin=J1-39
+Added Pin To Net: NetName=MC1_39 Pin=MC1-39
+Added Net: Name=MC1_39
+Added Pin To Net: NetName=MC1_40 Pin=J1-40
+Added Pin To Net: NetName=MC1_40 Pin=MC1-40
+Added Net: Name=MC1_40
+Added Pin To Net: NetName=MC1_42 Pin=J2-2
+Added Pin To Net: NetName=MC1_42 Pin=MC1-42
+Added Net: Name=MC1_42
+Added Pin To Net: NetName=MC1_43 Pin=J2-3
+Added Pin To Net: NetName=MC1_43 Pin=MC1-43
+Added Net: Name=MC1_43
+Added Pin To Net: NetName=MC1_44 Pin=J2-4
+Added Pin To Net: NetName=MC1_44 Pin=MC1-44
+Added Net: Name=MC1_44
+Added Pin To Net: NetName=MC1_46 Pin=J2-6
+Added Pin To Net: NetName=MC1_46 Pin=MC1-46
+Added Net: Name=MC1_46
+Added Pin To Net: NetName=MC1_48 Pin=J2-8
+Added Pin To Net: NetName=MC1_48 Pin=MC1-48
+Added Net: Name=MC1_48
+Added Pin To Net: NetName=MC1_49 Pin=J2-9
+Added Pin To Net: NetName=MC1_49 Pin=MC1-49
+Added Net: Name=MC1_49
+Added Pin To Net: NetName=MC1_50 Pin=J2-10
+Added Pin To Net: NetName=MC1_50 Pin=MC1-50
+Added Net: Name=MC1_50
+Added Pin To Net: NetName=MC1_51 Pin=J2-11
+Added Pin To Net: NetName=MC1_51 Pin=MC1-51
+Added Net: Name=MC1_51
+Added Pin To Net: NetName=MC1_52 Pin=IFAT6-29
+Added Pin To Net: NetName=MC1_52 Pin=J2-12
+Added Pin To Net: NetName=MC1_52 Pin=MC1-52
+Added Net: Name=MC1_52
+Added Pin To Net: NetName=MC1_53 Pin=J2-13
+Added Pin To Net: NetName=MC1_53 Pin=MC1-53
+Added Net: Name=MC1_53
+Added Pin To Net: NetName=MC1_57 Pin=J2-17
+Added Pin To Net: NetName=MC1_57 Pin=MC1-57
+Added Net: Name=MC1_57
+Added Pin To Net: NetName=MC1_58 Pin=IFAT6-27
+Added Pin To Net: NetName=MC1_58 Pin=J2-18
+Added Pin To Net: NetName=MC1_58 Pin=MC1-58
+Added Net: Name=MC1_58
+Added Pin To Net: NetName=MC1_59 Pin=J2-19
+Added Pin To Net: NetName=MC1_59 Pin=MC1-59
+Added Net: Name=MC1_59
+Added Member To Class: ClassName=Digital Member=Wire MC1_27
+Added Member To Class: ClassName=Digital Member=Wire MC1_29
+Added Member To Class: ClassName=Digital Member=Wire MC1_31
+Added Member To Class: ClassName=Digital Member=Wire MC1_32
+Added Member To Class: ClassName=Digital Member=Wire MC1_33
+Added Member To Class: ClassName=Digital Member=Wire MC1_34
+Added Member To Class: ClassName=Digital Member=Wire MC1_37
+Added Member To Class: ClassName=Digital Member=Wire MC1_38
+Added Member To Class: ClassName=Digital Member=Wire MC1_39
+Added Member To Class: ClassName=Digital Member=Wire MC1_40
+Added Member To Class: ClassName=Digital Member=Wire MC1_42
+Added Member To Class: ClassName=Digital Member=Wire MC1_43
+Added Member To Class: ClassName=Digital Member=Wire MC1_44
+Added Member To Class: ClassName=Digital Member=Wire MC1_46
+Added Member To Class: ClassName=Digital Member=Wire MC1_48
+Added Member To Class: ClassName=Digital Member=Wire MC1_49
+Added Member To Class: ClassName=Digital Member=Wire MC1_50
+Added Member To Class: ClassName=Digital Member=Wire MC1_51
+Added Member To Class: ClassName=Digital Member=Wire MC1_52
+Added Member To Class: ClassName=Digital Member=Wire MC1_53
+Added Member To Class: ClassName=Digital Member=Wire MC1_57
+Added Member To Class: ClassName=Digital Member=Wire MC1_58
+Added Member To Class: ClassName=Digital Member=Wire MC1_59
+Add Class Member: Failed to add class member : +VDC_FPGA4 (Capx4.SchDoc)
+Add Class Member: Failed to add class member : +VDC_FPGA6 (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : +VDC_FPGA7 (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : C_VCCO2_FPGA (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : DVDD_HI (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : EL_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : GL_DIS (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : GL_PROX (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : GLDIST_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : GLPROX_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VpupArb (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : VTAU0_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VTAU1_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VTAU2_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VTAU3_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : WBIAS (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_HI (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_LO (Capx3_small_bypass.SchDoc)

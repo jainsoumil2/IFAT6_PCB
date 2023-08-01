@@ -1,0 +1,140 @@
+*************************************************************
+FileName = IFAT6.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\profile
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\stephdr
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\top_surface_finish\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\top_surface_finish\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_1\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_1\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_2\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_2\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_3\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_3\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_5\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_5\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_6\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_6\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_7\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_7\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_8\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_8\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_4\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\dielectric_4\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\tools
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\bottom_surface_finish\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\bottom_surface_finish\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\tools
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\top_paste\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_blind_vias_mid2-bottom\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_blind_vias_mid2-bottom\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_blind_vias_mid2-bottom\tools
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_blind_vias_mid4-bottom\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_blind_vias_mid4-bottom\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_blind_vias_mid4-bottom\tools
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_blind_vias_top-mid3\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_blind_vias_top-mid3\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\drill_blind_vias_top-mid3\tools
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\top_solder\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\gnd\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\gnd\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\analog_2\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\analog_2\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\analog_1\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\analog_1\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\top_digital\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\top_digital\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\digital\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\digital\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\bottom_analog\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\bottom_analog\attrlist
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\steps\pcb\eda\data
+
+Generated File : C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\ODB\odb\matrix\matrix
+

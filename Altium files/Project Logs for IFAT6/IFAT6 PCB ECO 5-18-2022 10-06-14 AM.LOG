@@ -1,0 +1,83 @@
+Removed Pin From Net: NetName=OUTPUT_DATA4 Pin=J4-2
+Removed Pin From Net: NetName=OUTPUT_DATA3 Pin=J4-4
+Removed Pin From Net: NetName=OUTPUT_DATA2 Pin=J4-6
+Removed Pin From Net: NetName=OUTPUT_DATA1 Pin=J4-8
+Removed Pin From Net: NetName=OUTPUT_DATA0 Pin=J4-10
+Removed Pin From Net: NetName=_setLFSR Pin=J4-20
+Removed Pin From Net: NetName=OUTPUT_DATA4 Pin=MC2-42
+Removed Pin From Net: NetName=OUTPUT_DATA3 Pin=MC2-44
+Removed Pin From Net: NetName=OUTPUT_DATA2 Pin=MC2-46
+Removed Pin From Net: NetName=OUTPUT_DATA1 Pin=MC2-48
+Removed Pin From Net: NetName=OUTPUT_DATA0 Pin=MC2-50
+Removed Pin From Net: NetName=_setLFSR Pin=MC2-60
+Removed Member From Class: ClassName=Digital Member=MC2_52
+Removed Member From Class: ClassName=Digital Member=MC2_54
+Removed Member From Class: ClassName=Digital Member=MC2_58
+Removed Member From Class: ClassName=Digital Member=MC2_62
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Added Pin To Net: NetName=_setLFSR Pin=J4-4
+Added Pin To Net: NetName=OUTPUT_DATA0 Pin=J4-12
+Added Pin To Net: NetName=OUTPUT_DATA1 Pin=J4-14
+Added Pin To Net: NetName=OUTPUT_DATA2 Pin=J4-18
+Added Pin To Net: NetName=OUTPUT_DATA3 Pin=J4-20
+Added Pin To Net: NetName=OUTPUT_DATA4 Pin=J4-22
+Added Pin To Net: NetName=_setLFSR Pin=MC2-44
+Added Pin To Net: NetName=OUTPUT_DATA0 Pin=MC2-52
+Added Pin To Net: NetName=OUTPUT_DATA1 Pin=MC2-54
+Added Pin To Net: NetName=OUTPUT_DATA2 Pin=MC2-58
+Added Pin To Net: NetName=OUTPUT_DATA3 Pin=MC2-60
+Added Pin To Net: NetName=OUTPUT_DATA4 Pin=MC2-62
+Added Pin To Net: NetName=MC2_42 Pin=IFAT6-51
+Added Pin To Net: NetName=MC2_42 Pin=J4-2
+Added Pin To Net: NetName=MC2_42 Pin=MC2-42
+Added Net: Name=MC2_42
+Added Pin To Net: NetName=MC2_46 Pin=IFAT6-49
+Added Pin To Net: NetName=MC2_46 Pin=J4-6
+Added Pin To Net: NetName=MC2_46 Pin=MC2-46
+Added Net: Name=MC2_46
+Added Pin To Net: NetName=MC2_48 Pin=IFAT6-48
+Added Pin To Net: NetName=MC2_48 Pin=J4-8
+Added Pin To Net: NetName=MC2_48 Pin=MC2-48
+Added Net: Name=MC2_48
+Added Pin To Net: NetName=MC2_50 Pin=IFAT6-47
+Added Pin To Net: NetName=MC2_50 Pin=J4-10
+Added Pin To Net: NetName=MC2_50 Pin=MC2-50
+Added Net: Name=MC2_50
+Added Member To Class: ClassName=Digital Member=Wire MC2_42
+Added Member To Class: ClassName=Digital Member=Wire MC2_46
+Added Member To Class: ClassName=Digital Member=Wire MC2_48
+Added Member To Class: ClassName=Digital Member=Wire MC2_50
+Added Member To Class: ClassName=Digital Member=Wire VCCO_MC1
+Add Class Member: Failed to add class member : +VDC_FPGA4 (Capx4.SchDoc)
+Add Class Member: Failed to add class member : +VDC_FPGA6 (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : +VDC_FPGA7 (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : C_VCCO2_FPGA (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : DVDD_HI (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : EL_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : GL_DIS (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : GL_PROX (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : GLDIST_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : GLPROX_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VpupArb (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : VTAU0_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VTAU1_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VTAU2_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VTAU3_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : WBIAS (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_HI (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_LO (Capx3_small_bypass.SchDoc)
