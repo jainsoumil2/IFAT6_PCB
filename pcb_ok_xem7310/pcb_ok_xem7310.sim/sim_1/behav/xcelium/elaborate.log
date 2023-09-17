@@ -1,0 +1,52 @@
+xmelab(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xmelab(64)	21.03-s002: Started on Oct 03, 2022 at 16:11:29 PDT
+xmelab
+    -64bit
+    -relax
+    -access +rwc
+    -namemap_mixgen
+    -messages
+    -logfile elaborate.log
+    -libname xil_defaultlib
+    -libname unisims_ver
+    -libname unimacro_ver
+    -libname secureip
+    -libname xpm
+    xil_defaultlib.top_tb
+    xil_defaultlib.glbl
+
+	Elaborating the design hierarchy:
+		Caching library 'xil_defaultlib' ....... Done
+	Building instance overlay tables: .........
+		$error("okWireIn endpoint address outside valid range, must be between 0x00 and 0x1F");
+		     |
+xmelab: *E,NOTSYT (/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireIn.v,35|7): Unrecognized system task or function (did not match built-in or user-defined names) [2.7.4(IEEE Std 1364-2001)].
+If item was defined in a shared-object library, the problem could be:
+libvpi.so: cannot open shared object file: No such file or directory or file is not valid ELFCLASS64 library.
+libpli.so: cannot open shared object file: No such file or directory or file is not valid ELFCLASS64 library..
+.
+		$error("okWireIn endpoint address outside valid range, must be between 0x00 and 0x1F");
+		     |
+xmelab: *E,NOTSYT (/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireIn.v,35|7): Unrecognized system task or function (did not match built-in or user-defined names) [2.7.4(IEEE Std 1364-2001)].
+..
+		$error("okWireIn endpoint address outside valid range, must be between 0x00 and 0x1F");
+		     |
+xmelab: *E,NOTSYT (/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireIn.v,35|7): Unrecognized system task or function (did not match built-in or user-defined names) [2.7.4(IEEE Std 1364-2001)].
+.
+		$error("okWireIn endpoint address outside valid range, must be between 0x00 and 0x1F");
+		     |
+xmelab: *E,NOTSYT (/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireIn.v,35|7): Unrecognized system task or function (did not match built-in or user-defined names) [2.7.4(IEEE Std 1364-2001)].
+..
+		$error("okWireOut endpoint address outside valid range, must be between 0x20 and 0x3F");
+		     |
+xmelab: *E,NOTSYT (/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireOut.v,38|7): Unrecognized system task or function (did not match built-in or user-defined names) [2.7.4(IEEE Std 1364-2001)].
+.
+		$error("okWireOut endpoint address outside valid range, must be between 0x20 and 0x3F");
+		     |
+xmelab: *E,NOTSYT (/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireOut.v,38|7): Unrecognized system task or function (did not match built-in or user-defined names) [2.7.4(IEEE Std 1364-2001)].
+..
+		$error("okWireOut endpoint address outside valid range, must be between 0x20 and 0x3F");
+		     |
+xmelab: *E,NOTSYT (/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireOut.v,38|7): Unrecognized system task or function (did not match built-in or user-defined names) [2.7.4(IEEE Std 1364-2001)].
+.. Done
+TOOL:	xmelab(64)	21.03-s002: Exiting on Oct 03, 2022 at 16:11:30 PDT  (total: 00:00:01)

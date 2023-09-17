@@ -1,0 +1,14 @@
+LED Utility IP Version 1.0 (Rev. 2)
+ 2023-03-21
+ * Add appropriate IP Core files to the Simulation file set to generate them as output
+   products in the case of simulation i.e. `generate_target Simulation <ip object>`
+ * Patch reported "IP Version:" in Copyright header of generated output products
+ * Minor GUI changes
+
+LED Utility IP Version 1.0 (Rev. 1)
+ 2022-10-12
+ * Add XEM8350-KU115 board support
+
+LED Utility IP Version 1.0 (Rev. 0)
+ 2022-09-14
+ * Initial creation

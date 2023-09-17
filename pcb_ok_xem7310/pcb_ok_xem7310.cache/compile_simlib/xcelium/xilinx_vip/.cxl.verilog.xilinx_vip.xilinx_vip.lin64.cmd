@@ -1,0 +1,1 @@
+/cad/installs/XCELIUM2103//tools.lnx86/bin/xmvlog -MESSAGES -NOLOG -sv -CDSLIB cds.lib -HDLVAR hdl.var -64bit +incdir+/tools/Xilinx/Vivado/2022.1/data/xilinx_vip/include -work xilinx_vip -f /Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.cache/compile_simlib/xcelium/xilinx_vip/.cxl.systemverilog.xilinx_vip.xilinx_vip.lin64.cmf

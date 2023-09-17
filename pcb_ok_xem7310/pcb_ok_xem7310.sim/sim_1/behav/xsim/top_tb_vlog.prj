@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../pcb_ok_xem7310.gen/sources_1/ip/clk_wiz_1" --include "../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/common" --include "../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/simulation/FrontPanel" --include "../../../../pcb_ok_xem7310.gen/sources_1/ip/clk_wiz_0" --include "../../../../pcb_ok_xem7310.gen/sources_1/ip/clk_wiz_2" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/clk_wiz_2/clk_wiz_2_clk_wiz.v" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/clk_wiz_2/clk_wiz_2.v" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/clk_wiz_1/clk_wiz_1.v" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/simulation/frontpanel_ifat6_wrapper_simulation.v" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/simulation/FrontPanel/okHost.v" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/simulation/FrontPanel/okWireOR.v" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/simulation/FrontPanel/okWireIn.v" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/simulation/FrontPanel/okWireOut.v" \
+"../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/simulation/frontpanel_ifat6_simulation.v" \
+"../../../../pcb_ok_xem7310.srcs/sources_1/new/adc.v" \
+"../../../../pcb_ok_xem7310.srcs/sources_1/new/dac.v" \
+"../../../../pcb_ok_xem7310.srcs/sim_1/new/top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

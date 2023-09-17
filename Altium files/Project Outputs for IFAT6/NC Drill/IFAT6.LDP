@@ -1,0 +1,5 @@
+Layer Pairs Export File for PCB: C:\Users\Public\Documents\Altium\IFAT6\IFAT6.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=ifat6.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=Top Digital_Digital_Blind_Vias|DrillFile=ifat6.tx1|DrillLayers=gtl,g1
+LayersSetName=Analog 1_Bottom Analog_Blind_Vias|DrillFile=ifat6.tx2|DrillLayers=g3,g4,gbl
+LayersSetName=Analog 2_Bottom Analog_Blind_Vias|DrillFile=ifat6.tx3|DrillLayers=g4,gbl

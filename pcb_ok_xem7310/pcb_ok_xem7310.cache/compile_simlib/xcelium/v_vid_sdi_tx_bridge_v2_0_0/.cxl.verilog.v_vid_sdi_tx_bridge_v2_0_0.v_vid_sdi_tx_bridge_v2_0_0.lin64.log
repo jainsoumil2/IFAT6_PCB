@@ -1,0 +1,48 @@
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_lib.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_lib_sync_fifo
+		errors: 0, warnings: 0
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_lib_sync_bus
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_12g_ce_gen.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_12g_ce_gen
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_12g_clamp.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_12g_clamp
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_12g_converter.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_12g_converter
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_12g_embedder.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_12g_embedder
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_12g_fifo.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_12g_fifo
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_12g_formatter.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_12g_formatter
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_12g.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_12g
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_3g_ce_gen.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_3g_ce_gen
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_3g_converter.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_3g_converter
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_3g_embedder.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_3g_embeddder
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_3g_fifo.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_3g_fifo
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_3g_formatter.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_3g_formatter
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0_3g.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0_3g
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_sdi_tx_bridge_v2_0/hdl/verilog/v_vid_sdi_tx_bridge_v2_0.v
+	module v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0
+		errors: 0, warnings: 0

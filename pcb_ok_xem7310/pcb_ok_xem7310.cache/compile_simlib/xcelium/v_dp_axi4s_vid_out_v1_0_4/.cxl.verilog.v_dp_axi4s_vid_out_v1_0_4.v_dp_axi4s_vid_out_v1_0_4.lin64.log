@@ -1,0 +1,20 @@
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_dp_axi4s_vid_out_v1_0/hdl/v_dp_axi4s_vid_out_v1_0_vl_rfs.v
+	module v_dp_axi4s_vid_out_v1_0_4.v_dp_axi4s_vid_out_v1_0_4_fifo_async
+		errors: 0, warnings: 0
+	module v_dp_axi4s_vid_out_v1_0_4.v_dp_axi4s_vid_out_v1_0_4_fifo_sync
+		errors: 0, warnings: 0
+	module v_dp_axi4s_vid_out_v1_0_4.v_dp_axi4s_vid_out_v1_0_4_cdc_single
+		errors: 0, warnings: 0
+	module v_dp_axi4s_vid_out_v1_0_4.v_dp_axi4s_vid_out_v1_0_4_coupler
+		errors: 0, warnings: 0
+	module v_dp_axi4s_vid_out_v1_0_4.v_dp_axi4s_vid_out_v1_0_4_sync
+		errors: 0, warnings: 0
+	module v_dp_axi4s_vid_out_v1_0_4.v_dp_axi4s_vid_out_v1_0_4_formatter
+		errors: 0, warnings: 0
+	module v_dp_axi4s_vid_out_v1_0_4.v_dp_axi4s_vid_out_v1_0_4_repeat
+		errors: 0, warnings: 0
+	module v_dp_axi4s_vid_out_v1_0_4.v_dp_axi4s_vid_out_v1_0_4_remap
+		errors: 0, warnings: 0
+	module v_dp_axi4s_vid_out_v1_0_4.v_dp_axi4s_vid_out_v1_0_4
+		errors: 0, warnings: 0

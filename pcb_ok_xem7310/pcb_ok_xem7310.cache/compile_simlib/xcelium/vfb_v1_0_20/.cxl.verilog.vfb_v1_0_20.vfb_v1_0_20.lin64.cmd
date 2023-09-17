@@ -1,0 +1,1 @@
+/cad/installs/XCELIUM2103//tools.lnx86/bin/xmvlog -MESSAGES -NOLOG -CDSLIB cds.lib -HDLVAR hdl.var -64bit +incdir+/Volumes/export/isn/soumil/.cxl.ip/incl -work vfb_v1_0_20 -f /Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.cache/compile_simlib/xcelium/vfb_v1_0_20/.cxl.verilog.vfb_v1_0_20.vfb_v1_0_20.lin64.cmf

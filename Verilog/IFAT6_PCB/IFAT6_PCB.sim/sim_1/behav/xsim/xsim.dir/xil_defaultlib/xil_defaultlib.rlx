@@ -1,0 +1,8 @@
+0.7
+2020.2
+Jun 16 2023
+19:55:58
+C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
+C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.srcs/sim_1/imports/new/dac_tb.v,1694989058,verilog,,,,dac_tb,,,../../../../IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/common;../../../../IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/simulation/FrontPanel,,,,,
+C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.srcs/sources_1/imports/new/dac.v,1676375811,verilog,,C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.srcs/sim_1/imports/new/dac_tb.v,,dac,,,../../../../IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/common;../../../../IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/simulation/FrontPanel,,,,,
+C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.srcs/sources_1/new/dac_fsm_moore.v,1694988578,verilog,,C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.srcs/sim_1/imports/new/dac_tb.v,,dac_fsm_moore,,,../../../../IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/common;../../../../IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/simulation/FrontPanel,,,,,

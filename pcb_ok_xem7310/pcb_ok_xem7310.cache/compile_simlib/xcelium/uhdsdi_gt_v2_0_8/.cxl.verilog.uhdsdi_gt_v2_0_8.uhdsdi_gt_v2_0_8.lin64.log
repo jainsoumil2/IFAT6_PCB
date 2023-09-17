@@ -1,0 +1,28 @@
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/uhdsdi_gt_v2_0/hdl/drp_ctrl/uhdsdi_gt_v2_0_drp_control.v
+	module uhdsdi_gt_v2_0_8.uhdsdi_gt_v2_0_8_drp_control
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/uhdsdi_gt_v2_0/hdl/drp_ctrl/uhdsdi_gt_v2_0_rate_detect.v
+	module uhdsdi_gt_v2_0_8.uhdsdi_gt_v2_0_8_rate_detect
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/uhdsdi_gt_v2_0/hdl/drp_ctrl/uhdsdi_gt_v2_0_control.v
+	module uhdsdi_gt_v2_0_8.uhdsdi_gt_v2_0_8_control
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/uhdsdi_gt_v2_0/hdl/drp_ctrl/uhdsdi_gt_v2_0_rx_control.v
+	module uhdsdi_gt_v2_0_8.uhdsdi_gt_v2_0_8_rx_control
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/uhdsdi_gt_v2_0/hdl/drp_ctrl/uhdsdi_gt_v2_0_tx_control.v
+	module uhdsdi_gt_v2_0_8.uhdsdi_gt_v2_0_8_tx_control
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/uhdsdi_gt_v2_0/hdl/drp_ctrl/uhdsdi_gt_v2_0_sync_block.v
+	module uhdsdi_gt_v2_0_8.uhdsdi_gt_v2_0_8_sync_block
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/uhdsdi_gt_v2_0/hdl/drp_ctrl/uhdsdi_gt_v2_0_drp_control_fsm.v
+	module uhdsdi_gt_v2_0_8.uhdsdi_gt_v2_0_8_drp_control_fsm
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/uhdsdi_gt_v2_0/hdl/gt_common/uhdsdi_gt_v2_0_gthe4_common.v
+	module uhdsdi_gt_v2_0_8.uhdsdi_gt_v2_0_8_gthe4_common
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/uhdsdi_gt_v2_0/hdl/gt_common/uhdsdi_gt_v2_0_gtwizard_ultrascale_v1_7_gtye4_common.v
+	module uhdsdi_gt_v2_0_8.uhdsdi_gt_v2_0_8_gtwizard_ultrascale_v1_7_13_gtye4_common
+		errors: 0, warnings: 0

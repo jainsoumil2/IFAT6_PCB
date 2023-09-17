@@ -1,0 +1,682 @@
+
+*** Running vivado
+    with args -log frontpanel_ifat6.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source frontpanel_ifat6.tcl
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source frontpanel_ifat6.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/local_disk/opal_kelley/FrontPanel-Vivado-IP-Dist-v1.0.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+config_ip_cache: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 3032.277 ; gain = 0.000 ; free physical = 58684 ; free virtual = 114610
+Command: synth_design -top frontpanel_ifat6 -part xc7a200tfbg484-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tfbg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 42114
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3032.277 ; gain = 0.000 ; free physical = 56838 ; free virtual = 112764
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'frontpanel_ifat6' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/frontpanel_ifat6_synthesis.v:13]
+INFO: [Synth 8-6157] synthesizing module 'frontpanel_ifat6_wrapper_synthesis' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/frontpanel_ifat6_wrapper_synthesis.v:13]
+INFO: [Synth 8-6157] synthesizing module 'okHost' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:8]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:59734]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:59734]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836]
+INFO: [Synth 8-6157] synthesizing module 'IBUFG' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:55687]
+INFO: [Synth 8-6155] done synthesizing module 'IBUFG' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:55687]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_BASE' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:63629]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKIN1_PERIOD bound to: 9.920000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 54.000000 - type: double 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.000000 - type: double 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_BASE' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:63629]
+WARNING: [Synth 8-7071] port 'CLKFBOUTB' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT0B' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT1' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT1B' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT2' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT2B' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT3' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT3B' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT4' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT5' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT6' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'PWRDWN' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7023] instance 'mmcm0' of module 'MMCME2_BASE' has 18 connections declared, but only 6 given [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:1082]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:1082]
+INFO: [Synth 8-6157] synthesizing module 'OBUF' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:71220]
+INFO: [Synth 8-6155] done synthesizing module 'OBUF' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:71220]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:55203]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:55203]
+INFO: [Synth 8-6157] synthesizing module 'GND' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:28815]
+INFO: [Synth 8-6155] done synthesizing module 'GND' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:28815]
+INFO: [Synth 8-6157] synthesizing module 'VCC' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:109689]
+INFO: [Synth 8-6155] done synthesizing module 'VCC' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:109689]
+INFO: [Synth 8-6157] synthesizing module 'LUT6' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized0' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized1' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized1' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized2' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized2' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized3' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized3' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized4' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized4' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT5' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized5' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized5' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT4' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized6' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized6' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized7' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized7' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized0' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized0' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized1' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized1' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized8' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized8' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized9' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized9' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized10' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized10' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized2' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized2' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized11' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized11' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized3' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized3' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized4' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized4' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized1' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized1' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized12' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized12' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized13' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized13' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT2' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62682]
+INFO: [Synth 8-6155] done synthesizing module 'LUT2' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62682]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized0' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62682]
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62682]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized2' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized2' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized14' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized14' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized15' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized15' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized16' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized16' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized17' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized17' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized3' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized3' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized5' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized5' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized18' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized18' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized19' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized19' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized20' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized20' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized21' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized21' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized6' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized6' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized4' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized4' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized22' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized22' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized7' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized7' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized23' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized23' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized8' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized8' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized24' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized24' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized25' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized25' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized9' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized9' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized26' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized26' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized27' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized27' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized28' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized28' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized29' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized29' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized30' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized30' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'FDCE' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27620]
+INFO: [Synth 8-6155] done synthesizing module 'FDCE' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27620]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized10' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized10' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized31' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized31' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized32' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized32' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT3' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62720]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62720]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized1' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62682]
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized1' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62682]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized11' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized11' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized12' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized12' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized33' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized33' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized0' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62720]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62720]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized1' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62720]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized1' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62720]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized2' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62720]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized2' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62720]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized13' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized13' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized34' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized34' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT1' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62648]
+INFO: [Synth 8-6155] done synthesizing module 'LUT1' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62648]
+INFO: [Synth 8-6157] synthesizing module 'FDSE' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27972]
+INFO: [Synth 8-6155] done synthesizing module 'FDSE' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27972]
+INFO: [Synth 8-6157] synthesizing module 'CARRY4' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:1486]
+INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:1486]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized3' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62720]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized3' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62720]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized2' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62682]
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized2' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62682]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized3' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62682]
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized3' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62682]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized4' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62720]
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized4' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62720]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized5' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized5' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized14' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized14' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62808]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized35' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized35' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT1__parameterized0' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62648]
+INFO: [Synth 8-6155] done synthesizing module 'LUT1__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62648]
+INFO: [Synth 8-6157] synthesizing module 'FDRE__parameterized0' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836]
+INFO: [Synth 8-6157] synthesizing module 'FDRE__parameterized1' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE__parameterized1' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27836]
+INFO: [Synth 8-6157] synthesizing module 'FDSE__parameterized0' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27972]
+INFO: [Synth 8-6155] done synthesizing module 'FDSE__parameterized0' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:27972]
+INFO: [Synth 8-6157] synthesizing module 'RAMB18E1' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:102852]
+INFO: [Synth 8-6155] done synthesizing module 'RAMB18E1' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:102852]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized36' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized36' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized37' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized37' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized38' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized38' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized6' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized6' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized7' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized7' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized8' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized8' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62762]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized39' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized39' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized40' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized40' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized41' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized42' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62858]
+INFO: [Synth 8-6155] done synthesizing module 'DNA_PORT' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:26095]
+INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7071] port 'dna' of module 'okHost' is unconnected for instance 'okHI' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/frontpanel_ifat6_wrapper_synthesis.v:26]
+WARNING: [Synth 8-7071] port 'dna_valid' of module 'okHost' is unconnected for instance 'okHI' [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/frontpanel_ifat6_wrapper_synthesis.v:26]
+WARNING: [Synth 8-7023] instance 'okHI' of module 'okHost' has 9 connections declared, but only 7 given [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/frontpanel_ifat6_wrapper_synthesis.v:26]
+	Parameter N bound to: 6 - type: integer 
+WARNING: [Synth 8-7129] Port okHE[112] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[111] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[110] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[109] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[108] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[107] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[106] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[105] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[104] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[103] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[102] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[101] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[100] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[99] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[98] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[97] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[96] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[95] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[94] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[93] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[92] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[91] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[90] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[89] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[88] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[87] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[86] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[85] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[84] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[83] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[82] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[81] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[80] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[79] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[78] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[77] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[76] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[75] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[74] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[73] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[72] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[71] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[70] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[69] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[68] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[67] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[66] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[65] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[64] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[63] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[62] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[61] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[60] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[59] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[58] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[57] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[56] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[55] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[54] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[53] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[52] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[51] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[50] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[49] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[48] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[47] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[46] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[45] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[43] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[42] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[31] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[30] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[29] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[28] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[27] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[26] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[25] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[24] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[23] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[22] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[21] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[20] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[19] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[18] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[17] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[16] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[15] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[14] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[13] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[12] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[11] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[10] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[9] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[8] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[7] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[6] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[5] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[4] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[3] in module okWireOut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[2] in module okWireOut is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3032.285 ; gain = 0.008 ; free physical = 57935 ; free virtual = 113862
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3032.285 ; gain = 0.008 ; free physical = 57936 ; free virtual = 113863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3032.285 ; gain = 0.008 ; free physical = 57936 ; free virtual = 113863
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3032.285 ; gain = 0.000 ; free physical = 57934 ; free virtual = 113861
+INFO: [Netlist 29-17] Analyzing 146 Unisim elements for replacement
+WARNING: [Netlist 29-432] The IBUFG primitive 'inst/okHI/hi_clk_bufg' has been retargeted to an IBUF primitive only. No BUFG will be added. If a global buffer is intended, please instantiate an available global clock primitive from the current architecture.
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/frontpanel_ifat6_board.xdc] for cell 'inst'
+Finished Parsing XDC File [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/frontpanel_ifat6_board.xdc] for cell 'inst'
+Parsing XDC File [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/xem7310.xdc] for cell 'inst'
+Finished Parsing XDC File [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/xem7310.xdc] for cell 'inst'
+Parsing XDC File [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.runs/frontpanel_ifat6_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.runs/frontpanel_ifat6_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3096.305 ; gain = 0.000 ; free physical = 57778 ; free virtual = 113706
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 97 instances were transformed.
+  IBUFG => IBUF: 1 instance 
+  IOBUF => IOBUF (IBUF, OBUFT): 33 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 50 instances
+  MMCME2_BASE => MMCME2_ADV: 1 instance 
+  RAM128X1S => RAM128X1S (MUXF7, RAMS64E(x2)): 8 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+INFO: [Timing 38-2] Deriving generated clocks
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.25 ; elapsed = 00:00:00.12 . Memory (MB): peak = 3096.305 ; gain = 0.000 ; free physical = 57779 ; free virtual = 113706
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57924 ; free virtual = 113851
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57924 ; free virtual = 113851
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.runs/frontpanel_ifat6_synth_1/dont_touch.xdc, line 9).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+Applied set_property KEEP = true for inst/okHI/okHU[0]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for inst/okHI/okHU[1]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for inst/okHI/okHU[2]. (constraint file  auto generated constraint).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
+Applied set_property KEEP = true for okUH[0]. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57924 ; free virtual = 113851
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57916 ; free virtual = 113845
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (l008c72ad3b3ec61be52cde84a395c4fa_reg) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (l317e0a6720f17cacca076a392154f6ab_reg) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (la85eaf42c58af45585f858cdefb86492_reg) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[0]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[10]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[11]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[12]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[13]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[14]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[15]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[16]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[17]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[18]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[19]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[1]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[20]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[21]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[22]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[23]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[24]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[25]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[26]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[27]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[28]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[29]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[2]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[30]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[31]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[3]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[4]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[5]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[6]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[7]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[8]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[9]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[0]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[10]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[11]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[12]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[13]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[14]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[15]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[16]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[17]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[18]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[19]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[1]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[20]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[21]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[22]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[23]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[24]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[25]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[26]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[27]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[28]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[29]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[2]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[30]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[31]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[3]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[4]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[5]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[6]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[7]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[8]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[9]) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (lf38b0951701b1c1d5bc7a746e996b3c6_reg) is unused and will be removed from module okCore.
+WARNING: [Synth 8-3332] Sequential element (okHI/regctrlout1) is unused and will be removed from module frontpanel_ifat6_wrapper_synthesis.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57903 ; free virtual = 113837
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57786 ; free virtual = 113719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57783 ; free virtual = 113716
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57782 ; free virtual = 113715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57772 ; free virtual = 113706
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57773 ; free virtual = 113706
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57773 ; free virtual = 113706
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57773 ; free virtual = 113706
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57773 ; free virtual = 113706
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57773 ; free virtual = 113706
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |BUFG        |     2|
+|2     |CARRY4      |    46|
+|3     |DNA_PORT    |     1|
+|4     |LUT1        |    57|
+|5     |LUT2        |    35|
+|6     |LUT3        |    39|
+|7     |LUT4        |   319|
+|8     |LUT5        |   117|
+|9     |LUT6        |   444|
+|11    |MMCME2_BASE |     1|
+|12    |RAM128X1S   |     8|
+|13    |RAM32M      |     4|
+|14    |RAMB18E1    |     2|
+|16    |RAMB36E1    |     1|
+|17    |FDCE        |   134|
+|18    |FDPE        |    27|
+|19    |FDRE        |  1673|
+|20    |FDSE        |    24|
+|21    |IBUF        |     4|
+|22    |IBUFG       |     1|
+|23    |IOBUF       |    33|
+|24    |OBUF        |     3|
++------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57773 ; free virtual = 113706
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 692 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 3096.305 ; gain = 0.008 ; free physical = 57823 ; free virtual = 113756
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 57922 ; free virtual = 113856
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3096.305 ; gain = 0.000 ; free physical = 57911 ; free virtual = 113844
+INFO: [Netlist 29-17] Analyzing 146 Unisim elements for replacement
+WARNING: [Netlist 29-432] The IBUFG primitive 'inst/okHI/hi_clk_bufg' has been retargeted to an IBUF primitive only. No BUFG will be added. If a global buffer is intended, please instantiate an available global clock primitive from the current architecture.
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3096.305 ; gain = 0.000 ; free physical = 57848 ; free virtual = 113782
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 97 instances were transformed.
+  IBUFG => IBUF: 1 instance 
+  IOBUF => IOBUF (IBUF, OBUFT): 33 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 50 instances
+  MMCME2_BASE => MMCME2_ADV: 1 instance 
+  RAM128X1S => RAM128X1S (MUXF7, RAMS64E(x2)): 8 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+Synth Design complete, checksum: 3b38f52d
+INFO: [Common 17-83] Releasing license: Synthesis
+224 Infos, 188 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 3096.305 ; gain = 64.027 ; free physical = 58065 ; free virtual = 113998
+INFO: [Common 17-1381] The checkpoint '/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.runs/frontpanel_ifat6_synth_1/frontpanel_ifat6.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP frontpanel_ifat6, cache-ID = 3f72bc61d9cf4699
+config_ip_cache: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 3168.340 ; gain = 0.000 ; free physical = 58052 ; free virtual = 113991
+INFO: [Coretcl 2-1174] Renamed 26 cell refs.
+INFO: [Common 17-1381] The checkpoint '/Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.runs/frontpanel_ifat6_synth_1/frontpanel_ifat6.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file frontpanel_ifat6_utilization_synth.rpt -pb frontpanel_ifat6_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 23 18:02:34 2022...

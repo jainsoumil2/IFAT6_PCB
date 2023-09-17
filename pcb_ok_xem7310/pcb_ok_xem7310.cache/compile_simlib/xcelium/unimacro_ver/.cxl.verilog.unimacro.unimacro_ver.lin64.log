@@ -1,0 +1,37 @@
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v
+	module unimacro_ver.BRAM_SINGLE_MACRO
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unimacro/BRAM_SDP_MACRO.v
+	module unimacro_ver.BRAM_SDP_MACRO
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unimacro/COUNTER_TC_MACRO.v
+	module unimacro_ver.COUNTER_TC_MACRO
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unimacro/ADDSUB_MACRO.v
+	module unimacro_ver.ADDSUB_MACRO
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unimacro/BRAM_TDP_MACRO.v
+	module unimacro_ver.BRAM_TDP_MACRO
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unimacro/MACC_MACRO.v
+	module unimacro_ver.MACC_MACRO
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unimacro/COUNTER_LOAD_MACRO.v
+	module unimacro_ver.COUNTER_LOAD_MACRO
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unimacro/ADDMACC_MACRO.v
+	module unimacro_ver.ADDMACC_MACRO
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unimacro/FIFO_SYNC_MACRO.v
+	module unimacro_ver.FIFO_SYNC_MACRO
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.v
+	module unimacro_ver.FIFO_DUALCLOCK_MACRO
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unimacro/EQ_COMPARE_MACRO.v
+	module unimacro_ver.EQ_COMPARE_MACRO
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unimacro/MULT_MACRO.v
+	module unimacro_ver.MULT_MACRO
+		errors: 0, warnings: 0

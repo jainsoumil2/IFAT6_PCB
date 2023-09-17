@@ -1,0 +1,15 @@
+xmvhdl(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+/tools/Xilinx/Vivado/2022.1/data/ip/xilinx/xbip_dsp48_acc_v3_0/hdl/xbip_dsp48_acc_v3_0_vh_rfs.vhd:
+	errors: 0, warnings: 0
+	streams: 1, words: 46
+	streams: 3, words: 6256
+	streams: 1, words: 8
+	streams: 1, words: 8
+	streams: 25, words: 6097
+	streams: 2, words: 8253
+	streams: 25, words: 6097
+	streams: 1, words: 14220
+	streams: 25, words: 6097
+	streams: 1, words: 9838
+	streams: 25, words: 2553
+	streams: 1, words: 4660

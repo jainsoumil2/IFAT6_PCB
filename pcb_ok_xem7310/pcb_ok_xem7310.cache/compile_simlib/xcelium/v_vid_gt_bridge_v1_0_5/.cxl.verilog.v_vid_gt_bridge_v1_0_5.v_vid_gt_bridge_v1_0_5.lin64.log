@@ -1,0 +1,6 @@
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/v_vid_gt_bridge_v1_0/hdl/v_vid_gt_bridge_v1_0_rfs.v
+	module v_vid_gt_bridge_v1_0_5.v_vid_gt_bridge_v1_0_5_axi
+		errors: 0, warnings: 0
+	module v_vid_gt_bridge_v1_0_5.rx_rate_detect
+		errors: 0, warnings: 0

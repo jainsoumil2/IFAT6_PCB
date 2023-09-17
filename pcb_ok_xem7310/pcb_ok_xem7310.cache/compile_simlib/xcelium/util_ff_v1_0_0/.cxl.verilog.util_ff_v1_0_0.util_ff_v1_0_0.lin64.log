@@ -1,0 +1,4 @@
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/util_ff_v1_0/hdl/util_ff_v1_0_rfs.v
+	module util_ff_v1_0_0.util_ff_v1_0_0_util_ff
+		errors: 0, warnings: 0

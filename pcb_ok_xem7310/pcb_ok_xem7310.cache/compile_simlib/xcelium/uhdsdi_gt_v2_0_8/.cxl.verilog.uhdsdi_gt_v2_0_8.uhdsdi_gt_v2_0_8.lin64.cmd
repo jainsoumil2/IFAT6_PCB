@@ -1,0 +1,1 @@
+/cad/installs/XCELIUM2103//tools.lnx86/bin/xmvlog -MESSAGES -NOLOG -CDSLIB cds.lib -HDLVAR hdl.var -64bit +incdir+/Volumes/export/isn/soumil/.cxl.ip/incl -work uhdsdi_gt_v2_0_8 -f /Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.cache/compile_simlib/xcelium/uhdsdi_gt_v2_0_8/.cxl.verilog.uhdsdi_gt_v2_0_8.uhdsdi_gt_v2_0_8.lin64.cmf

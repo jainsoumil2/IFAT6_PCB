@@ -1,0 +1,12 @@
+x = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.25];
+y = [0.2483, 0.496, 0.745, 0.993, 1.241, 1.49, 1.738, 1.986, 2.234];
+
+[p,S] = polyfit(x,y,1);
+[y_fit,delta] = polyval(p,x,S); 
+
+plot(x,y,'bo')
+hold on
+plot(x,y_fit,'r-')
+plot(x,y_fit+2*delta,'m--',x,y_fit-2*delta,'m--')
+title('Linear Fit of Data with 95% Prediction Interval')
+legend('Data','Linear Fit','95% Prediction Interval')

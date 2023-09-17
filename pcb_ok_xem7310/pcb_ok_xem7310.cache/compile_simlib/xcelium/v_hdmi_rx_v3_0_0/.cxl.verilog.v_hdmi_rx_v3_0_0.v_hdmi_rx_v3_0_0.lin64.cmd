@@ -1,0 +1,1 @@
+/cad/installs/XCELIUM2103//tools.lnx86/bin/xmvlog -MESSAGES -NOLOG -CDSLIB cds.lib -HDLVAR hdl.var -64bit +incdir+/Volumes/export/isn/soumil/.cxl.ip/incl -sv -work v_hdmi_rx_v3_0_0 -f /Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.cache/compile_simlib/xcelium/v_hdmi_rx_v3_0_0/.cxl.systemverilog.v_hdmi_rx_v3_0_0.v_hdmi_rx_v3_0_0.lin64.cmf

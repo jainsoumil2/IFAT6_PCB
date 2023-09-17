@@ -1,0 +1,870 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\IFAT6\Project Outputs for IFAT6\Pick Place\Pick Place for IFAT6.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       19/05/22
+Time:       16:02
+Revision:   d022d813645fc14b76175c4574ae8de5aa684071
+Variant:    No variations
+Units used: mil
+
+Designator      Comment            Layer       Footprint                        Center-X(mil) Center-Y(mil) Rotation Description                                                                                                                                                          
+IFAT6           "SOCKET QFP_100"   TopLayer    YAMAICHI_IC149-100-025-B5        3190.000      2273.366      180      "100 pin QFP"                                                                                                                                                        
+C3_C_VCCO1_FPGA "10 pF"            TopLayer    CAPC2012X88N                     5810.000      1720.000      225      Capacitor                                                                                                                                                            
+C2_C_VCCO1_FPGA 100pF              TopLayer    CAPC1608X90N                     5865.000      1655.000      225      Capacitor                                                                                                                                                            
+C1_C_VCCO1_FPGA "Cap 1nF 0805"     TopLayer    Samsung_CL21B_Series             5925.000      1600.000      45       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+H_PWR_DAC1      "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4094.523      3235.000      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+Buffer3         OPA2320S           BottomLayer TI_OPA2320SAIDGSR                3445.153      2454.640      135      "IC OPAMP RR CMOS 20MHZ 10VSSOP
+CMOS Amplifier Circuit Rail-to-Rail 10-VSSOP"                                                                                       
+C4_+VDC_FPGA4   "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           5900.000      2040.000      45       "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C3_+VDC_FPGA7   "10 pF"            BottomLayer CAPC2012X88N                     4350.000      3630.000      180      Capacitor                                                                                                                                                            
+C3_+VDC_FPGA4   "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             5760.000      2175.000      45       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C2_+VDC_FPGA7   100pF              BottomLayer CAPC1608X90N                     4345.000      3725.000      180      Capacitor                                                                                                                                                            
+C2_+VDC_FPGA4   "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           5640.000      2300.000      45       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C1_+VDC_FPGA7   "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             4350.000      3815.000      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_+VDC_FPGA4   "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           5495.000      2445.000      45       "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C4_GLDIST_DAC   "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3287.500      420.000       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+R_ADC6          0                  BottomLayer RESC3216X70X50NL05T20            3690.000      2725.000      180      ""                                                                                                                                                                   
+R_ADC5          0                  BottomLayer RESC3216X70X50NL05T20            4229.142      2331.213      225      ""                                                                                                                                                                   
+R_ADC4          0                  BottomLayer RESC3216X70X50NL05T20            4089.146      2461.508      45       ""                                                                                                                                                                   
+R_ADC3          0                  BottomLayer RESC3216X70X50NL05T20            4360.000      2070.000      90       ""                                                                                                                                                                   
+R_ADC2          0                  BottomLayer RESC3216X70X50NL05T20            4375.735      2407.674      135      ""                                                                                                                                                                   
+R_ADC1          0                  BottomLayer RESC3216X70X50NL05T20            4365.000      2620.000      225      ""                                                                                                                                                                   
+C_ADC6          Cap                BottomLayer THERM_NCP18XH103F03RB            3695.000      2640.000      180      Capacitor                                                                                                                                                            
+C_ADC5          Cap                BottomLayer THERM_NCP18XH103F03RB            4297.381      2260.546      225      Capacitor                                                                                                                                                            
+C_ADC4          Cap                BottomLayer THERM_NCP18XH103F03RB            4144.699      2403.923      225      Capacitor                                                                                                                                                            
+C_ADC3          Cap                BottomLayer THERM_NCP18XH103F03RB            4458.221      2065.000      270      Capacitor                                                                                                                                                            
+C_ADC2          Cap                BottomLayer THERM_NCP18XH103F03RB            4440.000      2480.000      315      Capacitor                                                                                                                                                            
+C_ADC1          Cap                BottomLayer THERM_NCP18XH103F03RB            4275.000      2675.000      45       Capacitor                                                                                                                                                            
+J1              "Header 20X2"      TopLayer    Samtec_TMMH-120-01-F-D           7164.236      631.513       180      "2MM LOW PROFILE STRIPS
+Connector Header position"                                                                                                                  
+J2              "Header 20X2"      TopLayer    Samtec_TMMH-120-01-F-D           5353.212      631.513       180      "2MM LOW PROFILE STRIPS
+Connector Header position"                                                                                                                  
+J3              "Header 20X2"      TopLayer    Samtec_TMMH-120-01-F-D           7164.236      3544.899      180      "2MM LOW PROFILE STRIPS
+Connector Header position"                                                                                                                  
+J4              "Header 20X2"      TopLayer    Samtec_TMMH-120-01-F-D           5353.212      3544.899      180      "2MM LOW PROFILE STRIPS
+Connector Header position"                                                                                                                  
+MC2             BTE/BSE-040        TopLayer    Samtec_BTE-040-01-L-D-A          6002.936      2875.489      180      "Board Stacking Connector, 80 Contact(s), 2 Row(s), Male, Straight, 0.031 inch Pitch, Surface Mount Terminal, Receptacle"                                            
+MC1             BTE/BSE-040        TopLayer    Samtec_BTE-040-01-L-D-A          6002.936      1300.685      180      "Board Stacking Connector, 80 Contact(s), 2 Row(s), Male, Straight, 0.031 inch Pitch, Surface Mount Terminal, Receptacle"                                            
+R_VREF_1.8      18k                BottomLayer ERA3KV_(0603)                    194.370       3185.000      270      Resistor                                                                                                                                                             
+R_EVDD          18k                BottomLayer ERA3KV_(0603)                    1560.000      3695.000      90       Resistor                                                                                                                                                             
+R_DVDD_HIGH     18k                BottomLayer ERA3KV_(0603)                    950.000       3695.000      90       Resistor                                                                                                                                                             
+R_AVDD          18k                BottomLayer ERA3KV_(0603)                    2130.000      3695.000      90       Resistor                                                                                                                                                             
+C3_WBIAS        "10 pF"            BottomLayer CAPC2012X88N                     3087.500      2413.996      90       Capacitor                                                                                                                                                            
+C3_WBIAS_LO     "10 pF"            BottomLayer CAPC2012X88N                     3085.000      2165.748      90       Capacitor                                                                                                                                                            
+C3_WBIAS_HI     "10 pF"            BottomLayer CAPC2012X88N                     3085.000      2040.748      90       Capacitor                                                                                                                                                            
+C3_VTHRESH      "10 pF"            BottomLayer CAPC2012X88N                     2702.500      2428.583      270      Capacitor                                                                                                                                                            
+C3_VSS_SYN      "10 pF"            BottomLayer CAPC2012X88N                     2394.342      1659.429      0        Capacitor                                                                                                                                                            
+C3_VSPIKE       "10 pF"            BottomLayer CAPC2012X88N                     2392.486      1540.866      0        Capacitor                                                                                                                                                            
+C3_VRESET       "10 pF"            BottomLayer CAPC2012X88N                     2702.500      2294.744      270      Capacitor                                                                                                                                                            
+C3_VREFR        "10 pF"            BottomLayer CAPC2012X88N                     3204.670      1659.429      0        Capacitor                                                                                                                                                            
+C3_VpupReq      "10 pF"            BottomLayer CAPC2012X88N                     2695.373      2566.162      270      Capacitor                                                                                                                                                            
+C3_VpupArb      "10 pF"            BottomLayer CAPC2012X88N                     2798.504      2602.500      180      Capacitor                                                                                                                                                            
+C3_VPDN         "10 pF"            BottomLayer CAPC2012X88N                     2672.534      2021.480      270      Capacitor                                                                                                                                                            
+C3_VIN_IBIAS    "10 pF"            BottomLayer CAPC2012X88N                     2950.000      2284.134      270      Capacitor                                                                                                                                                            
+C3_VBP          "10 pF"            BottomLayer CAPC2012X88N                     2952.021      2529.030      270      Capacitor                                                                                                                                                            
+C3_VBIAS        "10 pF"            BottomLayer CAPC2012X88N                     2672.500      2158.583      270      Capacitor                                                                                                                                                            
+C3_VBIAS_SF     "10 pF"            BottomLayer CAPC2012X88N                     3526.945      1400.866      0        Capacitor                                                                                                                                                            
+C3_VBIAS_BUFF   "10 pF"            BottomLayer CAPC2012X88N                     3364.879      1400.866      0        Capacitor                                                                                                                                                            
+C3_VAMP_LOW     "10 pF"            BottomLayer CAPC2012X88N                     3851.162      1510.866      0        Capacitor                                                                                                                                                            
+C3_VAMP_HIGH    "10 pF"            BottomLayer CAPC2012X88N                     3689.096      1510.866      0        Capacitor                                                                                                                                                            
+C3_V_TAU3       "10 pF"            BottomLayer CAPC2012X88N                     2556.407      1659.429      0        Capacitor                                                                                                                                                            
+C3_V_TAU2       "10 pF"            BottomLayer CAPC2012X88N                     2718.473      1659.429      0        Capacitor                                                                                                                                                            
+C3_V_TAU1       "10 pF"            BottomLayer CAPC2012X88N                     2880.538      1659.429      0        Capacitor                                                                                                                                                            
+C3_V_TAU0       "10 pF"            BottomLayer CAPC2012X88N                     3042.604      1659.429      0        Capacitor                                                                                                                                                            
+C3_SYN_DR_LO    "10 pF"            BottomLayer CAPC2012X88N                     3202.814      1400.866      0        Capacitor                                                                                                                                                            
+C3_GL_PROX      "10 pF"            BottomLayer CAPC2012X88N                     3366.735      1659.429      0        Capacitor                                                                                                                                                            
+C3_GL_DIS       "10 pF"            BottomLayer CAPC2012X88N                     3528.801      1659.429      0        Capacitor                                                                                                                                                            
+C3_GCOMP        "10 pF"            BottomLayer CAPC2012X88N                     3825.925      1953.071      180      Capacitor                                                                                                                                                            
+C3_ELEAK        "10 pF"            BottomLayer CAPC2012X88N                     3672.368      1949.926      180      Capacitor                                                                                                                                                            
+C3_E_REV3       "10 pF"            BottomLayer CAPC2012X88N                     2554.551      1400.866      0        Capacitor                                                                                                                                                            
+C3_E_REV2       "10 pF"            BottomLayer CAPC2012X88N                     2716.617      1400.866      0        Capacitor                                                                                                                                                            
+C3_E_REV1       "10 pF"            BottomLayer CAPC2012X88N                     2878.683      1400.866      0        Capacitor                                                                                                                                                            
+C3_E_REV0       "10 pF"            BottomLayer CAPC2012X88N                     3040.748      1400.866      0        Capacitor                                                                                                                                                            
+C3_DVDD         "10 pF"            BottomLayer CAPC2012X88N                     3088.750      2677.579      270      Capacitor                                                                                                                                                            
+C3_DVDD_HI      "10 pF"            BottomLayer CAPC2012X88N                     2691.417      2703.329      270      Capacitor                                                                                                                                                            
+C3_C_VCCO2_FPGA "10 pF"            TopLayer    CAPC2012X88N                     5633.786      2509.864      90       Capacitor                                                                                                                                                            
+C3_C_EVDD2      "10 pF"            BottomLayer CAPC2012X88N                     3446.732      1981.988      0        Capacitor                                                                                                                                                            
+C3_C_EVDD1      "10 pF"            BottomLayer CAPC2012X88N                     3197.500      2353.996      90       Capacitor                                                                                                                                                            
+C3_C_AVDD       "10 pF"            BottomLayer CAPC2012X88N                     3311.004      2120.000      180      Capacitor                                                                                                                                                            
+C3_C_AVDD1      "10 pF"            BottomLayer CAPC2012X88N                     3336.250      2228.583      270      Capacitor                                                                                                                                                            
+C3_C_+VDC3      "10 pF"            BottomLayer CAPC2012X88N                     3411.614      2675.407      225      Capacitor                                                                                                                                                            
+C3_C_+VDC2      "10 pF"            BottomLayer CAPC2012X88N                     2273.291      2714.198      180      Capacitor                                                                                                                                                            
+C3_C_+VDC1      "10 pF"            BottomLayer CAPC2012X88N                     3922.937      2279.465      270      Capacitor                                                                                                                                                            
+C3_+VDC_FPGA6   "10 pF"            BottomLayer CAPC2012X88N                     4850.493      4155.000      90       Capacitor                                                                                                                                                            
+C3_+VDC_FPGA5   "10 pF"            BottomLayer CAPC2012X88N                     4850.493      3990.906      90       Capacitor                                                                                                                                                            
+C2_WBIAS        100pF              BottomLayer CAPC1608X90N                     3020.000      2405.335      90       Capacitor                                                                                                                                                            
+C2_WBIAS_LO     100pF              BottomLayer CAPC1608X90N                     3017.500      2157.087      90       Capacitor                                                                                                                                                            
+C2_WBIAS_HI     100pF              BottomLayer CAPC1608X90N                     3017.500      2032.087      90       Capacitor                                                                                                                                                            
+C2_VTHRESH      100pF              BottomLayer CAPC1608X90N                     2632.500      2419.921      270      Capacitor                                                                                                                                                            
+C2_VSS_SYN      100pF              BottomLayer CAPC1608X90N                     2385.680      1729.429      0        Capacitor                                                                                                                                                            
+C2_VSPIKE       100pF              BottomLayer CAPC1608X90N                     2383.824      1470.866      0        Capacitor                                                                                                                                                            
+C2_VRESET       100pF              BottomLayer CAPC1608X90N                     2632.500      2286.083      270      Capacitor                                                                                                                                                            
+C2_VREFR        100pF              BottomLayer CAPC1608X90N                     3196.008      1729.429      0        Capacitor                                                                                                                                                            
+C2_VpupReq      100pF              BottomLayer CAPC1608X90N                     2627.873      2557.500      270      Capacitor                                                                                                                                                            
+C2_VpupArb      100pF              BottomLayer CAPC1608X90N                     2789.842      2670.000      180      Capacitor                                                                                                                                                            
+C2_VPDN         100pF              BottomLayer CAPC1608X90N                     2602.534      2012.818      270      Capacitor                                                                                                                                                            
+C2_VIN_IBIAS    100pF              BottomLayer CAPC1608X90N                     3017.500      2292.795      270      Capacitor                                                                                                                                                            
+C2_VBP          100pF              BottomLayer CAPC1608X90N                     3019.521      2537.692      270      Capacitor                                                                                                                                                            
+C2_VBIAS        100pF              BottomLayer CAPC1608X90N                     2602.500      2149.921      270      Capacitor                                                                                                                                                            
+C2_VBIAS_SF     100pF              BottomLayer CAPC1608X90N                     3518.284      1470.866      0        Capacitor                                                                                                                                                            
+C2_VBIAS_BUFF   100pF              BottomLayer CAPC1608X90N                     3356.218      1470.866      0        Capacitor                                                                                                                                                            
+C2_VAMP_LOW     100pF              BottomLayer CAPC1608X90N                     3842.500      1580.866      0        Capacitor                                                                                                                                                            
+C2_VAMP_HIGH    100pF              BottomLayer CAPC1608X90N                     3680.435      1580.866      0        Capacitor                                                                                                                                                            
+C2_V_TAU3       100pF              BottomLayer CAPC1608X90N                     2547.746      1729.429      0        Capacitor                                                                                                                                                            
+C2_V_TAU2       100pF              BottomLayer CAPC1608X90N                     2709.811      1729.429      0        Capacitor                                                                                                                                                            
+C2_V_TAU1       100pF              BottomLayer CAPC1608X90N                     2871.877      1729.429      0        Capacitor                                                                                                                                                            
+C2_V_TAU0       100pF              BottomLayer CAPC1608X90N                     3033.943      1729.429      0        Capacitor                                                                                                                                                            
+C2_SYN_DR_LO    100pF              BottomLayer CAPC1608X90N                     3194.152      1470.866      0        Capacitor                                                                                                                                                            
+C2_GL_PROX      100pF              BottomLayer CAPC1608X90N                     3358.074      1729.429      0        Capacitor                                                                                                                                                            
+C2_GL_DIS       100pF              BottomLayer CAPC1608X90N                     3520.139      1729.429      0        Capacitor                                                                                                                                                            
+C2_GCOMP        100pF              BottomLayer CAPC1608X90N                     3834.587      1883.071      180      Capacitor                                                                                                                                                            
+C2_ELEAK        100pF              BottomLayer CAPC1608X90N                     3681.030      1879.926      180      Capacitor                                                                                                                                                            
+C2_E_REV3       100pF              BottomLayer CAPC1608X90N                     2545.890      1470.866      0        Capacitor                                                                                                                                                            
+C2_E_REV2       100pF              BottomLayer CAPC1608X90N                     2707.956      1470.866      0        Capacitor                                                                                                                                                            
+C2_E_REV1       100pF              BottomLayer CAPC1608X90N                     2870.021      1470.866      0        Capacitor                                                                                                                                                            
+C2_E_REV0       100pF              BottomLayer CAPC1608X90N                     3032.087      1470.866      0        Capacitor                                                                                                                                                            
+C2_DVDD         100pF              BottomLayer CAPC1608X90N                     3021.250      2668.917      270      Capacitor                                                                                                                                                            
+C2_DVDD_HI      100pF              BottomLayer CAPC1608X90N                     2621.417      2694.667      270      Capacitor                                                                                                                                                            
+C2_C_VCCO2_FPGA 100pF              TopLayer    CAPC1608X90N                     5547.500      2512.205      90       Capacitor                                                                                                                                                            
+C2_C_EVDD2      100pF              BottomLayer CAPC1608X90N                     3438.071      2051.988      0        Capacitor                                                                                                                                                            
+C2_C_EVDD1      100pF              BottomLayer CAPC1608X90N                     3267.500      2362.657      90       Capacitor                                                                                                                                                            
+C2_C_AVDD       100pF              BottomLayer CAPC1608X90N                     3319.665      2050.000      180      Capacitor                                                                                                                                                            
+C2_C_AVDD1      100pF              BottomLayer CAPC1608X90N                     3266.250      2219.921      270      Capacitor                                                                                                                                                            
+C2_C_+VDC3      100pF              BottomLayer CAPC1608X90N                     3782.582      2280.871      270      Capacitor                                                                                                                                                            
+C2_C_+VDC2      100pF              BottomLayer CAPC1608X90N                     2273.291      2779.198      180      Capacitor                                                                                                                                                            
+C2_C_+VDC1      100pF              BottomLayer CAPC1608X90N                     3459.256      2624.025      225      Capacitor                                                                                                                                                            
+C2_+VDC_FPGA6   100pF              BottomLayer CAPC1608X90N                     4700.000      4160.000      90       Capacitor                                                                                                                                                            
+C2_+VDC_FPGA5   100pF              BottomLayer CAPC1608X90N                     4700.000      3990.906      90       Capacitor                                                                                                                                                            
+R_VM_PROXIMAL   "Res 1M 0.1% 0805" BottomLayer Panasonic_ERA-6A_Series_Resistor 2280.000      2355.000      225      "RES 1M OHM 0.1% 1/8W 0805
+1 ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"                                                     
+R_VM_DISTAL     "Res 1M 0.1% 0805" BottomLayer Panasonic_ERA-6A_Series_Resistor 3283.907      2595.885      135      "RES 1M OHM 0.1% 1/8W 0805
+1 ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"                                                     
+R_V_U3          "Res 1M 0.1% 0805" BottomLayer Panasonic_ERA-6A_Series_Resistor 2440.000      2395.000      315      "RES 1M OHM 0.1% 1/8W 0805
+1 ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"                                                     
+R_V_U2          "Res 1M 0.1% 0805" BottomLayer Panasonic_ERA-6A_Series_Resistor 3644.448      2469.911      45       "RES 1M OHM 0.1% 1/8W 0805
+1 ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"                                                     
+R_V_U0          "Res 1M 0.1% 0805" BottomLayer Panasonic_ERA-6A_Series_Resistor 3730.935      2411.629      45       "RES 1M OHM 0.1% 1/8W 0805
+1 ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"                                                     
+R_V_U1          "Res 1M 0.1% 0805" BottomLayer Panasonic_ERA-6A_Series_Resistor 3820.000      2045.000      0        "RES 1M OHM 0.1% 1/8W 0805
+1 ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"                                                     
+R_SHDN3         "Res 1M 0.1% 0805" BottomLayer Panasonic_ERA-6A_Series_Resistor 4145.000      1005.745      90       "RES 1M OHM 0.1% 1/8W 0805
+1 ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"                                                     
+R_SHDN2         "Res 1M 0.1% 0805" BottomLayer Panasonic_ERA-6A_Series_Resistor 4255.000      1225.000      90       "RES 1M OHM 0.1% 1/8W 0805
+1 ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"                                                     
+R_SHDN1         "Res 1M 0.1% 0805" BottomLayer Panasonic_ERA-6A_Series_Resistor 4145.000      810.000       270      "RES 1M OHM 0.1% 1/8W 0805
+1 ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"                                                     
+LDO_VREF_2v     LT3045             BottomLayer ADI_LT3045IMSE#PBF               971.581       2986.006      90       "IC REG LINEAR 0V 500MA 12MSOP
+Linear Voltage Regulator IC Output 500mA 12-MSOP-EP"                                                                                 
+LDO_VREF_1.8    LT3045             BottomLayer ADI_LT3045IMSE#PBF               334.370       2986.006      90       "IC REG LINEAR 0V 500MA 12MSOP
+Linear Voltage Regulator IC Output 500mA 12-MSOP-EP"                                                                                 
+LDO_VDD_3.3     LT3045             BottomLayer ADI_LT3045IMSE#PBF               3795.617      3896.490      270      "IC REG LINEAR 0V 500MA 12MSOP
+Linear Voltage Regulator IC Output 500mA 12-MSOP-EP"                                                                                 
+LDO_VDD_1.2     LT3045             BottomLayer ADI_LT3045IMSE#PBF               3191.979      3896.490      270      "IC REG LINEAR 0V 500MA 12MSOP
+Linear Voltage Regulator IC Output 500mA 12-MSOP-EP"                                                                                 
+LDO_EVDD        LT3045             BottomLayer ADI_LT3045IMSE#PBF               1395.000      3900.447      270      "IC REG LINEAR 0V 500MA 12MSOP
+Linear Voltage Regulator IC Output 500mA 12-MSOP-EP"                                                                                 
+LDO_DVDD        LT3045             BottomLayer ADI_LT3045IMSE#PBF               2589.083      3896.490      270      "IC REG LINEAR 0V 500MA 12MSOP
+Linear Voltage Regulator IC Output 500mA 12-MSOP-EP"                                                                                 
+LDO_DVDD_HIGH   LT3045             BottomLayer ADI_LT3045IMSE#PBF               805.000       3900.000      270      "IC REG LINEAR 0V 500MA 12MSOP
+Linear Voltage Regulator IC Output 500mA 12-MSOP-EP"                                                                                 
+LDO_AVDD        LT3045             BottomLayer ADI_LT3045IMSE#PBF               1996.510      3900.447      270      "IC REG LINEAR 0V 500MA 12MSOP
+Linear Voltage Regulator IC Output 500mA 12-MSOP-EP"                                                                                 
+H_WIDTH_BIAS    "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            1753.355      2299.649      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VWIDTH_LO     "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            1753.355      1839.649      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VWIDTH_HI     "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            1753.355      1609.649      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VTHRESH       "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            2132.794      3099.175      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VTAU3         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            2165.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VTAU2         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            2395.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VTAU1         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            2625.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VTAU0         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            2855.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VSS_SYN       "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            1935.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VSPIKE        "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            545.000       1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VRESET        "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            2132.794      2869.175      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VREF_2        "HEADER 3X1 TMT"   TopLayer    Samtec_TSW-103-07-L-S            1309.081      3091.006      270      "CONN HEADER VERT 3POS 2.54MM
+Connector Header Through Hole 3 position 0.100" (2.54mm)"                                                                             
+H_VREF_1.8      "HEADER 3X1 TMT"   TopLayer    Samtec_TSW-103-07-L-S            644.370       3091.006      270      "CONN HEADER VERT 3POS 2.54MM
+Connector Header Through Hole 3 position 0.100" (2.54mm)"                                                                             
+H_VpupReq       "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            1753.355      2759.649      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_Vpup_arb      "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            1753.355      2989.649      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VPDN          "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            2132.794      2409.175      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VM_DISTAL     "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4291.028      1861.387      270      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_V_U2          "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4291.028      1636.148      270      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VIN_IBIAS     "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            1753.355      2069.649      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VEFR          "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            3085.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VDD_3.3       "HEADER 3X1 TMT"   TopLayer    Samtec_TSW-103-07-L-S            3485.000      3635.000      90       "CONN HEADER VERT 3POS 2.54MM
+Connector Header Through Hole 3 position 0.100" (2.54mm)"                                                                             
+H_VDD_1.2       "HEADER 3X1 TMT"   TopLayer    Samtec_TSW-103-07-L-S            2895.000      3635.000      90       "CONN HEADER VERT 3POS 2.54MM
+Connector Header Through Hole 3 position 0.100" (2.54mm)"                                                                             
+H_VBP           "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            1753.355      2529.649      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VBIAS         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            2132.794      2639.175      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VBIAS_SF      "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            1235.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VBIAS_BUFF    "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            1005.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VAMP_LOW      "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            1705.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VAMP_HIGH     "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            1465.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_VM_PROXIMAL   "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4014.787      1636.148      270      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_V_U3          "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4014.787      1861.387      270      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_V_U0          "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4154.219      1861.387      270      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_V_U1          "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4154.219      1636.148      270      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_SYN_DRIVELO   "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            775.000       1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_SHDN3         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4305.046      969.827       0        "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_SHDN2         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4305.046      1089.134      0        "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_SHDN1         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4305.046      849.827       0        "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_PWR_DAC       "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            3915.000      250.000       180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_PWR_BUFF      "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            3924.523      3404.459      270      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_PWR_ADC       "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4044.523      3404.459      270      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_PWR_5V        "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4068.861      4068.191      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_PWR_3.3V      "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4068.520      4189.803      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_PWR_1.8V      "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            4068.889      3944.276      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_GLEAKP        "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            3308.520      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_GLEAKD        "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            3535.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_GCOMP         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            3995.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_EVDD          "HEADER 3X1 TMT"   TopLayer    Samtec_TSW-103-07-L-S            1080.000      3640.000      90       "CONN HEADER VERT 3POS 2.54MM
+Connector Header Through Hole 3 position 0.100" (2.54mm)"                                                                             
+H_EREV3         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            2132.794      2179.175      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_EREV2         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            2132.794      1949.175      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_EREV1         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            2132.794      1719.175      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_EREV0         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            2132.794      1489.175      90       "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_ELEAK         "HEADER 2X1 TMT"   TopLayer    Samtec_TSW-102-07-G-S            3765.000      1093.366      180      "CONN HEADER VERT 2POS 2.54MM
+Connector Header Through Hole 2 position 0.100" (2.54mm)"                                                                             
+H_DVDD          "HEADER 3X1 TMT"   TopLayer    Samtec_TSW-103-07-L-S            2276.288      3635.447      90       "CONN HEADER VERT 3POS 2.54MM
+Connector Header Through Hole 3 position 0.100" (2.54mm)"                                                                             
+H_DVDD_HIGH     "HEADER 3X1 TMT"   TopLayer    Samtec_TSW-103-07-L-S            490.000       3640.000      90       "CONN HEADER VERT 3POS 2.54MM
+Connector Header Through Hole 3 position 0.100" (2.54mm)"                                                                             
+H_AVDD          "HEADER 3X1 TMT"   TopLayer    Samtec_TSW-103-07-L-S            1690.000      3640.000      90       "CONN HEADER VERT 3POS 2.54MM
+Connector Header Through Hole 3 position 0.100" (2.54mm)"                                                                             
+C_WIDTH_BIAS    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1559.274      2305.655      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VWIDTH_LO     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1559.274      1845.655      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VWIDTH_HI     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1559.274      1615.655      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VTHRESH       "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1942.794      3099.175      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VTAU3         "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2155.000      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VTAU2         "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2395.000      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VTAU1         "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2625.000      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VTAU0         "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2855.000      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VSS_SYN       "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1935.000      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VSPIKE        "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           535.000       903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VRESET        "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1942.794      2869.175      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VREFR         "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3085.000      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VpupReq       "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1559.274      2775.655      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_Vpup_arb      "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1559.274      3001.088      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VPDN          "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1942.794      2409.175      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VIN_IBIAS     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1559.274      2075.655      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VBP           "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1559.274      2535.655      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VBIAS         "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1942.794      2639.175      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VBIAS_SF      "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1225.000      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VBIAS_BUFF    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           995.000       903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VAMP_LOW      "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1700.433      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_VAMP_HIGH     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1463.795      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_SYN_DRIVELO   "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           765.000       903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_GLEAKP        "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3310.000      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_GLEAKD        "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3535.000      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_GCOMP         "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3995.000      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_EREV3         "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1942.794      2179.175      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_EREV2         "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1942.794      1949.175      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_EREV1         "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1942.794      1719.175      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_EREV0         "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1942.794      1489.175      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_ELEAK         "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3770.433      903.366       180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_4_VREF_2v     "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     901.581       3226.498      90       "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_4_VREF_1.8    "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     269.370       3215.000      90       "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_4_VDD_3.3     "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     3870.000      3669.764      270      "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_4_VDD_1.2     "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     3256.684      3669.764      270      "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_4_EVDD        "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     1476.050      3670.000      270      "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_4_DVDD        "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     2651.288      3670.447      270      "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_4_DVDD_HIGH   "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     875.000       3670.000      270      "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_4_AVDD        "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     2050.000      3670.000      270      "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_3_VREF_2v     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           996.581       3211.498      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_3_VREF_1.8    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           359.370       3201.498      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_3_VDD_3.3     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3780.000      3690.211      270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_3_VDD_1.2     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3166.684      3690.211      270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_3_EVDD        "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1385.000      3690.000      270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_3_DVDD        "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2556.288      3690.447      270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_3_DVDD_HIGH   "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           785.000       3690.000      270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_3_AVDD        "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1960.000      3690.000      270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_2_VREF_2v     "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     943.419       2763.502      270      "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_2_VREF_1.8    "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     294.370       2765.000      270      "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_2_VDD_3.3     "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     3725.000      4120.000      90       "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_2_VDD_1.2     "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     3125.000      4120.000      90       "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_2_EVDD        "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     1375.000      4124.823      90       "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_2_DVDD        "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     2501.288      4120.000      90       "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_2_DVDD_HIGH   "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     768.228       4125.806      90       "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_2_AVDD        "Cap 100uF 1206"   BottomLayer Taiyo_Yuden_JMK316ABJ107ML-T     1976.510      4130.270      90       "CAP CER 100UF 6.3V X5R 1206
+±20% 6.3V Ceramic Capacitor X5R 1206 (3216 Metric)"                                                                                    
+C_1_VREF_2v     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1032.500      2782.795      270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_1_VREF_1.8    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           384.370       2784.294      270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_1_VDD_3.3     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3816.457      4100.447      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_1_VDD_1.2     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3215.000      4100.447      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_1_EVDD        "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1465.000      4105.492      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_1_DVDD        "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2591.288      4100.447      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_1_DVDD_HIGH   "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           858.228       4106.475      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C_1_AVDD        "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2066.510      4109.403      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C4_WBIAS_LO_DAC "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           375.000       1682.457      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_WBIAS_HI_DAC "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           220.000       1682.457      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_WBIAS_DAC    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           687.205       1682.500      0        "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VTHRESH_DAC  "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           760.000       2322.500      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VSS_SYN_DAC  "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1677.457      572.795       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VSPIKE_DAC   "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           720.043       402.795       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VRESET_DAC   "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           912.933       2322.500      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VREFR_DAC    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1677.457      724.932       90       "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VREF_DAC5    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3926.205      2847.543      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VREF_DAC4    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1375.000      2272.500      0        "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VREF_DAC3    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           720.043       706.697       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VREF_DAC2    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2617.500      706.697       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VREF_DAC1    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2843.523      3262.792      90       "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VREF_2_DAC   "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2685.669      3053.715      270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VREF_1.8_DAC "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2432.500      3212.205      90       "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VpupReq_DAC  "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           295.000       2332.500      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_Vpup_arb_DAC "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           450.000       2332.500      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VPDN_DAC     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1067.205      2322.500      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_IN_IBIAS_DAC "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           531.992       1682.457      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VDD_1.2_DAC  "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           605.000       2332.500      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VDC_DAC5     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3015.916      384.380       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VDC_DAC4     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           364.409       1950.000      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VDC_DAC3     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           954.882       1935.000      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VDC_DAC2     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1370.000      385.591       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VDC_DAC1     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3077.500      2862.795      270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VBP_DAC      "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           135.669       2332.500      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VB_BUFF_DAC  "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           720.089       239.492       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VBIAS_SF_DAC "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1370.000      225.000       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VBIAS_DAC    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1220.591      2322.500      0        "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VAMP_LOW_DAC "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1677.457      420.000       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VAMP_HI_DAC  "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1677.457      265.083       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VTAU3_DAC    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2832.543      227.929       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VTAU2_DAC    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2617.500      239.492       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VTAU1_DAC    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2617.500      402.795       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_VTAU0_DAC    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2447.500      554.492       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_V_EREV3_DAC  "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1372.795      1875.000      0        "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_V_EREV2_DAC  "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1225.000      1650.000      0        "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_V_EREV1_DAC  "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1070.000      1650.000      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_V_EREV0_DAC  "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           915.000       1650.000      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_U_Capx48     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1137.014      3171.498      0        "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_U_Capx47     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           499.370       3171.498      0        "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_U_Capx46     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3625.518      3737.499      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_U_Capx45     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3014.046      3737.500      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_U_Capx44     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1222.205      3747.992      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_U_Capx43     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           632.500       3745.492      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_U_Capx42     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2416.288      3740.939      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_U_Capx41     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1819.305      3744.927      180      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_SYN_DRLO_DAC "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           720.043       554.492       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_REF_ADC      "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           785.000       1930.000      0        "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_GLPROX_DAC   "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3287.500      265.083       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_GCOMP_DAC    "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3287.500      724.932       90       "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_EVDD_DAC     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3284.395      3261.198      90       "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_EL_DAC       "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3287.500      572.795       270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_DVDD_HI_DAC  "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2432.570      3368.687      90       "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_DVDD_DAC     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3512.805      2948.399      270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_DVDD_ADC     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           4257.205      3087.500      0        "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_AVDD_DAC     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3284.480      3107.204      90       "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_AVDD_ADC     "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           4093.583      3087.500      0        "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_+VDC_FPGA3   "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           7085.000      4155.433      270      "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_+VDC_FPGA2   "Cap 100uF 0805"   BottomLayer KEMET_C0805C104J8RACTU           5869.078      3982.516      45       "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C4_+VDC_FPGA1   "Cap 100uF 0805"   TopLayer    KEMET_C0805C104J8RACTU           7840.000      975.000       90       "100 µF ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                                          
+C3_WBIAS_LO_DAC "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             376.378       1425.000      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_WBIAS_HI_DAC "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             221.378       1427.457      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_WBIAS_DAC    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             687.205       1427.500      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VTHRESH_DAC  "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             765.000       2409.075      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VSS_SYN_DAC  "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1932.457      574.173       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VSPIKE_DAC   "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             975.086       400.000       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VRESET_DAC   "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             912.933       2582.500      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VREFR_DAC    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1932.457      725.017       90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VREF_DAC5    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3927.582      3102.543      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VREF_DAC4    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1373.622      2010.000      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VREF_DAC3    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             809.118       706.697       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VREF_DAC2    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2532.500      706.697       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VREF_DAC1    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3098.523      3261.414      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VREF_2_DAC   "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2430.669      3055.526      270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VREF_1.8_DAC "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2687.500      3210.827      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VpupReq_DAC  "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             295.000       2419.075      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_Vpup_arb_DAC "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             455.000       2419.075      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VPDN_DAC     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1063.583      2582.500      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_IN_IBIAS_DAC "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             531.992       1427.457      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VDD_1.2_DAC  "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             605.000       2419.075      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VDC_DAC5     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2760.916      385.758       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VDC_DAC4     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             365.000       2216.575      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VDC_DAC3     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             959.882       2021.575      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VDC_DAC2     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1107.500      379.843       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VDC_DAC1     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2992.500      2857.047      270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VBP_DAC      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             135.669       2419.075      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VB_BUFF_DAC  "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             975.089       245.870       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VBIAS_SF_DAC "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1107.500      225.000       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VBIAS_DAC    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1216.417      2582.500      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VAMP_LOW_DAC "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1932.457      420.000       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VAMP_HI_DAC  "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1932.457      265.280       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VTAU3_DAC    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2922.543      237.929       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VTAU2_DAC    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2532.500      244.492       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VTAU1_DAC    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2353.425      400.000       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_VTAU0_DAC    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2532.500      553.433       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_V_EREV3_DAC  "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1373.622      1788.425      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_V_EREV2_DAC  "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1223.622      1565.000      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_V_EREV1_DAC  "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1076.378      1393.425      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_V_EREV0_DAC  "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             915.000       1393.425      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_U_Capx48     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1131.271      3082.439      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_U_Capx47     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             497.992       3082.439      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_U_Capx46     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3630.617      3980.256      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_U_Capx45     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3021.251      3980.256      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_U_Capx44     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1232.205      3987.992      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_U_Capx43     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             632.500       3985.492      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_U_Capx42     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2421.288      3980.939      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_U_Capx41     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             1829.305      3984.927      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_SYN_DRLO_DAC "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             978.193       555.870       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_REF_ADC      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             780.000       2196.575      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_GLPROX_DAC   "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3539.484      265.280       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_GLDIST_DAC   "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3539.484      418.733       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_GCOMP_DAC    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3367.909      719.499       90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_EVDD_DAC     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3539.395      3259.820      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_EL_DAC       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3367.909      572.795       270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_DVDD_HI_DAC  "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2687.570      3367.309      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_DVDD_DAC     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3257.805      2949.777      270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_DVDD_ADC     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             4252.244      2992.500      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_AVDD_DAC     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3534.480      3107.204      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_AVDD_ADC     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             4093.583      3002.500      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_+VDC_FPGA3   "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             6892.214      4158.685      270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_+VDC_FPGA2   "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             6167.064      3677.610      45       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C3_+VDC_FPGA1   "Cap 1nF 0805"     TopLayer    Samsung_CL21B_Series             7755.000      975.000       90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C2_WBIAS_LO_DAC "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           375.000       1512.457      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_WBIAS_HI_DAC "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           220.000       1512.457      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_WBIAS_DAC    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           687.205       1512.500      0        "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VTHRESH_DAC  "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           760.000       2497.500      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VSS_SYN_DAC  "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1849.913      572.795       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VSPIKE_DAC   "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           892.500       400.000       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VRESET_DAC   "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           912.933       2497.500      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VREFR_DAC    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1849.913      724.499       90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VREF_DAC5    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3926.205      3017.543      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VREF_DAC4    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1372.795      2097.500      0        "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VREF_DAC3    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           892.500       703.902       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VREF_DAC2    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2447.500      703.902       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VREF_DAC1    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3013.523      3262.792      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VREF_2_DAC   "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2515.669      3053.715      270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VREF_1.8_DAC "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2602.500      3212.205      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VpupReq_DAC  "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           295.000       2505.000      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_Vpup_arb_DAC "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           450.000       2505.000      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VPDN_DAC     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1067.205      2497.500      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_IN_IBIAS_DAC "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           531.992       1512.457      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VDD_1.2_DAC  "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           605.000       2507.500      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VDC_DAC5     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2845.916      384.380       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VDC_DAC4     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           364.567       2121.466      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VDC_DAC3     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           954.882       2106.466      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VDC_DAC2     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1192.500      382.795       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VDC_DAC1     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2910.000      2860.000      270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VBP_DAC      "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           137.874       2505.000      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VB_BUFF_DAC  "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           892.546       239.492       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VBIAS_SF_DAC "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1192.500      225.000       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VBIAS_DAC    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1217.795      2497.500      0        "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VAMP_LOW_DAC "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1849.913      420.000       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VAMP_HI_DAC  "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1849.913      267.795       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VTAU3_DAC    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3015.043      227.929       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VTAU2_DAC    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2447.500      239.492       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VTAU1_DAC    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2447.500      400.000       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_VTAU0_DAC    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2617.500      554.492       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_V_EREV3_DAC  "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1375.000      1705.000      0        "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_V_EREV2_DAC  "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1225.000      1480.000      0        "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_V_EREV1_DAC  "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1070.000      1480.000      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_V_EREV0_DAC  "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           915.000       1480.000      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_U_Capx48     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1136.271      2992.439      0        "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_U_Capx47     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           499.370       2992.439      0        "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_U_Capx46     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3625.617      3899.764      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_U_Capx45     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3021.251      3899.764      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_U_Capx44     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1227.205      3907.469      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_U_Capx43     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           633.699       3904.969      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_U_Capx42     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2416.288      3900.447      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_U_Capx41     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           1829.305      3904.403      180      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_SYN_DRLO_DAC "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           892.500       554.492       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_REF_ADC      "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           785.000       2101.466      0        "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_GLPROX_DAC   "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3450.409      267.795       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_GLDIST_DAC   "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3450.409      423.140       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_GCOMP_DAC    "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3450.409      724.499       90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_EVDD_DAC     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3454.395      3261.198      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_EL_DAC       "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3450.409      572.795       270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_DVDD_HI_DAC  "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           2602.570      3368.687      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_DVDD_DAC     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3342.805      2948.399      270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_DVDD_ADC     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           4257.205      2897.500      0        "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_AVDD_DAC     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           3454.480      3107.204      90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_AVDD_ADC     "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           4093.583      2917.500      0        "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_+VDC_FPGA3   "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           6710.000      4155.000      270      "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_+VDC_FPGA2   "Cap 100nF 0805"   BottomLayer KEMET_C0805C104J8RACTU           6073.819      3785.681      45       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C2_+VDC_FPGA1   "Cap 100nF 0805"   TopLayer    KEMET_C0805C104J8RACTU           7675.000      975.000       90       "CAP CER 0.1UF 10V X7R 0805
+±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"                                                                                      
+C1_WBIAS        "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2950.000      2412.618      270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_WBIAS_LO_DAC "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           375.000       1597.457      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_WBIAS_LO     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2947.500      2164.370      270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_WBIAS_HI     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2947.500      2039.370      270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_WBIAS_HI_DAC "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           220.000       1597.457      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_WBIAS_DAC    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           687.205       1597.500      0        "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VTHRESH      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2565.000      2427.205      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VTHRESH_DAC  "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           765.000       2580.925      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VSS_SYN      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2392.964      1799.429      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VSS_SYN_DAC  "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1766.382      571.417       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VSPIKE       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2391.108      1400.866      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VSPIKE_DAC   "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           807.543       401.378       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VRESET       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2565.000      2293.366      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VRESET_DAC   "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           912.933       2407.500      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VREFR        "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3203.292      1799.429      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VREFR_DAC    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1765.000      720.877       90       "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VREF_DAC5    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           3926.205      2932.543      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VREF_DAC4    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1375.000      2185.000      0        "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VREF_DAC3    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           976.618       701.697       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VREF_DAC2    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           2355.000      701.697       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VREF_DAC1    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           2928.523      3262.792      90       "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VREF_2_DAC   "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           2600.669      3054.148      270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VREF_1.8_DAC "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           2517.500      3212.205      90       "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VpupReq      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2557.873      2564.784      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VpupReq_DAC  "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           295.000       2590.925      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VpupArb      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2797.126      2740.000      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_Vpup_arb_DAC "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           455.000       2590.925      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VPDN         "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2535.034      2020.102      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VPDN_DAC     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1062.205      2407.500      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_IN_IBIAS_DAC "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           531.992       1597.457      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VIN_IBIAS    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3087.500      2285.512      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VDD_1.2_DAC  "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           605.000       2590.925      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VDC_DAC5     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           2930.916      384.380       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VDC_DAC4     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           365.000       2035.000      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VDC_DAC3     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           958.504       2200.000      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VDC_DAC2     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1277.500      381.221       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VDC_DAC1     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           2822.500      2862.795      270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VBP          "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3089.521      2530.408      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VBP_DAC      "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           140.000       2590.925      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VBIAS        "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2535.000      2157.205      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VB_BUFF_DAC  "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           807.589       243.114       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VBIAS_SF     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3525.567      1540.866      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VBIAS_SF_DAC "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1277.500      230.000       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VBIAS_DAC    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1217.795      2407.500      0        "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VBIAS_BUFF   "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3363.501      1540.866      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VAMP_LOW     "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3849.784      1650.866      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VAMP_LOW_DAC "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1766.382      425.000       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_VAMP_HIGH    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3687.718      1650.866      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VAMP_HI_DAC  "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1766.382      259.235       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_V_TAU3       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2555.029      1799.429      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VTAU3_DAC    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           2742.543      232.929       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_V_TAU2       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2717.095      1799.429      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VTAU2_DAC    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           2355.000      244.492       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_V_TAU1       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2879.160      1799.429      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VTAU1_DAC    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           2534.075      401.378       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_V_TAU0       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3041.226      1799.429      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_VTAU0_DAC    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           2355.000      554.492       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_V_EREV3_DAC  "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1375.000      1618.425      0        "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_V_EREV2_DAC  "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1225.000      1395.000      0        "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_V_EREV1_DAC  "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1075.000      1566.575      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_V_EREV0_DAC  "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           920.000       1566.575      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_U_Capx48     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1131.271      2907.439      0        "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_U_Capx47     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           499.370       2900.000      0        "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_U_Capx46     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           3632.113      3819.317      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_U_Capx45     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           3026.251      3819.317      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_U_Capx44     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1222.126      3827.500      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_U_Capx43     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           632.500       3825.492      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_U_Capx42     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           2424.792      3820.939      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_U_Capx41     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           1830.723      3824.435      180      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_SYN_DRLO_DAC "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           807.543       552.055       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_SYN_DR_LO    "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3201.436      1540.866      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_REF_ADC      "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           785.000       2015.000      0        "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_GL_PROX      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3365.357      1799.429      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_GLPROX_DAC   "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           3369.484      265.083       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_GL_DIS       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3527.423      1799.429      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_GLDIST_DAC   "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           3369.484      420.000       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_GCOMP        "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3827.303      1813.071      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_GCOMP_DAC    "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           3537.909      724.499       90       "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_EVDD_DAC     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           3369.395      3261.198      90       "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_ELEAK        "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3673.746      1809.926      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_EL_DAC       "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           3537.909      572.795       270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_E_REV3       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2553.173      1540.866      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_E_REV2       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2715.239      1540.866      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_E_REV1       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2877.305      1540.866      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_E_REV0       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3039.370      1540.866      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_DVDD         "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2951.250      2676.201      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_DVDD_HI      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2553.917      2701.951      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_DVDD_HI_DAC  "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           2517.570      3368.687      90       "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_DVDD_DAC     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           3427.805      2948.399      270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_DVDD_ADC     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           4253.622      2800.000      0        "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_C_VCCO2_FPGA "Cap 1nF 0805"     TopLayer    Samsung_CL21B_Series             5460.000      2511.242      270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_C_EVDD2      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3445.354      2121.988      180      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_C_EVDD1      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3335.000      2355.374      270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_C_AVDD       "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3312.382      1980.000      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_C_AVDD1      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3198.750      2227.205      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_C_+VDC3      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3507.133      2580.883      45       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_C_+VDC2      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             2272.891      2642.184      0        "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_C_+VDC1      "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             3847.500      2280.630      90       "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_AVDD_DAC     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           3369.480      3107.204      90       "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_AVDD_ADC     "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           4088.583      2832.500      0        "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_+VDC_FPGA6   "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             4552.500      4159.370      270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_+VDC_FPGA5   "Cap 1nF 0805"     BottomLayer Samsung_CL21B_Series             4552.500      3992.284      270      "Ceramic Capacitor, Multilayer, Ceramic, 50V, 10% +Tol, 10% -Tol, X7R, 15% TC, 0.001uF, Surface Mount, 0805"                                                         
+C1_+VDC_FPGA3   "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           6520.000      4156.496      270      "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_+VDC_FPGA2   "Cap 10uF 0805"    BottomLayer KEMET_C0805C106K4PACTU           5967.064      3882.610      45       "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+C1_+VDC_FPGA1   "Cap 10uF 0805"    TopLayer    KEMET_C0805C106K4PACTU           7587.500      971.417       90       "CAP CER 10UF 16V X5R 0805
+±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"                                                                                       
+Buffer2         OPA2320S           BottomLayer TI_OPA2320SAIDGSR                2331.614      2544.685      180      "IC OPAMP RR CMOS 20MHZ 10VSSOP
+CMOS Amplifier Circuit Rail-to-Rail 10-VSSOP"                                                                                       
+Buffer1         OPA2320S           BottomLayer TI_OPA2320SAIDGSR                3666.320      2169.012      90       "IC OPAMP RR CMOS 20MHZ 10VSSOP
+CMOS Amplifier Circuit Rail-to-Rail 10-VSSOP"                                                                                       
+ADC             ADS7067IYBHT       BottomLayer BGA16_YBH_TEX                    4017.125      2722.125      180      "No Description Available"                                                                                                                                           
+R_WIDTH_BIAS    1M                 BottomLayer FP-CRCW0603-e3-MFG               1649.274      2315.655      270      "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VWIDTH_LO     RN731ETTP50R0F50   BottomLayer FP-RN731E-IPC_A                  1650.000      1865.000      90       "50O ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thin Film"                                                                                
+R_VWIDTH_HI     RN731ETTP50R0F50   BottomLayer FP-RN731E-IPC_A                  1650.000      1635.000      90       "50O ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thin Film"                                                                                
+R_VTHRESH       RP73PF1J499RBTDF   BottomLayer FP-RP73P-1J-MFG                  2032.794      3099.175      90       "RES SMD 499 OHM 0.1% 1/6W 0603"                                                                                                                                     
+R_VTAU3         1M                 BottomLayer FP-CRCW0603-e3-MFG               2155.000      993.366       0        "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VTAU2         1M                 BottomLayer FP-CRCW0603-e3-MFG               2395.000      993.366       0        "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VTAU1         1M                 BottomLayer FP-CRCW0603-e3-MFG               2625.000      993.366       0        "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VTAU0         1M                 BottomLayer FP-CRCW0603-e3-MFG               2855.000      993.366       0        "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VSS_SYN       RP73PF1J499RBTDF   BottomLayer FP-RP73P-1J-MFG                  1935.000      993.366       180      "RES SMD 499 OHM 0.1% 1/6W 0603"                                                                                                                                     
+R_VSPIKE        RP73PF1J499RBTDF   BottomLayer FP-RP73P-1J-MFG                  535.000       989.718       180      "RES SMD 499 OHM 0.1% 1/6W 0603"                                                                                                                                     
+R_VRESET        RP73PF1J499RBTDF   BottomLayer FP-RP73P-1J-MFG                  2032.794      2869.175      90       "RES SMD 499 OHM 0.1% 1/6W 0603"                                                                                                                                     
+R_VREFR         1M                 BottomLayer FP-CRCW0603-e3-MFG               3065.000      993.366       0        "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VREF_2v       20k                BottomLayer FP-RT0603-MFG                    821.581       3206.498      270      "RES SMD 20K OHM 0.1% 1/10W 0603"                                                                                                                                    
+R_VpupReq       1M                 BottomLayer FP-CRCW0603-e3-MFG               1649.274      2775.655      270      "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_Vpup_arb      1M                 BottomLayer FP-CRCW0603-e3-MFG               1649.274      3005.655      270      "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VPDN          1M                 BottomLayer FP-CRCW0603-e3-MFG               2032.794      2409.175      270      "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VIN_IBIAS     1M                 BottomLayer FP-CRCW0603-e3-MFG               1649.274      2085.655      270      "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VDD_3.3       ERA6AEB333V        BottomLayer RESC2013X60X40NL20T25            3952.457      3688.833      90       ""                                                                                                                                                                   
+R_VDD_1.2       ERA8AEB123V        BottomLayer RESC3216X70X50NL20T25            3346.684      3665.211      90       ""                                                                                                                                                                   
+R_VBP           1M                 BottomLayer FP-CRCW0603-e3-MFG               1649.274      2545.655      270      "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VBIAS         1M                 BottomLayer FP-CRCW0603-e3-MFG               2032.794      2639.175      270      "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VBIAS_SF      1M                 BottomLayer FP-CRCW0603-e3-MFG               1225.000      993.366       0        "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VBIAS_BUFF    1M                 BottomLayer FP-CRCW0603-e3-MFG               995.000       993.366       0        "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_VAMP_LOW      RN731ETTP50R0F50   BottomLayer FP-RN731E-IPC_A                  1684.760      986.539       180      "50O ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thin Film"                                                                                
+R_VAMP_HIGH     RN731ETTP50R0F50   BottomLayer FP-RN731E-IPC_A                  1450.000      990.000       180      "50O ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thin Film"                                                                                
+R_SYN_DRIVELO   RP73PF1J499RBTDF   BottomLayer FP-RP73P-1J-MFG                  775.000       989.718       180      "RES SMD 499 OHM 0.1% 1/6W 0603"                                                                                                                                     
+R_GLEAKP        1M                 BottomLayer FP-CRCW0603-e3-MFG               3305.000      993.366       0        "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_GLEAKD        1M                 BottomLayer FP-CRCW0603-e3-MFG               3535.000      993.366       0        "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+R_EREV3         RP73PF1J499RBTDF   BottomLayer FP-RP73P-1J-MFG                  2032.794      2179.175      90       "RES SMD 499 OHM 0.1% 1/6W 0603"                                                                                                                                     
+R_EREV2         RP73PF1J499RBTDF   BottomLayer FP-RP73P-1J-MFG                  2032.794      1949.175      90       "RES SMD 499 OHM 0.1% 1/6W 0603"                                                                                                                                     
+R_EREV1         RP73PF1J499RBTDF   BottomLayer FP-RP73P-1J-MFG                  2032.794      1719.175      90       "RES SMD 499 OHM 0.1% 1/6W 0603"                                                                                                                                     
+R_EREV0         RP73PF1J499RBTDF   BottomLayer FP-RP73P-1J-MFG                  2032.794      1489.175      90       "RES SMD 499 OHM 0.1% 1/6W 0603"                                                                                                                                     
+R_ELEAK         RP73PF1J499RBTDF   BottomLayer FP-RP73P-1J-MFG                  3765.000      989.429       180      "RES SMD 499 OHM 0.1% 1/6W 0603"                                                                                                                                     
+R_DVDD          ERA8AEB123V        BottomLayer RESC3216X70X50NL20T25            2741.288      3675.447      90       ""                                                                                                                                                                   
+R_COMP          1M                 BottomLayer FP-CRCW0603-e3-MFG               3995.000      993.366       0        "RES Thick Film, 1MO, 1%, 0.1W, 100ppm/°C, 0603"                                                                                                                     
+DAC5            DAC8568IAPW        BottomLayer TI-PW16_M                        570.000       1990.000      270      "16-Bit, Octal Channel, Ultra-Low Glitch, Voltage Output DAC with 2.5 V, 2 ppm/degC Internal Reference, -40 to 125 degC, 16-pin SOP (PW16), Green (RoHS & no Sb/Br)" 
+DAC4            DAC8568IAPW        BottomLayer TI-PW16_M                        1165.000      1945.000      270      "16-Bit, Octal Channel, Ultra-Low Glitch, Voltage Output DAC with 2.5 V, 2 ppm/degC Internal Reference, -40 to 125 degC, 16-pin SOP (PW16), Green (RoHS & no Sb/Br)" 
+DAC3            DAC8568IAPW        BottomLayer TI-PW16_M                        1360.000      590.000       0        "16-Bit, Octal Channel, Ultra-Low Glitch, Voltage Output DAC with 2.5 V, 2 ppm/degC Internal Reference, -40 to 125 degC, 16-pin SOP (PW16), Green (RoHS & no Sb/Br)" 
+DAC2            DAC8568IAPW        BottomLayer TI-PW16_M                        2985.906      590.000       0        "16-Bit, Octal Channel, Ultra-Low Glitch, Voltage Output DAC with 2.5 V, 2 ppm/degC Internal Reference, -40 to 125 degC, 16-pin SOP (PW16), Green (RoHS & no Sb/Br)" 
+DAC1            DAC8568IAPW        BottomLayer TI-PW16_M                        2986.023      3060.784      0        "16-Bit, Octal Channel, Ultra-Low Glitch, Voltage Output DAC with 2.5 V, 2 ppm/degC Internal Reference, -40 to 125 degC, 16-pin SOP (PW16), Green (RoHS & no Sb/Br)" 

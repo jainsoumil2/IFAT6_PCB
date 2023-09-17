@@ -1,0 +1,16 @@
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unifast/GTHE2_CHANNEL.v
+	module unifast_ver.GTHE2_CHANNEL
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unifast/DSP48E1.v
+	module unifast_ver.DSP48E1
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unifast/MMCME2_ADV.v
+	module unifast_ver.MMCME2_ADV
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unifast/PLLE2_ADV.v
+	module unifast_ver.PLLE2_ADV
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/verilog/src/unifast/GTXE2_CHANNEL.v
+	module unifast_ver.GTXE2_CHANNEL
+		errors: 0, warnings: 0

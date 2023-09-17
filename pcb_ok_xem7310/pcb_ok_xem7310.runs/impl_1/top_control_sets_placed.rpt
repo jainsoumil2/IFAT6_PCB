@@ -1,0 +1,158 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Fri Dec 23 22:51:19 2022
+| Host         : moderna.ucsd.edu running 64-bit CentOS Linux release 7.9.2009 (Core)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a200t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    80 |
+|    Minimum number of control sets                        |    80 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   207 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    80 |
+| >= 0 to < 4        |    12 |
+| >= 4 to < 6        |    12 |
+| >= 6 to < 8        |     5 |
+| >= 8 to < 10       |    10 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     4 |
+| >= 14 to < 16      |     2 |
+| >= 16              |    34 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             196 |           80 |
+| No           | No                    | Yes                    |              29 |           14 |
+| No           | Yes                   | No                     |              22 |            9 |
+| Yes          | No                    | No                     |             792 |          232 |
+| Yes          | No                    | Yes                    |             133 |           42 |
+| Yes          | Yes                   | No                     |             373 |          102 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+---------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|              Clock Signal              |                                              Enable Signal                                              |                                      Set/Reset Signal                                     | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------------------+---------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|  uut_adc/adc_done                      |                                                                                                         | fifo_inst_1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/wr_ack |                1 |              1 |         1.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi00/ep_dataout[5]                                                           |                                                                                           |                1 |              1 |         1.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi08/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |                1 |              1 |         1.00 |
+|  clk_adc_inst/inst/clk_out1            | uut_adc/temp_adc_bit3_out                                                                               |                                                                                           |                1 |              1 |         1.00 |
+|  clk_dac_inst/inst/clk_out1            | uut_dac3/sdi5_out                                                                                       |                                                                                           |                1 |              1 |         1.00 |
+|  clk_dac_inst/inst/clk_out1            | uut_dac4/sdi5_out                                                                                       |                                                                                           |                1 |              1 |         1.00 |
+|  clk_dac_inst/inst/clk_out1            | uut_dac1/sdi5_out                                                                                       |                                                                                           |                1 |              1 |         1.00 |
+|  clk_dac_inst/inst/clk_out1            | uut_dac5/sdi5_out                                                                                       |                                                                                           |                1 |              1 |         1.00 |
+|  clk_dac_inst/inst/clk_out1            | uut_dac2/sdi5_out                                                                                       |                                                                                           |                1 |              1 |         1.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi0a/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |                1 |              2 |         2.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/pc0/flag_enable                                          | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/pc0/internal_reset                         |                2 |              2 |         1.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk |                                                                                                         | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/lc12c7095b9bc056c60880aeb6055afb1          |                3 |              3 |         1.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk |                                                                                                         | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/c0/l40d74558a9789e6c998b44ab9d6b8ab8_n_0   |                1 |              4 |         4.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/p_0_in0                                                  |                                                                                           |                2 |              4 |         2.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/lb6baf4ff3bf7fd83f0e79fbcb46cd849[3]_i_1_n_0                |                                                                                           |                1 |              4 |         4.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/FSM_sequential_l8ff940a6bfc33211f22a7ff95e39fe60[3]_i_1_n_0 |                                                                                           |                2 |              4 |         2.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk |                                                                                                         | frontpanel_ifat6_inst/inst/okHI/core0/core0/ld307737e57d50d07f937891de086bf8e_i_1_n_0     |                2 |              4 |         2.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/l90ce46b343647bab4d280b5afc506219                        | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/lc12c7095b9bc056c60880aeb6055afb1          |                2 |              4 |         2.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/l885bbeb94996347da66a8546671e4990[19]_i_1_n_0               |                                                                                           |                1 |              4 |         4.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/leeb76b405f165a9b4ab0606f3ea0b3c4[7]_i_1_n_0                |                                                                                           |                1 |              4 |         4.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/FSM_sequential_l6d7b501652de6ba8ba55082874707b2a[4]_i_1_n_0 | frontpanel_ifat6_inst/inst/okHI/okHC[38]                                                  |                4 |              5 |         1.25 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi06/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |                2 |              5 |         2.50 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi07/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |                2 |              5 |         2.50 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi0d/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |                2 |              5 |         2.50 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/d0/lfd4ae1d2a2f83cc540ba2af5c1891381                     | frontpanel_ifat6_inst/inst/okHI/okHC[38]                                                  |                2 |              6 |         3.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi00/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |                1 |              6 |         6.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk |                                                                                                         | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/pc0/internal_reset                         |                3 |              6 |         2.00 |
+|  clk_adc_inst/inst/clk_out1            | uut_adc/adc_data_len                                                                                    | uut_adc/adc_data_len[7]_i_1_n_0                                                           |                2 |              6 |         3.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/l92ae5a5037b0cc87c9562f3e505d14cf[6]_i_2_n_0                | frontpanel_ifat6_inst/inst/okHI/core0/core0/l92ae5a5037b0cc87c9562f3e505d14cf[6]_i_1_n_0  |                2 |              7 |         3.50 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/l37dbd1aafb403530c46407234a8f7286                        |                                                                                           |                2 |              8 |         4.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/lbe59f904be1e8440c2d6333521aaa29a[7]_i_1_n_0                |                                                                                           |                1 |              8 |         8.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/lbe9e64305a7a66df6a9cf6dc987a1803[7]_i_1_n_0                |                                                                                           |                3 |              8 |         2.67 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/la3c64aadb28b65d3d578c9e403522ecb                           | frontpanel_ifat6_inst/inst/okHI/okHC[38]                                                  |                4 |              8 |         2.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/l350d3a095faafcfcc80a82d9f84ae4e0[7]_i_1_n_0                |                                                                                           |                5 |              8 |         1.60 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/l9f43dc9d3787a4c1395542a254aee157[7]_i_1_n_0                |                                                                                           |                4 |              8 |         2.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/l99ec1ebd2d898e73a64819e166db6b96[7]_i_1_n_0                |                                                                                           |                1 |              8 |         8.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/l885bbeb94996347da66a8546671e4990[7]_i_1_n_0                |                                                                                           |                2 |              8 |         4.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/l885bbeb94996347da66a8546671e4990[15]_i_1_n_0               |                                                                                           |                1 |              8 |         8.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk |                                                                                                         | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/l770e51175fa898662b06f9e3b71c7bff[7]       |                3 |              8 |         2.67 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/l84a7b0e1b51dfdd46f041d49e77ce017[23]_i_2_n_0               |                                                                                           |                6 |             10 |         1.67 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/mmcm0_locked                                                            |                                                                                           |                6 |             12 |         2.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/cb0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/ram_rd_en       | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/l62a5479e7989ce7f4d5507c695cc69cf          |                3 |             12 |         4.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/pc0/WE                                                   | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/pc0/internal_reset                         |                3 |             12 |         4.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/cb0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/ram_wr_en       | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/l62a5479e7989ce7f4d5507c695cc69cf          |                3 |             12 |         4.00 |
+|  clk_adc_inst/inst/clk_out1            | fifo_inst_1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/gsym_dc.cntr_en     |                                                                                           |                4 |             14 |         3.50 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/l84a7b0e1b51dfdd46f041d49e77ce017[23]_i_2_n_0               | frontpanel_ifat6_inst/inst/okHI/core0/core0/l84a7b0e1b51dfdd46f041d49e77ce017[23]_i_1_n_0 |                5 |             14 |         2.80 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/lfa89f4c19946cfeedd23723568de9e12[15]_i_1_n_0               |                                                                                           |                5 |             16 |         3.20 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/l436c8acfce09b790a2efb624a7c06514[15]_i_1_n_0               |                                                                                           |                6 |             16 |         2.67 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/pc0/register_enable                                      |                                                                                           |                2 |             16 |         8.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/pc0/WE                                                   |                                                                                           |                2 |             16 |         8.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/pc0/spm_enable                                           |                                                                                           |                4 |             16 |         4.00 |
+|  clk_dac_inst/inst/clk_out1            |                                                                                                         |                                                                                           |               10 |             20 |         2.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/mmcm0_locked                                                            | frontpanel_ifat6_inst/inst/okHI/core0/core0/l6f2981c23c5f98e0d9d0e1d5acd3307d[31]_i_1_n_0 |                8 |             21 |         2.62 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/l4f8cd1ab062f5571ff66db47e3d281bf[19]_i_1_n_0               | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/lc12c7095b9bc056c60880aeb6055afb1          |                4 |             21 |         5.25 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi0b/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |                6 |             24 |         4.00 |
+|  clk_adc_inst/inst/clk_out1            | uut_adc/adc_dout[23]_i_1_n_0                                                                            |                                                                                           |                7 |             24 |         3.43 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk |                                                                                                         | frontpanel_ifat6_inst/inst/okHI/okHC[38]                                                  |               10 |             25 |         2.50 |
+|  clk_adc_inst/inst/clk_out1            | fifo_inst_1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_rd_en           |                                                                                           |                6 |             28 |         4.67 |
+|  clk_adc_inst/inst/clk_out1            | fifo_inst_1/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/E[0]                |                                                                                           |                5 |             28 |         5.60 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi0c/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |               12 |             29 |         2.42 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi00/ep_dataout[5]                                                           | j[31]_i_1_n_0                                                                             |                8 |             31 |         3.88 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/le7badcf1256ff8aabbffe7a6a1b38b5f_reg_inv_n_0            | frontpanel_ifat6_inst/inst/okHI/core0/core0/a0/lc12c7095b9bc056c60880aeb6055afb1          |                8 |             32 |         4.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi01/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |                7 |             32 |         4.57 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi04/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |                9 |             32 |         3.56 |
+|  clk_dac_inst/inst/clk_out1            | uut_dac3/syncb122_out                                                                                   | uut_dac3/syncb0                                                                           |                8 |             32 |         4.00 |
+|  clk_dac_inst/inst/clk_out1            | uut_dac2/syncb122_out                                                                                   | uut_dac2/syncb0                                                                           |                8 |             32 |         4.00 |
+|  clk_dac_inst/inst/clk_out1            | uut_dac5/syncb122_out                                                                                   | uut_dac5/syncb0                                                                           |                8 |             32 |         4.00 |
+|  clk_dac_inst/inst/clk_out1            | uut_dac4/syncb122_out                                                                                   | uut_dac4/syncb0                                                                           |                8 |             32 |         4.00 |
+|  clk_dac_inst/inst/clk_out1            | uut_dac1/syncb122_out                                                                                   | uut_dac1/syncb0                                                                           |                8 |             32 |         4.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi05/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |                6 |             32 |         5.33 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/la531863f270e103597e1d9609a1ccaa8[31]_i_2_n_0               | frontpanel_ifat6_inst/inst/okHI/core0/core0/la531863f270e103597e1d9609a1ccaa8[31]_i_1_n_0 |                9 |             32 |         3.56 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi03/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |                8 |             32 |         4.00 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/wi02/ep_datahold[31]_i_1_n_0                                                 |                                                                                           |                6 |             32 |         5.33 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/l0881048b06017db25aafb0dba883beb2[31]_i_2_n_0               | frontpanel_ifat6_inst/inst/okHI/core0/core0/l0881048b06017db25aafb0dba883beb2[31]_i_1_n_0 |                9 |             32 |         3.56 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/le78b033d3a3b15350c4085b407bdacef[31]_i_1_n_0               |                                                                                           |               11 |             32 |         2.91 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/lab8c81cec3709c0416d0acf79f37f087[31]_i_2_n_0               | frontpanel_ifat6_inst/inst/okHI/core0/core0/lab8c81cec3709c0416d0acf79f37f087[31]_i_1_n_0 |                8 |             32 |         4.00 |
+|  clk_adc_inst/inst/clk_out1            |                                                                                                         |                                                                                           |               10 |             35 |         3.50 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/le5e2e6110dd7478b8ed0143f21b04d30[56]_i_1_n_0               | frontpanel_ifat6_inst/inst/okHI/okHC[38]                                                  |               18 |             57 |         3.17 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk |                                                                                                         |                                                                                           |               60 |            141 |         2.35 |
+|  frontpanel_ifat6_inst/inst/okHI/okClk | frontpanel_ifat6_inst/inst/okHI/core0/core0/la3961964bfb74e16d8f10c3007437f68[44]                       |                                                                                           |               80 |            284 |         3.55 |
++----------------------------------------+---------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+
+

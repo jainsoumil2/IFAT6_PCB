@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/common" --include "../../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_ifat6/gateware/simulation/FrontPanel" \
+"top_tb_time_synth.v" \
+"../../../../../../verilog_files/adc.v" \
+"../../../../../pcb_ok_xem7310.srcs/sources_1/new/dac.v" \
+"../../../../../pcb_ok_xem7310.srcs/sim_1/new/top_tb.v" \
+
+# Do not sort compile order
+nosort

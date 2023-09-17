@@ -1,0 +1,156 @@
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Added Component: Designator=IFAT6(YAMAICHI_IC149-100-025-B5)
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.com/datasheet/2/448/Yamaichi_Electronics_08162018_IC149-100-x25-x5x_L-1391528.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Yamaichi Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IC149-100-025-B5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "945-IC149-100-025-B5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/ProductDetail/Yamaichi-Electronics/IC149-100-025-B5?qs=nO3wRANIIvnwx1%2FO7RgPQA%3D%3D&countrycode=US&currencycode=USD"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=INPUT_DATA0 Pin=IFAT6-1
+Added Pin To Net: NetName=INPUT_DATA1 Pin=IFAT6-2
+Added Pin To Net: NetName=INPUT_DATA2 Pin=IFAT6-3
+Added Pin To Net: NetName=INPUT_DATA3 Pin=IFAT6-4
+Added Pin To Net: NetName=INPUT_DATA4 Pin=IFAT6-5
+Added Pin To Net: NetName=INPUT_DATA5 Pin=IFAT6-6
+Added Pin To Net: NetName=INPUT_DATA6 Pin=IFAT6-7
+Added Pin To Net: NetName=INPUT_DATA7 Pin=IFAT6-8
+Added Pin To Net: NetName=INPUT_DATA8 Pin=IFAT6-9
+Added Pin To Net: NetName=INPUT_DATA9 Pin=IFAT6-10
+Added Pin To Net: NetName=INPUT_DATA10 Pin=IFAT6-11
+Added Pin To Net: NetName=INPUT_DATA11 Pin=IFAT6-12
+Added Pin To Net: NetName=INPUT_DATA12 Pin=IFAT6-13
+Added Pin To Net: NetName=INPUT_DATA13 Pin=IFAT6-14
+Added Pin To Net: NetName=INPUT_DATA14 Pin=IFAT6-15
+Added Pin To Net: NetName=INPUT_DATA15 Pin=IFAT6-16
+Added Pin To Net: NetName=INPUT_DATA16 Pin=IFAT6-17
+Added Pin To Net: NetName=INPUT_DATA17 Pin=IFAT6-18
+Added Pin To Net: NetName=INPUT_DATA18 Pin=IFAT6-19
+Added Pin To Net: NetName=INPUT_DATA19 Pin=IFAT6-20
+Added Pin To Net: NetName=INPUT_DATA20 Pin=IFAT6-21
+Added Pin To Net: NetName=INPUT_DATA21 Pin=IFAT6-22
+Added Pin To Net: NetName=INPUT_DATA22 Pin=IFAT6-23
+Added Pin To Net: NetName=INPUT_DATA23 Pin=IFAT6-24
+Added Pin To Net: NetName=INPUT_DATA_REQ Pin=IFAT6-25
+Added Pin To Net: NetName=INPUT_DATA_ACK Pin=IFAT6-26
+Added Pin To Net: NetName=MC1_58 Pin=IFAT6-27
+Added Pin To Net: NetName=COL_SHIFT_REG_CLK Pin=IFAT6-28
+Added Pin To Net: NetName=MC1_52 Pin=IFAT6-29
+Added Pin To Net: NetName=ASYNC_RST Pin=IFAT6-30
+Added Pin To Net: NetName=MC2_18 Pin=IFAT6-31
+Added Pin To Net: NetName=ARRAY_SHIFT_REG_CLK Pin=IFAT6-32
+Added Pin To Net: NetName=OUTPUT_DATA13 Pin=IFAT6-33
+Added Pin To Net: NetName=OUTPUT_DATA12 Pin=IFAT6-34
+Added Pin To Net: NetName=OUTPUT_DATA11 Pin=IFAT6-35
+Added Pin To Net: NetName=OUTPUT_DATA10 Pin=IFAT6-36
+Added Pin To Net: NetName=OUTPUT_DATA9 Pin=IFAT6-37
+Added Pin To Net: NetName=OUTPUT_DATA8 Pin=IFAT6-38
+Added Pin To Net: NetName=OUTPUT_DATA7 Pin=IFAT6-39
+Added Pin To Net: NetName=OUTPUT_DATA6 Pin=IFAT6-40
+Added Pin To Net: NetName=OUTPUT_DATA5 Pin=IFAT6-41
+Added Pin To Net: NetName=OUTPUT_DATA4 Pin=IFAT6-42
+Added Pin To Net: NetName=OUTPUT_DATA3 Pin=IFAT6-43
+Added Pin To Net: NetName=OUTPUT_DATA2 Pin=IFAT6-44
+Added Pin To Net: NetName=OUTPUT_DATA1 Pin=IFAT6-45
+Added Pin To Net: NetName=OUTPUT_DATA0 Pin=IFAT6-46
+Added Pin To Net: NetName=MC2_50 Pin=IFAT6-47
+Added Pin To Net: NetName=MC2_48 Pin=IFAT6-48
+Added Pin To Net: NetName=MC2_46 Pin=IFAT6-49
+Added Pin To Net: NetName=_setLFSR Pin=IFAT6-50
+Added Pin To Net: NetName=MC2_42 Pin=IFAT6-51
+Added Pin To Net: NetName=DVDD Pin=IFAT6-52
+Added Pin To Net: NetName=DGND Pin=IFAT6-53
+Added Pin To Net: NetName=Vpup_arb Pin=IFAT6-54
+Added Pin To Net: NetName=VpupReq Pin=IFAT6-55
+Added Pin To Net: NetName=VBP Pin=IFAT6-56
+Added Pin To Net: NetName=WIDTH_BIAS Pin=IFAT6-57
+Added Pin To Net: NetName=VINPUT_CURRENT_BIAS Pin=IFAT6-58
+Added Pin To Net: NetName=WIDTH_BIAS_LOW Pin=IFAT6-59
+Added Pin To Net: NetName=WIDTH_BIAS_HIGH Pin=IFAT6-60
+Added Pin To Net: NetName=DVDD_HIGH Pin=IFAT6-61
+Added Pin To Net: NetName=DGND Pin=IFAT6-62
+Added Pin To Net: NetName=EVDD Pin=IFAT6-63
+Added Pin To Net: NetName=DGND Pin=IFAT6-64
+Added Pin To Net: NetName=AVDD Pin=IFAT6-65
+Added Pin To Net: NetName=V_U_PROBE3 Pin=IFAT6-66
+Added Pin To Net: NetName=VMEM_PROXIMAL_PROBE Pin=IFAT6-67
+Added Pin To Net: NetName=VMEM_DISTAL_PROBE Pin=IFAT6-68
+Added Pin To Net: NetName=V_U_PROBE2 Pin=IFAT6-69
+Added Pin To Net: NetName=V_U_PROBE0 Pin=IFAT6-70
+Added Pin To Net: NetName=V_U_PROBE1 Pin=IFAT6-71
+Added Pin To Net: NetName=VTHRESH Pin=IFAT6-72
+Added Pin To Net: NetName=VRESET Pin=IFAT6-73
+Added Pin To Net: NetName=VBIAS Pin=IFAT6-74
+Added Pin To Net: NetName=VPDN Pin=IFAT6-75
+Added Pin To Net: NetName=VSPIKE Pin=IFAT6-76
+Added Pin To Net: NetName=E_REV3 Pin=IFAT6-77
+Added Pin To Net: NetName=E_REV2 Pin=IFAT6-78
+Added Pin To Net: NetName=E_REV1 Pin=IFAT6-79
+Added Pin To Net: NetName=E_REV0 Pin=IFAT6-80
+Added Pin To Net: NetName=SYNAPSE_DRIVE_LOW Pin=IFAT6-81
+Added Pin To Net: NetName=VBIAS_UNITYBUFFER Pin=IFAT6-82
+Added Pin To Net: NetName=VBIAS_SF Pin=IFAT6-83
+Added Pin To Net: NetName=VAMP_HIGH Pin=IFAT6-84
+Added Pin To Net: NetName=VAMP_LOW Pin=IFAT6-85
+Added Pin To Net: NetName=DGND Pin=IFAT6-86
+Added Pin To Net: NetName=AVDD Pin=IFAT6-87
+Added Pin To Net: NetName=VSS_SYNAPSE Pin=IFAT6-88
+Added Pin To Net: NetName=V_TAU3 Pin=IFAT6-89
+Added Pin To Net: NetName=V_TAU2 Pin=IFAT6-90
+Added Pin To Net: NetName=V_TAU1 Pin=IFAT6-91
+Added Pin To Net: NetName=V_TAU0 Pin=IFAT6-92
+Added Pin To Net: NetName=VREFR Pin=IFAT6-93
+Added Pin To Net: NetName=GLEAK_PROXIMAL Pin=IFAT6-94
+Added Pin To Net: NetName=GLEAK_DISTAL Pin=IFAT6-95
+Added Pin To Net: NetName=ELEAK Pin=IFAT6-96
+Added Pin To Net: NetName=GCOMP Pin=IFAT6-97
+Added Pin To Net: NetName=DGND Pin=IFAT6-98
+Added Pin To Net: NetName=EVDD Pin=IFAT6-99
+Added Pin To Net: NetName=DGND Pin=IFAT6-100
+Add Class Member: Failed to add class member : +VDC_FPGA4 (Capx4.SchDoc)
+Add Class Member: Failed to add class member : +VDC_FPGA6 (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : +VDC_FPGA7 (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : C_VCCO2_FPGA (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : DVDD_HI (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : DVDD_HI_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : EL_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : GL_DIS (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : GL_PROX (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : GLDIST_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : GLPROX_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : IN_IBIAS_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : SYN_DRLO_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VAMP_HI_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VB_BUFF_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VpupArb (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : VTAU0_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VTAU1_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VTAU2_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VTAU3_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : WBIAS (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_HI (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_HI_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_LO (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_LO_DAC (Capx4.SchDoc)

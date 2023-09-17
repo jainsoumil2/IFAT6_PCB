@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Dec 23 18:01:25 2022
+# Process ID: 42018
+# Current directory: /Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.runs/frontpanel_ifat6_synth_1
+# Command line: vivado -log frontpanel_ifat6.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source frontpanel_ifat6.tcl
+# Log file: /Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.runs/frontpanel_ifat6_synth_1/frontpanel_ifat6.vds
+# Journal file: /Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.runs/frontpanel_ifat6_synth_1/vivado.jou
+# Running On: moderna.ucsd.edu, OS: Linux, CPU Frequency: 2426.147 MHz, CPU Physical cores: 18, Host memory: 134687 MB
+#-----------------------------------------------------------
+source frontpanel_ifat6.tcl -notrace

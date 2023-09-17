@@ -1,0 +1,44 @@
+xmvhdl(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+/tools/Xilinx/Vivado/2022.1/data/ip/xilinx/xdfe_nlf_v1_0/hdl/xdfe_nlf_v1_0_vh_rfs.vhd:
+xmvhdl_p: *W,WARIPR: warning within protected source code.
+xmvhdl_p: *W,WARIPR: warning within protected source code.
+	errors: 0, warnings: 2
+	streams: 1, words: 8
+	streams: 4, words: 3045
+	streams: 25, words: 1542
+	streams: 1, words: 330
+	streams: 15, words: 912
+	streams: 1, words: 330
+	streams: 49, words: 11385
+	streams: 1, words: 4935
+	streams: 45, words: 11103
+	streams: 4, words: 21103
+	streams: 20, words: 2334
+	streams: 1, words: 1307
+	streams: 61, words: 16764
+	streams: 4, words: 24842
+	streams: 49, words: 4958
+	streams: 1, words: 5265
+	streams: 31, words: 6549
+	streams: 2, words: 12810
+	streams: 27, words: 2949
+	streams: 1, words: 2738
+	streams: 95, words: 28631
+	streams: 8, words: 75407
+	streams: 14, words: 3349
+	streams: 3, words: 11167
+	streams: 8, words: 1119
+	streams: 1, words: 1339
+	streams: 11, words: 2939
+	streams: 3, words: 3427
+	streams: 14, words: 4202
+	streams: 4, words: 22580
+	streams: 25, words: 7699
+	streams: 3, words: 17377
+	streams: 40, words: 16668
+	streams: 1, words: 29617
+	streams: 61, words: 12420
+	streams: 5, words: 108876
+	streams: 1, words: 8
+	streams: 61, words: 12420
+	streams: 2, words: 10447

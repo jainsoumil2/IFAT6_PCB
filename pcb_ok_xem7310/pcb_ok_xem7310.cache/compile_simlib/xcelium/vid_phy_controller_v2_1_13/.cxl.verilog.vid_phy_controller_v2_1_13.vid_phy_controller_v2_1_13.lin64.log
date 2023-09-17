@@ -1,0 +1,52 @@
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_sync_block.v
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_sync_block
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_sync_pulse.v
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_sync_pulse
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_cpll_railing.v
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_cpll_railing
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_axi4lite.v
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_axi4lite
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_drp_control.v
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_drp_control
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_drp_control_8series.v
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_drp_control_8series
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_drp_control_hdmi.v
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_drp_control_hdmi
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_interrupts.v
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_interrupts
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_gtp_common.v
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_gtp_common
+		errors: 0, warnings: 0
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_lib.sv
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_lib_rst_v1_0
+		errors: 0, warnings: 0
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_lib_sync_v1_0
+		errors: 0, warnings: 0
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_lib_cap_v1_0
+		errors: 0, warnings: 0
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_lib_edge_v1_0
+		errors: 0, warnings: 0
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_lib_cda_gray_v1_0
+		errors: 0, warnings: 0
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_lib_fifo_sc_v1_0
+		errors: 0, warnings: 0
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_lib_fifo_dc_v1_0
+		errors: 0, warnings: 0
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_lib_div_v1_0
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_datawidth_conv.sv
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_datawidth_conv
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/vid_phy_controller_v2_1/hdl/src/verilog/vid_phy_controller_v2_1_dru.sv
+	module vid_phy_controller_v2_1_13.vid_phy_controller_v2_1_13_dru
+		errors: 0, warnings: 0

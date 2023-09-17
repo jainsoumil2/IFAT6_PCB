@@ -1,0 +1,73 @@
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+	module xpm.xpm_memory_base
+		errors: 0, warnings: 0
+	module xpm.asym_bwe_bb
+		errors: 0, warnings: 0
+	module xpm.xpm_memory_dpdistram
+		errors: 0, warnings: 0
+	module xpm.xpm_memory_dprom
+		errors: 0, warnings: 0
+	module xpm.xpm_memory_sdpram
+		errors: 0, warnings: 0
+	module xpm.xpm_memory_spram
+		errors: 0, warnings: 0
+	module xpm.xpm_memory_sprom
+		errors: 0, warnings: 0
+	module xpm.xpm_memory_tdpram
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv
+	module xpm.xpm_cdc_single
+		errors: 0, warnings: 0
+	module xpm.xpm_cdc_gray
+		errors: 0, warnings: 0
+	module xpm.xpm_cdc_handshake
+		errors: 0, warnings: 0
+	module xpm.xpm_cdc_pulse
+		errors: 0, warnings: 0
+	module xpm.xpm_cdc_array_single
+		errors: 0, warnings: 0
+	module xpm.xpm_cdc_sync_rst
+		errors: 0, warnings: 0
+	module xpm.xpm_cdc_async_rst
+		errors: 0, warnings: 0
+	module xpm.xpm_cdc_low_latency_handshake
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv
+	module xpm.xpm_fifo_base
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_rst
+		errors: 0, warnings: 0
+	module xpm.xpm_counter_updn
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_reg_vec
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_reg_bit
+		errors: 0, warnings: 0
+	module xpm.xpm_reg_pipe_bit
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_sync
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_async
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_axis
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_axif
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_axil
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_axi_reg_slice
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/simulation/xpm_fifo_tb.sv
+	module xpm.xpm_fifo_tb
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_ex
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_gen_dverif
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_gen_rng
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_gen_dgen
+		errors: 0, warnings: 0
+	module xpm.xpm_fifo_gen_pctrl
+		errors: 0, warnings: 0

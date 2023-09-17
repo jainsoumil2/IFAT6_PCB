@@ -1,0 +1,82 @@
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Remove Class Member: Failed to remove class member
+Change Component Designator: OldDesignator=C1_DVDD_HIGH_DAC NewDesignator=C1_DVDD_HI_DAC
+Change Component Designator: OldDesignator=C1_SYNAPSE_DRIVE_LOW_DAC NewDesignator=C1_SYN_DRLO_DAC
+Change Component Designator: OldDesignator=C1_VAMP_HIGH_DAC NewDesignator=C1_VAMP_HI_DAC
+Change Component Designator: OldDesignator=C1_VBIAS_UNITYBUFFER_DAC NewDesignator=C1_VB_BUFF_DAC
+Change Component Designator: OldDesignator=C1_VINPUT_CURRENT_BIAS_DAC NewDesignator=C1_VIN_IBIAS_DAC
+Change Component Designator: OldDesignator=C1_WIDTH_BIAS_DAC NewDesignator=C1_WBIAS_DAC
+Change Component Designator: OldDesignator=C1_WIDTH_BIAS_HIGH_DAC NewDesignator=C1_WBIAS_HI_DAC
+Change Component Designator: OldDesignator=C1_WIDTH_BIAS_LOW_DAC NewDesignator=C1_WBIAS_LO_DAC
+Change Component Designator: OldDesignator=C2_DVDD_HIGH_DAC NewDesignator=C2_DVDD_HI_DAC
+Change Component Designator: OldDesignator=C2_SYNAPSE_DRIVE_LOW_DAC NewDesignator=C2_SYN_DRLO_DAC
+Change Component Designator: OldDesignator=C2_VAMP_HIGH_DAC NewDesignator=C2_VAMP_HI_DAC
+Change Component Designator: OldDesignator=C2_VBIAS_UNITYBUFFER_DAC NewDesignator=C2_VB_BUFF_DAC
+Change Component Designator: OldDesignator=C2_VINPUT_CURRENT_BIAS_DAC NewDesignator=C2_VIN_IBIAS_DAC
+Change Component Designator: OldDesignator=C2_WIDTH_BIAS_DAC NewDesignator=C2_WBIAS_DAC
+Change Component Designator: OldDesignator=C2_WIDTH_BIAS_HIGH_DAC NewDesignator=C2_WBIAS_HI_DAC
+Change Component Designator: OldDesignator=C2_WIDTH_BIAS_LOW_DAC NewDesignator=C2_WBIAS_LO_DAC
+Change Component Designator: OldDesignator=C3_DVDD_HIGH_DAC NewDesignator=C3_DVDD_HI_DAC
+Change Component Designator: OldDesignator=C3_SYNAPSE_DRIVE_LOW_DAC NewDesignator=C3_SYN_DRLO_DAC
+Change Component Designator: OldDesignator=C3_VAMP_HIGH_DAC NewDesignator=C3_VAMP_HI_DAC
+Change Component Designator: OldDesignator=C3_VBIAS_UNITYBUFFER_DAC NewDesignator=C3_VB_BUFF_DAC
+Change Component Designator: OldDesignator=C3_VINPUT_CURRENT_BIAS_DAC NewDesignator=C3_VIN_IBIAS_DAC
+Change Component Designator: OldDesignator=C3_WIDTH_BIAS_DAC NewDesignator=C3_WBIAS_DAC
+Change Component Designator: OldDesignator=C3_WIDTH_BIAS_HIGH_DAC NewDesignator=C3_WBIAS_HI_DAC
+Change Component Designator: OldDesignator=C3_WIDTH_BIAS_LOW_DAC NewDesignator=C3_WBIAS_LO_DAC
+Change Component Designator: OldDesignator=C4_DVDD_HIGH_DAC NewDesignator=C4_DVDD_HI_DAC
+Change Component Designator: OldDesignator=C4_SYNAPSE_DRIVE_LOW_DAC NewDesignator=C4_SYN_DRLO_DAC
+Change Component Designator: OldDesignator=C4_VAMP_HIGH_DAC NewDesignator=C4_VAMP_HI_DAC
+Change Component Designator: OldDesignator=C4_VBIAS_UNITYBUFFER_DAC NewDesignator=C4_VB_BUFF_DAC
+Change Component Designator: OldDesignator=C4_VINPUT_CURRENT_BIAS_DAC NewDesignator=C4_VIN_IBIAS_DAC
+Change Component Designator: OldDesignator=C4_WIDTH_BIAS_DAC NewDesignator=C4_WBIAS_DAC
+Change Component Designator: OldDesignator=C4_WIDTH_BIAS_HIGH_DAC NewDesignator=C4_WBIAS_HI_DAC
+Change Component Designator: OldDesignator=C4_WIDTH_BIAS_LOW_DAC NewDesignator=C4_WBIAS_LO_DAC
+Add Class Member: Failed to add class member : +VDC_FPGA4 (Capx4.SchDoc)
+Add Class Member: Failed to add class member : +VDC_FPGA6 (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : +VDC_FPGA7 (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : C_VCCO2_FPGA (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : DVDD_HI (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : DVDD_HI_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : EL_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : GL_DIS (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : GL_PROX (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : GLDIST_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : GLPROX_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : SYN_DRLO_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VAMP_HI_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VB_BUFF_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VIN_IBIAS_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VpupArb (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : VTAU0_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VTAU1_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VTAU2_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : VTAU3_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : WBIAS (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_HI (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_HI_DAC (Capx4.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_LO (Capx3_small_bypass.SchDoc)
+Add Class Member: Failed to add class member : WBIAS_LO_DAC (Capx4.SchDoc)

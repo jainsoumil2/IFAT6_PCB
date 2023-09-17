@@ -1,0 +1,28 @@
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+file: /tools/Xilinx/Vivado/2022.1/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv
+	interface xilinx_vip.axi4stream_vip_axi4streampc
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/xilinx_vip/hdl/axi_vip_axi4pc.sv
+	interface xilinx_vip.axi_vip_axi4pc
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/xilinx_vip/hdl/xil_common_vip_pkg.sv
+	package xilinx_vip.xil_common_vip_pkg
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv
+	package xilinx_vip.axi4stream_vip_pkg
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/xilinx_vip/hdl/axi_vip_pkg.sv
+	package xilinx_vip.axi_vip_pkg
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/xilinx_vip/hdl/axi4stream_vip_if.sv
+	interface xilinx_vip.axi4stream_vip_if
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/xilinx_vip/hdl/axi_vip_if.sv
+	interface xilinx_vip.axi_vip_if
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/xilinx_vip/hdl/clk_vip_if.sv
+	interface xilinx_vip.clk_vip_if
+		errors: 0, warnings: 0
+file: /tools/Xilinx/Vivado/2022.1/data/xilinx_vip/hdl/rst_vip_if.sv
+	interface xilinx_vip.rst_vip_if
+		errors: 0, warnings: 0

@@ -1,0 +1,40 @@
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	21.03-s002: Started on Oct 03, 2022 at 16:11:29 PDT
+xmvlog
+    -64bit
+    -messages
+    -logfile .tmp_log
+    -update
+    -work xil_defaultlib
+    +incdir+./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/common
+    +incdir+./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel
+    ./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/frontpanel_0_wrapper_simulation.v
+    ./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okHost.v
+    ./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireOR.v
+    ./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireIn.v
+    ./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireOut.v
+    ./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/frontpanel_0_simulation.v
+    ./../../../../pcb_ok_xem7310.srcs/sim_1/new/top_tb.v
+
+file: ./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/frontpanel_0_wrapper_simulation.v
+	module xil_defaultlib.frontpanel_0_wrapper_simulation
+		errors: 0, warnings: 0
+file: ./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okHost.v
+file: ./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireOR.v
+file: ./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireIn.v
+file: ./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/FrontPanel/okWireOut.v
+file: ./../../../../pcb_ok_xem7310.gen/sources_1/ip/frontpanel_0/gateware/simulation/frontpanel_0_simulation.v
+file: ./../../../../pcb_ok_xem7310.srcs/sim_1/new/top_tb.v
+TOOL:	xmvlog(64)	21.03-s002: Exiting on Oct 03, 2022 at 16:11:29 PDT  (total: 00:00:00)
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	21.03-s002: Started on Oct 03, 2022 at 16:11:29 PDT
+xmvlog
+    -64bit
+    -messages
+    -logfile .tmp_log
+    -update
+    -work xil_defaultlib
+    glbl.v
+
+file: glbl.v
+TOOL:	xmvlog(64)	21.03-s002: Exiting on Oct 03, 2022 at 16:11:29 PDT  (total: 00:00:00)

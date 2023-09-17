@@ -1,0 +1,1 @@
+/cad/installs/XCELIUM2103//tools.lnx86/bin/xmvhdl -MESSAGES -NOLOG -CDSLIB cds.lib -HDLVAR hdl.var -64bit -V93 -work xbip_dsp48_acc_v3_0_6 -f /Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.cache/compile_simlib/xcelium/xbip_dsp48_acc_v3_0_6/.cxl.vhdl.xbip_dsp48_acc_v3_0_6.xbip_dsp48_acc_v3_0_6.lin64.cmf

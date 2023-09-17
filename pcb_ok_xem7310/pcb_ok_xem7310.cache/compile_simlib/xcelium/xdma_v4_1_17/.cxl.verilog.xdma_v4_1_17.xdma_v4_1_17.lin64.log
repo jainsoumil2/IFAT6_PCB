@@ -1,0 +1,159 @@
+xmvlog(64): 21.03-s002: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/xdma_v4_1/hdl/xdma_v4_1_vl_rfs.sv
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_axis_cc_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_axis_cq_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_axis_rc_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_axis_rq_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_c2h_crdt_if
+		errors: 0, warnings: 0
+`include "dma_defines.svh"
+                         |
+xmvlog: *W,NORECI (/Volumes/export/isn/soumil/.cxl.ip/incl/dma_pcie_dsc_in_if.svh,3|25): input source text recursion detected for '/Volumes/export/isn/soumil/.cxl.ip/incl/dma_defines.svh' (`include source file).
+(`include file: /Volumes/export/isn/soumil/.cxl.ip/incl/dma_pcie_dsc_in_if.svh line 3, `include file: /Volumes/export/isn/soumil/.cxl.ip/incl/dma_defines.svh line 365, protected source, file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/xdma_v4_1/hdl/xdma_v4_1_vl_rfs.sv line 42207)
+	interface xdma_v4_1_17.dma_pcie_dsc_in_if
+		errors: 0, warnings: 0
+`include "dma_defines.svh"
+                         |
+xmvlog: *W,NORECI (/Volumes/export/isn/soumil/.cxl.ip/incl/dma_pcie_dsc_out_if.svh,3|25): input source text recursion detected for '/Volumes/export/isn/soumil/.cxl.ip/incl/dma_defines.svh' (`include source file).
+(`include file: /Volumes/export/isn/soumil/.cxl.ip/incl/dma_pcie_dsc_out_if.svh line 3, `include file: /Volumes/export/isn/soumil/.cxl.ip/incl/dma_defines.svh line 366, protected source, file: /tools/Xilinx/Vivado/2022.1/data/ip/xilinx/xdma_v4_1/hdl/xdma_v4_1_vl_rfs.sv line 42207)
+	interface xdma_v4_1_17.dma_pcie_dsc_out_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_fabric_input_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_fabric_output_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_gic_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_h2c_crdt_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_mi_16Bx2048_4Bwe_ram_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_mi_2Bx2048_ram_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_mi_4Bx2048_4Bwe_ram_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_mi_64Bx128_32Bwe_ram_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_mi_64Bx256_32Bwe_ram_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_mi_64Bx512_32Bwe_ram_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_mi_64Bx1024_32Bwe_ram_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_mi_64Bx2048_32Bwe_ram_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_mi_8Bx2048_4Bwe_ram_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_mi_dsc_cpld_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_mi_dsc_cpli_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_misc_input_if
+		errors: 0, warnings: 0
+	interface xdma_v4_1_17.dma_pcie_misc_output_if
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+	module xdma_v4_1_17.xdma_v4_1_17_BufferMem
+		errors: 0, warnings: 0
+	module xdma_v4_1_17.xdma_v4_1_17_GenericFIFO1R2W
+		errors: 0, warnings: 0
+	module xdma_v4_1_17.xdma_v4_1_17_GenericFIFO
+		errors: 0, warnings: 0
+	module xdma_v4_1_17.xdma_v4_1_17_GenericFIFOAsyncNoHead
+		errors: 0, warnings: 0
+	module xdma_v4_1_17.xdma_v4_1_17_GenericFIFOAsync
+		errors: 0, warnings: 0
+	module xdma_v4_1_17.xdma_v4_1_17_GenericFIFOHead
+		errors: 0, warnings: 0
+	module xdma_v4_1_17.xdma_v4_1_17_GenericFIFOHead2
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+xmvlog: *W,INTOVF (/tools/Xilinx/Vivado/2022.1/data/ip/xilinx/xdma_v4_1/hdl/xdma_v4_1_vl_rfs.sv): warning within protected source code.
+xmvlog: *W,INTOVF (/tools/Xilinx/Vivado/2022.1/data/ip/xilinx/xdma_v4_1/hdl/xdma_v4_1_vl_rfs.sv): warning within protected source code.
+		errors: 0, warnings: 2
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2

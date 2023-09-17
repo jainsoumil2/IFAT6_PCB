@@ -1,0 +1,1 @@
+/cad/installs/XCELIUM2103//tools.lnx86/bin/xmvlog -MESSAGES -NOLOG -CDSLIB cds.lib -HDLVAR hdl.var -64bit +incdir+/Volumes/export/isn/soumil/.cxl.ip/incl -work usxgmii_v1_2_7 -f /Volumes/export/isn/soumil/Xilinx/ifat6/pcb_ok_xem7310/pcb_ok_xem7310.cache/compile_simlib/xcelium/usxgmii_v1_2_7/.cxl.verilog.usxgmii_v1_2_7.usxgmii_v1_2_7.lin64.cmf
