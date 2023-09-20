@@ -20,9 +20,9 @@ from operator import itemgetter # for sorting the array by column
 from scipy.signal import butter, lfilter, freqz
 
 
-#path = "C:/Users/jains/OneDrive - UC San Diego/research/IFAT6 PCB/python"
+#path = "C:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/python"
 BOARD_TAG = 1
-path = "C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6 PCB/python"
+path = "C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/python"
 #BOARD_TAG = 2
 
 
@@ -108,11 +108,11 @@ class Object(object):
 class SsRx:
     def __init__(self):
         self.xem = ok.okCFrontPanel()  # create xem7310 object
-        self.xem.bitfile = str(path)+"/top.bit"  # Location of the bitfile
+        self.xem.bitfile = str(path)+"/BIT_FILES/top.bit"  # Location of the bitfile
         self.xem.OpenBySerial()  # find connected xem7310
         error = self.xem.ConfigureFPGA(self.xem.bitfile)  # load bitfile
+        print("FPGA configuration error code: " + str(error))
         print("Inital FPGA Bit flash complete..")
-        print(error)
         return 
 
     def initDevice(self): # set the SYS_RST

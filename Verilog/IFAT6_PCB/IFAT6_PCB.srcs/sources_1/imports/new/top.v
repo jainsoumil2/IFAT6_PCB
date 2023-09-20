@@ -69,109 +69,107 @@ wire [31:0] wi27_ep_dataout;
 wire [31:0] wi28_ep_dataout;
 wire [31:0] wi29_ep_dataout; 
 
-reg [2:0] counter1;
-reg spi_clk;
+wire spi_clk;   // output 50MHz clock from the 'clocking wizard' IP
+wire clk_rst;   // Reset input for 
 
-// Generate 5MHz clock for SPI circuit
-always @(posedge okClk) begin
-    if (counter1 == 2) begin
-        spi_clk     <= ~spi_clk;
-        counter1    <= 0;
-        end 
-    else begin
-        counter1    <= counter1 + 1;
-        end
-    end    
-
-dac_fsm_moore DAC1(
-    .rd(),
-    .wr(),
-    .spi_clk(),
-    .rst(),
-    .data_spi_in(),
+assign clk_rst  = wi00_ep_dataout[6]; 
     
-    .SCK(),
-    .SYNCB(),
-    .SDI(),
-    .WPn(),
-    .HOLDn(),
-    .MISO()   
+clk_50M CLK_DAC(
+// Clock out ports
+.clk_out1(spi_clk),     // output clk_out1
+// Status and control signals
+.reset(clk_rst), // input reset
+.locked(locked),       // output locked
+// Clock in ports
+.clk_in1(okClk)      // input clk_in1
 );
 
-dac_fsm_moore DAC2(
-    .rd(),
-    .wr(),
-    .spi_clk(),
-    .rst(),
-    .data_spi_in(),
-    
-    .SCK(),
-    .SYNCB(),
-    .SDI(),
-    .WPn(),
-    .HOLDn(),
-    .MISO()   
-    );
+wire dac_rst, DAC1_SCK, DAC2_SCK, DAC3_SCK, DAC4_SCK, DAC5_SCK; 
+wire [4:0] dac_wr;
+wire [31:0] dac_data;
+ 
+assign dac_rst  = wi00_ep_dataout[5]; 
+assign DAC_SCK  = DAC1_SCK | DAC2_SCK | DAC3_SCK | DAC4_SCK | DAC5_SCK;
+assign dac_wr   = wi00_ep_dataout[4:0];
+assign dac_data = wi01_ep_dataout;
 
-dac_fsm_moore DAC3(
-    .rd(),
-    .wr(),
-    .spi_clk(),
-    .rst(),
-    .data_spi_in(),
-    
-    .SCK(),
-    .SYNCB(),
-    .SDI(),
-    .WPn(),
-    .HOLDn(),
-    .MISO()   
+dac DAC1(
+    .wr(dac_wr[0]),
+    .spi_clk(spi_clk),
+    .rst(dac_rst),
+    .data(dac_data),
+    .SCK(DAC1_SCK),
+    .SYNCB(DAC1_SYNCB),
+    .SDI(DAC1_SDI) 
 );
 
-dac_fsm_moore DAC4(
-    .rd(),
-    .wr(),
-    .spi_clk(),
-    .rst(),
-    .data_spi_in(),
-    
-    .SCK(),
-    .SYNCB(),
-    .SDI(),
-    .WPn(),
-    .HOLDn(),
-    .MISO()   
+dac DAC2(
+    .wr(dac_wr[1]),
+    .spi_clk(spi_clk),
+    .rst(dac_rst),
+    .data(dac_data),
+    .SCK(DAC2_SCK),
+    .SYNCB(DAC2_SYNCB),
+    .SDI(DAC2_SDI) 
 );
 
-dac_fsm_moore DAC5(
-    .rd(),
-    .wr(),
-    .spi_clk(),
-    .rst(),
-    .data_spi_in(),
-    
-    .SCK(),
-    .SYNCB(),
-    .SDI(),
-    .WPn(),
-    .HOLDn(),
-    .MISO()      
+dac DAC3(
+    .wr(dac_wr[2]),
+    .spi_clk(spi_clk),
+    .rst(dac_rst),
+    .data(dac_data),
+    .SCK(DAC3_SCK),
+    .SYNCB(DAC3_SYNCB),
+    .SDI(DAC3_SDI) 
 );
 
-adc_fsm_moore ADC(
-    .reset_adc(reset_adc),
-    .clk_adc(clk_adc),
-    .trig(trig_adc),
-    .datain(datain_adc),
-    .sdo(sdo_adc),
-    .sdi(sdi_adc),
-    .csb(syncb_adc),
-    .sclk(sclk_adc),
-    .done(done_adc),
-    .dataout(dataout_adc)   
+dac DAC4(   
+    .wr(dac_wr[3]),
+    .spi_clk(spi_clk),
+    .rst(dac_rst),
+    .data(dac_data),
+    .SCK(DAC4_SCK),
+    .SYNCB(DAC4_SYNCB),
+    .SDI(DAC4_SDI) 
 );
 
-frontpanel_ifat6 OK_IFAT6 (
+dac DAC5(      
+    .wr(dac_wr[4]),
+    .spi_clk(spi_clk),
+    .rst(dac_rst),
+    .data(dac_data),
+    .SCK(DAC5_SCK),
+    .SYNCB(DAC5_SYNCB),
+    .SDI(DAC5_SDI) 
+);
+
+//adc_fsm_moore ADC(
+//    .reset_adc(reset_adc),
+//    .reset_adc(reset_adc),
+//    .clk_adc(clk_adc),
+//    .trig(trig_adc),
+//    .datain(datain_adc),
+//    .sdo(sdo_adc),
+//    .sdi(sdi_adc),
+//    .csb(syncb_adc),
+//    .sclk(sclk_adc),
+//    .done(done_adc),
+//    .dataout(dataout_adc)   
+//);
+
+//Assigning outputs to unused wireout pins 
+assign wo20_ep_datain = 32'b0;
+assign wo21_ep_datain = 32'b0;
+assign wo22_ep_datain = 32'b0;
+assign wo23_ep_datain = 32'b0;
+assign wo24_ep_datain = 32'b0;
+assign wo25_ep_datain = 32'b0;
+assign wo26_ep_datain = 32'b0;
+assign wo27_ep_datain = 32'b0;
+assign wo28_ep_datain = 32'b0;
+assign wo29_ep_datain = 32'b0;
+
+frontpanel_IFAT6 OK_IFAT6 (
   .okUH(okUH),                        // input wire [4 : 0] okUH
   .okHU(okHU),                        // output wire [2 : 0] okHU
   .okUHU(okUHU),                      // inout wire [31 : 0] okUHU

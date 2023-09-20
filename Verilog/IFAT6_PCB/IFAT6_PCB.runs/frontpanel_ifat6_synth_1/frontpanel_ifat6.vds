@@ -1,37 +1,37 @@
 #-----------------------------------------------------------
-# Vivado v2023.1 (64-bit)
-# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
-# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
-# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Tue Aug  1 20:04:02 2023
-# Process ID: 22072
-# Current directory: C:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_ifat6_synth_1
-# Command line: vivado.exe -log frontpanel_ifat6.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source frontpanel_ifat6.tcl
-# Log file: C:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_ifat6_synth_1/frontpanel_ifat6.vds
-# Journal file: C:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_ifat6_synth_1\vivado.jou
-# Running On: Soumil-Surface, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 8415 MB
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Wed Sep 20 09:25:16 2023
+# Process ID: 55736
+# Current directory: C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_IFAT6_synth_1
+# Command line: vivado.exe -log frontpanel_IFAT6.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source frontpanel_IFAT6.tcl
+# Log file: C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_IFAT6_synth_1/frontpanel_IFAT6.vds
+# Journal file: C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_IFAT6_synth_1\vivado.jou
+# Running On: DESKTOP-S0BT930, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 34159 MB
 #-----------------------------------------------------------
-source frontpanel_ifat6.tcl -notrace
+source frontpanel_IFAT6.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/FrontPanel-Vivado-IP-Dist-v1.0.2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/FrontPanel-Vivado-IP-Dist-v1.0.3'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
 WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
-Current IP cache path is c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.cache/ip 
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: frontpanel_ifat6
-Command: synth_design -top frontpanel_ifat6 -part xc7a200tfbg484-1 -incremental_mode off -mode out_of_context
+Current IP cache path is c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.cache/ip 
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: frontpanel_IFAT6
+Command: synth_design -top frontpanel_IFAT6 -part xc7a200tfbg484-1 -incremental_mode off -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
 INFO: [Device 21-403] Loading part xc7a200tfbg484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 14208
+INFO: [Synth 8-7075] Helper process launched with PID 48388
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2355.957 ; gain = 409.980
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2832.168 ; gain = 409.016
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'frontpanel_ifat6' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/frontpanel_ifat6_synthesis.v:13]
-INFO: [Synth 8-6157] synthesizing module 'frontpanel_ifat6_wrapper_synthesis' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/frontpanel_ifat6_wrapper_synthesis.v:13]
-INFO: [Synth 8-6157] synthesizing module 'okHost' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:8]
+INFO: [Synth 8-6157] synthesizing module 'frontpanel_IFAT6' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/frontpanel_IFAT6_synthesis.v:13]
+INFO: [Synth 8-6157] synthesizing module 'frontpanel_IFAT6_wrapper_synthesis' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/frontpanel_IFAT6_wrapper_synthesis.v:13]
+INFO: [Synth 8-6157] synthesizing module 'okHost' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:8]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:76334]
 INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:76334]
 INFO: [Synth 8-6157] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:39148]
@@ -49,19 +49,19 @@ INFO: [Synth 8-6157] synthesizing module 'MMCME2_BASE' [C:/Xilinx/Vivado/2023.1/
 	Parameter REF_JITTER1 bound to: 0.000000 - type: double 
 	Parameter STARTUP_WAIT bound to: FALSE - type: string 
 INFO: [Synth 8-6155] done synthesizing module 'MMCME2_BASE' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:80431]
-WARNING: [Synth 8-7071] port 'CLKFBOUTB' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
-WARNING: [Synth 8-7071] port 'CLKOUT0B' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
-WARNING: [Synth 8-7071] port 'CLKOUT1' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
-WARNING: [Synth 8-7071] port 'CLKOUT1B' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
-WARNING: [Synth 8-7071] port 'CLKOUT2' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
-WARNING: [Synth 8-7071] port 'CLKOUT2B' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
-WARNING: [Synth 8-7071] port 'CLKOUT3' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
-WARNING: [Synth 8-7071] port 'CLKOUT3B' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
-WARNING: [Synth 8-7071] port 'CLKOUT4' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
-WARNING: [Synth 8-7071] port 'CLKOUT5' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
-WARNING: [Synth 8-7071] port 'CLKOUT6' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
-WARNING: [Synth 8-7071] port 'PWRDWN' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
-WARNING: [Synth 8-7023] instance 'mmcm0' of module 'MMCME2_BASE' has 18 connections declared, but only 6 given [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKFBOUTB' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT0B' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT1' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT1B' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT2' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT2B' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT3' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT3B' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT4' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT5' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'CLKOUT6' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7071] port 'PWRDWN' of module 'MMCME2_BASE' is unconnected for instance 'mmcm0' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
+WARNING: [Synth 8-7023] instance 'mmcm0' of module 'MMCME2_BASE' has 18 connections declared, but only 6 given [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/FrontPanel/okLibrary.v:55]
 INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1519]
 INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1519]
 INFO: [Synth 8-6157] synthesizing module 'OBUF' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:91121]
@@ -253,10 +253,57 @@ INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized41' (0#1) [C:/
 INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized42' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:79640]
 INFO: [Synth 8-6155] done synthesizing module 'DNA_PORT' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:37407]
 INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-WARNING: [Synth 8-7071] port 'dna' of module 'okHost' is unconnected for instance 'okHI' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/frontpanel_ifat6_wrapper_synthesis.v:26]
-WARNING: [Synth 8-7071] port 'dna_valid' of module 'okHost' is unconnected for instance 'okHI' [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/frontpanel_ifat6_wrapper_synthesis.v:26]
-WARNING: [Synth 8-7023] instance 'okHI' of module 'okHost' has 9 connections declared, but only 7 given [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/frontpanel_ifat6_wrapper_synthesis.v:26]
-	Parameter N bound to: 10 - type: integer 
+WARNING: [Synth 8-7071] port 'dna' of module 'okHost' is unconnected for instance 'okHI' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/frontpanel_IFAT6_wrapper_synthesis.v:26]
+WARNING: [Synth 8-7071] port 'dna_valid' of module 'okHost' is unconnected for instance 'okHI' [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/frontpanel_IFAT6_wrapper_synthesis.v:26]
+WARNING: [Synth 8-7023] instance 'okHI' of module 'okHost' has 9 connections declared, but only 7 given [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/frontpanel_IFAT6_wrapper_synthesis.v:26]
+	Parameter N bound to: 11 - type: integer 
+WARNING: [Synth 8-7129] Port okHE[46] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[45] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[44] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[43] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[42] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[41] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[40] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[39] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[38] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[37] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[36] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[35] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[34] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[33] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[32] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[31] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[30] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[29] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[28] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[27] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[26] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[25] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[24] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[23] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[22] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[21] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[20] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[19] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[18] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[17] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[16] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[15] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[14] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[13] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[12] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[11] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[10] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[9] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[8] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[7] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[6] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[5] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[4] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[3] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[2] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[1] in module okRegisterBridge is either unconnected or has no load
+WARNING: [Synth 8-7129] Port okHE[0] in module okRegisterBridge is either unconnected or has no load
 WARNING: [Synth 8-7129] Port okHE[112] in module okWireOut is either unconnected or has no load
 WARNING: [Synth 8-7129] Port okHE[111] in module okWireOut is either unconnected or has no load
 WARNING: [Synth 8-7129] Port okHE[110] in module okWireOut is either unconnected or has no load
@@ -310,67 +357,20 @@ WARNING: [Synth 8-7129] Port okHE[63] in module okWireOut is either unconnected 
 WARNING: [Synth 8-7129] Port okHE[62] in module okWireOut is either unconnected or has no load
 WARNING: [Synth 8-7129] Port okHE[61] in module okWireOut is either unconnected or has no load
 WARNING: [Synth 8-7129] Port okHE[60] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[59] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[58] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[57] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[56] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[55] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[54] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[53] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[52] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[51] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[50] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[49] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[48] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[47] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[46] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[45] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[43] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[42] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[31] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[30] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[29] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[28] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[27] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[26] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[25] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[24] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[23] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[22] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[21] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[20] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[19] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[18] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[17] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[16] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[15] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[14] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[13] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[12] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[11] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[10] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[9] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[8] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[7] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[6] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[5] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[4] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[3] in module okWireOut is either unconnected or has no load
-WARNING: [Synth 8-7129] Port okHE[2] in module okWireOut is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 2475.238 ; gain = 529.262
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 2952.777 ; gain = 529.625
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 2493.141 ; gain = 547.164
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2970.691 ; gain = 547.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 2493.141 ; gain = 547.164
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2970.691 ; gain = 547.539
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.077 . Memory (MB): peak = 2505.148 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 2982.715 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 146 Unisim elements for replacement
 WARNING: [Netlist 29-432] The IBUFG primitive 'inst/okHI/hi_clk_bufg' has been retargeted to an IBUF primitive only. No BUFG will be added. If a global buffer is intended, please instantiate an available global clock primitive from the current architecture.
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -378,15 +378,15 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/frontpanel_ifat6_board.xdc] for cell 'inst'
-Finished Parsing XDC File [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/frontpanel_ifat6_board.xdc] for cell 'inst'
-Parsing XDC File [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/xem7310.xdc] for cell 'inst'
-Finished Parsing XDC File [c:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_ifat6/gateware/synthesis/xem7310.xdc] for cell 'inst'
-Parsing XDC File [C:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_ifat6_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_ifat6_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/frontpanel_IFAT6_board.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/frontpanel_IFAT6_board.xdc] for cell 'inst'
+Parsing XDC File [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/xem7310.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/synthesis/xem7310.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_IFAT6_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_IFAT6_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2608.449 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3085.996 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 97 instances were transformed.
   IBUFG => IBUF: 1 instance 
@@ -397,22 +397,22 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
 
 INFO: [Timing 38-2] Deriving generated clocks
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.217 . Memory (MB): peak = 2608.449 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.156 . Memory (MB): peak = 3085.996 ; gain = 0.000
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a200tfbg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  {C:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_ifat6_synth_1/dont_touch.xdc}, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  {C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_IFAT6_synth_1/dont_touch.xdc}, line 9).
 WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
 Applied set_property KEEP = true for inst/okHI/okHU[0]. (constraint file  auto generated constraint).
 Applied set_property KEEP = true for inst/okHI/okHU[1]. (constraint file  auto generated constraint).
@@ -451,10 +451,10 @@ WARNING: set_property KEEP could not find object (constraint file  auto generate
 WARNING: set_property KEEP could not find object (constraint file  auto generated constraint, line ).
 Applied set_property KEEP = true for okUH[0]. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:24 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -478,92 +478,27 @@ WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 WARNING: [Synth 8-3332] Sequential element (l008c72ad3b3ec61be52cde84a395c4fa_reg) is unused and will be removed from module okCore.
 WARNING: [Synth 8-3332] Sequential element (l317e0a6720f17cacca076a392154f6ab_reg) is unused and will be removed from module okCore.
 WARNING: [Synth 8-3332] Sequential element (la85eaf42c58af45585f858cdefb86492_reg) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[0]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[10]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[11]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[12]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[13]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[14]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[15]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[16]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[17]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[18]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[19]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[1]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[20]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[21]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[22]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[23]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[24]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[25]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[26]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[27]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[28]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[29]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[2]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[30]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[31]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[3]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[4]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[5]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[6]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[7]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[8]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lbb5e4c7a1ee012efa72f8a060e42e0e9_reg[9]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[0]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[10]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[11]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[12]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[13]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[14]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[15]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[16]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[17]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[18]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[19]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[1]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[20]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[21]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[22]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[23]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[24]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[25]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[26]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[27]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[28]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[29]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[2]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[30]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[31]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[3]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[4]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[5]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[6]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[7]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[8]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (ld53bc82cafe43594f651cb14d090c4f9_reg[9]) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (lf38b0951701b1c1d5bc7a746e996b3c6_reg) is unused and will be removed from module okCore.
-WARNING: [Synth 8-3332] Sequential element (okHI/regctrlout1) is unused and will be removed from module frontpanel_ifat6_wrapper_synthesis.
+WARNING: [Synth 8-3332] Sequential element (okHI/regctrlout1) is unused and will be removed from module frontpanel_IFAT6_wrapper_synthesis.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:27 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:33 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:30 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:34 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:34 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:31 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -581,37 +516,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:40 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:36 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:40 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:36 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:40 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:36 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:40 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:36 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:40 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:36 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:40 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:36 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -634,14 +569,14 @@ Report Cell Usage:
 |5     |LUT2        |    35|
 |6     |LUT3        |    39|
 |7     |LUT4        |   443|
-|8     |LUT5        |   149|
-|9     |LUT6        |   444|
+|8     |LUT5        |   151|
+|9     |LUT6        |   476|
 |11    |MMCME2_BASE |     1|
 |12    |RAM128X1S   |     8|
 |13    |RAM32M      |     4|
 |14    |RAMB18E1    |     2|
 |16    |RAMB36E1    |     1|
-|17    |FDCE        |   134|
+|17    |FDCE        |   199|
 |18    |FDPE        |    27|
 |19    |FDRE        |  1545|
 |20    |FDSE        |    24|
@@ -651,19 +586,19 @@ Report Cell Usage:
 |24    |OBUF        |     3|
 +------+------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:40 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:36 . Memory (MB): peak = 3085.996 ; gain = 662.844
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 692 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:35 . Memory (MB): peak = 2608.449 ; gain = 547.164
-Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:40 . Memory (MB): peak = 2608.449 ; gain = 662.473
+Synthesis finished with 0 errors, 0 critical warnings and 674 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:33 . Memory (MB): peak = 3085.996 ; gain = 547.539
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:36 . Memory (MB): peak = 3085.996 ; gain = 662.844
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 2608.449 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 3085.996 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 146 Unisim elements for replacement
 WARNING: [Netlist 29-432] The IBUFG primitive 'inst/okHI/hi_clk_bufg' has been retargeted to an IBUF primitive only. No BUFG will be added. If a global buffer is intended, please instantiate an available global clock primitive from the current architecture.
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2608.449 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3085.996 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 97 instances were transformed.
   IBUFG => IBUF: 1 instance 
@@ -673,15 +608,15 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM128X1S => RAM128X1S (MUXF7, RAMS64E(x2)): 8 instances
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
 
-Synth Design complete | Checksum: 64056a0f
+Synth Design complete | Checksum: 2144d186
 INFO: [Common 17-83] Releasing license: Synthesis
-225 Infos, 189 Warnings, 0 Critical Warnings and 0 Errors encountered.
+225 Infos, 124 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
 INFO: [Common 17-600] The following parameters have non-default value.
 tcl.statsThreshold
-INFO: [Common 17-1381] The checkpoint 'C:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_ifat6_synth_1/frontpanel_ifat6.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP frontpanel_ifat6, cache-ID = e0f84ad948b18e24
-INFO: [Coretcl 2-1174] Renamed 26 cell refs.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_ifat6_synth_1/frontpanel_ifat6.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file frontpanel_ifat6_utilization_synth.rpt -pb frontpanel_ifat6_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Aug  1 20:07:44 2023...
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_IFAT6_synth_1/frontpanel_IFAT6.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP frontpanel_IFAT6, cache-ID = 9423d81e1f6cb920
+INFO: [Coretcl 2-1174] Renamed 27 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_IFAT6_synth_1/frontpanel_IFAT6.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file frontpanel_IFAT6_utilization_synth.rpt -pb frontpanel_IFAT6_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 20 09:28:16 2023...

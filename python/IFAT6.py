@@ -1,23 +1,12 @@
 #%%Inititalize
 
-
 import os
-#path = "C:/Users/jains/OneDrive - UC San Diego/research/IFAT6 PCB/python"
-path = "C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6 PCB/python"
+path = "C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/python"
 os.chdir(path)
-
 
 from IFAT6_functions import *
 import time
 import pyvisa
-
-
-ssrx.xem.bitfile = str(path)+"/top.bit"    # Location of the bitfile
-ssrx.xem.OpenBySerial("")                                                                       # find connected xem7310
-error = ssrx.xem.ConfigureFPGA(ssrx.xem.bitfile)                                                # load bitfile
-print("FPGA configuration error code:")
-print(error)
-
 
 write_FPGA(ssrx, 0x00, 0x00000020)       # DAC triggers off, LEDs flashing
 write_FPGA(ssrx, 0x06, 0x00000000)       # LDACb DAC
@@ -27,15 +16,12 @@ write_FPGA(ssrx, reset, 0x03)            # reset DACs and ADC
 time.sleep(1e-3)
 write_FPGA(ssrx, reset, 0x00)
 
-
 #VREF_LDO = 1.804                         # ADC reference voltage provided by LDO
 VREF_LDO = 1.793                         # ADC reference voltage provided by LDO
-
 
 print("Finish DAC1/2/3/4/5 and ADC initialization")
 # func_gen = Lab_instruments.AFG3000('GPIB0::8::INSTR')
 # curr_source = Lab_instruments.KEI2600B('GPIB0::1::INSTR')
-
 
 #%% Write to DACs
 

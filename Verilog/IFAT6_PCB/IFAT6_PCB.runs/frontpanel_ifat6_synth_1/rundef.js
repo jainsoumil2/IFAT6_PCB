@@ -24,7 +24,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log frontpanel_ifat6.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source frontpanel_ifat6.tcl" );
+         "-log frontpanel_IFAT6.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source frontpanel_IFAT6.tcl" );
 
 
 

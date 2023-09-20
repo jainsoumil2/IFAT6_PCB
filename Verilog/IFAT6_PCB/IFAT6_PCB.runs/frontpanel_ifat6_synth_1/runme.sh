@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/jains/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_ifat6_synth_1'
+HD_PWD='C:/Users/Soumil/OneDrive - UC San Diego/research/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.runs/frontpanel_IFAT6_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log frontpanel_ifat6.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source frontpanel_ifat6.tcl
+EAStep vivado -log frontpanel_IFAT6.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source frontpanel_IFAT6.tcl
