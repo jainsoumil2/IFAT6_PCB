@@ -265,7 +265,8 @@ set_property IOSTANDARD LVCMOS33 [get_ports {ADC_SDI}]
 
 # MC1-48
 set_property PACKAGE_PIN AB8 [get_ports {ADC_SDO}]
-set_property IOSTANDARD LVCMOS12 [get_ports {ADC_SDO}]
+#set_property IOSTANDARD LVCMOS12 [get_ports {ADC_SDO}]
+set_property IOSTANDARD LVCMOS33 [get_ports {ADC_SDO}]
 
 ####################### 
 ## DAC1

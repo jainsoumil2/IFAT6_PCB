@@ -88,8 +88,8 @@ write_DAC(ssrx, 4, VBIAS, 1.2)
 
 
 write_DAC(ssrx, 5, VBP, 0.9)
-write_DAC(ssrx, 5, WIDTH_BIAS_HIGH, 0)
-write_DAC(ssrx, 5, WIDTH_BIAS_LOW, 0)
+write_DAC(ssrx, 5, WIDTH_BIAS_HIGH, 0.0)
+write_DAC(ssrx, 5, WIDTH_BIAS_LOW, 0.0)
 write_DAC(ssrx, 5, VpupReq, 0.8)
 write_DAC(ssrx, 5, Vpup_arb, 0.8)
 write_DAC(ssrx, 5, VINPUT_CURRENT_BIAS, 1.2)
