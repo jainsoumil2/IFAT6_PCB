@@ -20,6 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module top( 
+    input  wire [4:0]   okUH,
+	output wire [2:0]   okHU,
+	inout  wire [31:0]  okUHU,
+	inout  wire         okAA,
+    
+    inout  wire [7:0] led_out_tristate,
+    
     output wire DAC1_LDACB, DAC2_LDACB, DAC3_LDACB, DAC4_LDACB, DAC5_LDACB,
     output wire DAC1_CLRB, DAC2_CLRB, DAC3_CLRB, DAC4_CLRB, DAC5_CLRB,
     output wire DAC_SCLK,
@@ -45,7 +52,6 @@ module top(
                 OUTPUT_DATA11, OUTPUT_DATA12, OUTPUT_DATA13, OUTPUT_DATA_REQ
     );     
 
-
 wire [31:0] wi00_ep_dataout;
 wire [31:0] wi01_ep_dataout;
 wire [31:0] wi02_ep_dataout;
@@ -56,7 +62,6 @@ wire [31:0] wi06_ep_dataout;
 wire [31:0] wi07_ep_dataout;
 wire [31:0] wi08_ep_dataout;
 wire [31:0] wi09_ep_dataout;
- 
  
 wire [31:0] wi20_ep_dataout;
 wire [31:0] wi21_ep_dataout;
@@ -69,36 +74,44 @@ wire [31:0] wi27_ep_dataout;
 wire [31:0] wi28_ep_dataout;
 wire [31:0] wi29_ep_dataout; 
 
-wire spi_clk;   // output 50MHz clock from the 'clocking wizard' IP
-wire clk_rst;   // Reset input for 
-
-assign clk_rst  = wi00_ep_dataout[6]; 
+wire spi_clk;           // output 50MHz clock from 'clocking wizard' IP
+wire clk_rst;           // Reset input for clock 
+assign clk_rst      = wi00_ep_dataout[6]; 
     
 clk_50M CLK_DAC(
-// Clock out ports
 .clk_out1(spi_clk),     // output clk_out1
-// Status and control signals
-.reset(clk_rst), // input reset
-.locked(locked),       // output locked
-// Clock in ports
-.clk_in1(okClk)      // input clk_in1
+.reset(clk_rst),        // input reset
+.locked(locked),        // output locked
+.clk_in1(okClk)         // input clk_in1
 );
 
-wire dac_rst, DAC1_SCK, DAC2_SCK, DAC3_SCK, DAC4_SCK, DAC5_SCK; 
+wire dac_rst, DAC1_SCLK, DAC2_SCLK, DAC3_SCLK, DAC4_SCLK, DAC5_SCLK; 
 wire [4:0] dac_wr;
 wire [31:0] dac_data;
  
-assign dac_rst  = wi00_ep_dataout[5]; 
-assign DAC_SCK  = DAC1_SCK | DAC2_SCK | DAC3_SCK | DAC4_SCK | DAC5_SCK;
-assign dac_wr   = wi00_ep_dataout[4:0];
-assign dac_data = wi01_ep_dataout;
+assign dac_rst      = wi00_ep_dataout[5]; 
+assign dac_wr       = wi00_ep_dataout[4:0];
+assign dac_data     = wi01_ep_dataout;
+assign DAC_SCLK     = DAC1_SCLK | DAC2_SCLK | DAC3_SCLK | DAC4_SCLK | DAC5_SCLK;
 
+assign DAC1_LDACB   = wi02_ep_dataout[0];
+assign DAC2_LDACB   = wi02_ep_dataout[1];
+assign DAC3_LDACB   = wi02_ep_dataout[2];
+assign DAC4_LDACB   = wi02_ep_dataout[3];
+assign DAC5_LDACB   = wi02_ep_dataout[4];
+
+assign DAC1_CLRB 	= wi03_ep_dataout[0];
+assign DAC2_CLRB 	= wi03_ep_dataout[1];
+assign DAC3_CLRB 	= wi03_ep_dataout[2];
+assign DAC4_CLRB 	= wi03_ep_dataout[3];
+assign DAC5_CLRB 	= wi03_ep_dataout[4];
+ 
 dac DAC1(
     .wr(dac_wr[0]),
     .spi_clk(spi_clk),
     .rst(dac_rst),
     .data(dac_data),
-    .SCK(DAC1_SCK),
+    .SCLK(DAC1_SCLK),
     .SYNCB(DAC1_SYNCB),
     .SDI(DAC1_SDI) 
 );
@@ -108,7 +121,7 @@ dac DAC2(
     .spi_clk(spi_clk),
     .rst(dac_rst),
     .data(dac_data),
-    .SCK(DAC2_SCK),
+    .SCLK(DAC2_SCLK),
     .SYNCB(DAC2_SYNCB),
     .SDI(DAC2_SDI) 
 );
@@ -118,7 +131,7 @@ dac DAC3(
     .spi_clk(spi_clk),
     .rst(dac_rst),
     .data(dac_data),
-    .SCK(DAC3_SCK),
+    .SCLK(DAC3_SCLK),
     .SYNCB(DAC3_SYNCB),
     .SDI(DAC3_SDI) 
 );
@@ -128,7 +141,7 @@ dac DAC4(
     .spi_clk(spi_clk),
     .rst(dac_rst),
     .data(dac_data),
-    .SCK(DAC4_SCK),
+    .SCLK(DAC4_SCLK),
     .SYNCB(DAC4_SYNCB),
     .SDI(DAC4_SDI) 
 );
@@ -138,7 +151,7 @@ dac DAC5(
     .spi_clk(spi_clk),
     .rst(dac_rst),
     .data(dac_data),
-    .SCK(DAC5_SCK),
+    .SCLK(DAC5_SCLK),
     .SYNCB(DAC5_SYNCB),
     .SDI(DAC5_SDI) 
 );
@@ -158,16 +171,16 @@ dac DAC5(
 //);
 
 //Assigning outputs to unused wireout pins 
-assign wo20_ep_datain = 32'b0;
-assign wo21_ep_datain = 32'b0;
-assign wo22_ep_datain = 32'b0;
-assign wo23_ep_datain = 32'b0;
-assign wo24_ep_datain = 32'b0;
-assign wo25_ep_datain = 32'b0;
-assign wo26_ep_datain = 32'b0;
-assign wo27_ep_datain = 32'b0;
-assign wo28_ep_datain = 32'b0;
-assign wo29_ep_datain = 32'b0;
+assign wo20_ep_datain   = 32'b0;
+assign wo21_ep_datain   = 32'b0;
+assign wo22_ep_datain   = 32'b0;
+assign wo23_ep_datain   = 32'b0;
+assign wo24_ep_datain   = 32'b0;
+assign wo25_ep_datain   = 32'b0;
+assign wo26_ep_datain   = 32'b0;
+assign wo27_ep_datain   = 32'b0;
+assign wo28_ep_datain   = 32'b0;
+assign wo29_ep_datain   = 32'b0;
 
 frontpanel_IFAT6 OK_IFAT6 (
   .okUH(okUH),                        // input wire [4 : 0] okUH
@@ -194,8 +207,12 @@ frontpanel_IFAT6 OK_IFAT6 (
   .wo26_ep_datain(wo26_ep_datain),    // input wire [31 : 0] wo26_ep_datain
   .wo27_ep_datain(wo27_ep_datain),    // input wire [31 : 0] wo27_ep_datain
   .wo28_ep_datain(wo28_ep_datain),    // input wire [31 : 0] wo28_ep_datain
-  .wo29_ep_datain(wo29_ep_datain)    // input wire [31 : 0] wo29_ep_datain
+  .wo29_ep_datain(wo29_ep_datain)     // input wire [31 : 0] wo29_ep_datain
 );
-   
+
+leds_IFAT6 LEDS_IFAT6 (
+  .led_in(8'h55),                     // input wire [7 : 0] led_in
+  .led_out_tristate(led_out_tristate) // inout wire [7 : 0] led_out_tristate
+);
     
 endmodule

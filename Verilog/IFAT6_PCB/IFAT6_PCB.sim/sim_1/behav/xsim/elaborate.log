@@ -6,14 +6,4 @@ Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.dac
-Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=17,CLKIN...
-Compiling module unisims_ver.BUFG
-Compiling module xil_defaultlib.clk_50M_clk_wiz
-Compiling module xil_defaultlib.clk_50M
-Compiling module xil_defaultlib.dac_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot dac_tb_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

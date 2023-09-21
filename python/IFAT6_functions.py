@@ -108,6 +108,7 @@ class Object(object):
 class SsRx:
     def __init__(self):
         self.xem = ok.okCFrontPanel()  # create xem7310 object
+        #self.xem.bitfile = str(path)+"/BIT_FILES/top_092023.bit"  # Location of the bitfile
         self.xem.bitfile = str(path)+"/BIT_FILES/top.bit"  # Location of the bitfile
         self.xem.OpenBySerial()  # find connected xem7310
         error = self.xem.ConfigureFPGA(self.xem.bitfile)  # load bitfile
