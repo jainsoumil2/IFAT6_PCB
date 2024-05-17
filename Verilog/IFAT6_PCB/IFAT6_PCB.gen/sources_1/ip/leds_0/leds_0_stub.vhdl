@@ -1,0 +1,30 @@
+-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+-- --------------------------------------------------------------------------------
+-- Tool Version: Vivado v.2023.2.2 (win64) Build 4126759 Thu Feb  8 23:53:51 MST 2024
+-- Date        : Tue May  7 18:26:36 2024
+-- Host        : IFAT running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode synth_stub -rename_top leds_0 -prefix
+--               leds_0_ leds_0_stub.vhdl
+-- Design      : leds_0
+-- Purpose     : Stub declaration of top-level module interface
+-- Device      : xc7a200tfbg484-1
+-- --------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity leds_0 is
+  Port ( 
+    led_in : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    led_out_tristate : inout STD_LOGIC_VECTOR ( 7 downto 0 )
+  );
+
+end leds_0;
+
+architecture stub of leds_0 is
+attribute syn_black_box : boolean;
+attribute black_box_pad_pin : string;
+attribute syn_black_box of stub : architecture is true;
+attribute black_box_pad_pin of stub : architecture is "led_in[7:0],led_out_tristate[7:0]";
+begin
+end;

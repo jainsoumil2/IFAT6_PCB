@@ -1,0 +1,36 @@
+Vivado Simulator v2023.2.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_9 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Simulation_top_behav xil_defaultlib.Simulation_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/simulation/FrontPanel_IFAT6_wrapper_simulation.v" Line 13. Module FrontPanel_IFAT6_wrapper_simulation doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/simulation/FrontPanel_IFAT6_wrapper_simulation.v" Line 13. Module FrontPanel_IFAT6_wrapper_simulation doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DAC8568
+Compiling module xil_defaultlib.ADS7067
+Compiling module fifo_generator_v13_2_9.fifo_generator_v13_2_9_sync_stag...
+Compiling module fifo_generator_v13_2_9.fifo_generator_v13_2_9_bhv_ver_a...
+Compiling module fifo_generator_v13_2_9.fifo_generator_v13_2_9_CONV_VER(...
+Compiling module fifo_generator_v13_2_9.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=3.0,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.okHost
+Compiling module xil_defaultlib.okWireOR(N=6)
+Compiling module xil_defaultlib.okWireIn
+Compiling module xil_defaultlib.okWireOut
+Compiling module xil_defaultlib.okTriggerIn
+Compiling module xil_defaultlib.okPipeOut
+Compiling module xil_defaultlib.FrontPanel_IFAT6_wrapper_simulat...
+Compiling module xil_defaultlib.FrontPanel_IFAT6
+Compiling module xil_defaultlib.Simulation_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Simulation_top_behav

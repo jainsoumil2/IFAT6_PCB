@@ -30,18 +30,15 @@ module adc(
 	 output reg sclk,
 	 output reg done,
 	 output reg [23:0] dataout
-    );  
-
+    );
 
 reg [23:0] adc_data;		                     																
 reg [7:0] adc_data_len=24;									
 reg adc_dl;				 
 
-
 always @(posedge clk_adc)  begin                     // check for new SDI data every clk cycle
 	adc_data            <= datain;
 end	
-
 
 always @(posedge clk_adc)  begin 
     if (trig==1 && csb==1 && done==0) begin
@@ -57,15 +54,15 @@ always @(posedge clk_adc)  begin
         sclk            <= 0;
         end
     else if (trig==1 && csb==0 && adc_dl==1 && adc_data_len>1) begin
-        sclk            <= 1;						// load datain on rising edge of clock -- ADS7067, SPI-00 protocol 
-        dataout          = dataout + sdo;          // read datain on rising edge of clock -- ADS7067, SPI-00 protocol 
+        sclk            <= 1;						// Load datain on the rising edge of clock -- ADS7067, SPI-00 protocol.
+        dataout          = dataout + sdo;           // Read or capture datain on the rising edge of clock -- ADS7067, SPI-00 protocol. 
         dataout          = dataout<<1;
         adc_dl          <= 0;
         adc_data_len     = adc_data_len - 1;
         end
     else if (trig==1 && csb==0 && adc_dl==1 && adc_data_len==1) begin
-        sclk            <= 1;						// load datain on rising edge of clock -- ADS7067, SPI-00 protocol 
-        dataout          = dataout + sdo;          // read datain on rising edge of clock -- ADS7067, SPI-00 protocol 
+        sclk            <= 1;						// Load datain on the rising edge of clock -- ADS7067, SPI-00 protocol. 
+        dataout          = dataout + sdo;           // Capture datain on the rising edge of clock -- ADS7067, SPI-00 protocol.
         adc_dl          <= 0;
         adc_data_len     = adc_data_len - 1;
         end 
@@ -87,8 +84,7 @@ always @(posedge clk_adc)  begin
 		sdi             <= 0;
 		done            <= 0;
 		dataout         <= 0;
-        end  
-end
+        end
+    end
 
-	
 endmodule

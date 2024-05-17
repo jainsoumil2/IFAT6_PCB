@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../IFAT6_PCB.ip_user_files/ipstatic" --include "../../../../IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/common" --include "../../../../IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/simulation/FrontPanel" \
+"../../../../IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/simulation/FrontPanel_IFAT6_wrapper_simulation.v" \
+"../../../../IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/simulation/FrontPanel/okHost.v" \
+"../../../../IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/simulation/FrontPanel/okWireOR.v" \
+"../../../../IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/simulation/FrontPanel/okPipeOut.v" \
+"../../../../IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/simulation/FrontPanel/okWireIn.v" \
+"../../../../IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/simulation/FrontPanel/okTriggerIn.v" \
+"../../../../IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/simulation/FrontPanel/okWireOut.v" \
+"../../../../IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/simulation/FrontPanel_IFAT6_simulation.v" \
+"../../../../IFAT6_PCB.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../IFAT6_PCB.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../IFAT6_PCB.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" \
+"../../../../IFAT6_PCB.srcs/sources_1/new/ADS7067.v" \
+"../../../../IFAT6_PCB.srcs/sources_1/new/dac.v" \
+"../../../../IFAT6_PCB.srcs/sim_top/new/Simulation_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

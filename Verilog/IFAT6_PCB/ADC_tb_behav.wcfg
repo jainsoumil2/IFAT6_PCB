@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ADC_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ADC_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4,436.550 ns"></ZoomStartTime>
+      <ZoomEndTime time="4,559.651 ns"></ZoomEndTime>
+      <Cursor1Time time="4,485.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="325"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/ADC_tb/TRIGGER" type="logic">
+      <obj_property name="ElementShortName">TRIGGER</obj_property>
+      <obj_property name="ObjectShortName">TRIGGER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/LOW_TIME" type="array">
+      <obj_property name="ElementShortName">LOW_TIME[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LOW_TIME[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/HIGH_TIME" type="array">
+      <obj_property name="ElementShortName">HIGH_TIME[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HIGH_TIME[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/SPI_DATA" type="array">
+      <obj_property name="ElementShortName">SPI_DATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SPI_DATA[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/SYNCb" type="logic">
+      <obj_property name="ElementShortName">SYNCb</obj_property>
+      <obj_property name="ObjectShortName">SYNCb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/SCLK" type="logic">
+      <obj_property name="ElementShortName">SCLK</obj_property>
+      <obj_property name="ObjectShortName">SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/SDI" type="logic">
+      <obj_property name="ElementShortName">SDI</obj_property>
+      <obj_property name="ObjectShortName">SDI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/SDO" type="logic">
+      <obj_property name="ElementShortName">SDO</obj_property>
+      <obj_property name="ObjectShortName">SDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/ADC_OUT" type="array">
+      <obj_property name="ElementShortName">ADC_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ADC_OUT[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/uut_ADC/SYNCb" type="logic">
+      <obj_property name="ElementShortName">SYNCb</obj_property>
+      <obj_property name="ObjectShortName">SYNCb</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/uut_ADC/SCLK" type="logic">
+      <obj_property name="ElementShortName">SCLK</obj_property>
+      <obj_property name="ObjectShortName">SCLK</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/uut_ADC/SDI" type="logic">
+      <obj_property name="ElementShortName">SDI</obj_property>
+      <obj_property name="ObjectShortName">SDI</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/uut_ADC/ADC_OUT" type="array">
+      <obj_property name="ElementShortName">ADC_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ADC_OUT[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/uut_ADC/nx_state" type="array">
+      <obj_property name="ElementShortName">nx_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">nx_state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/uut_ADC/pr_state" type="array">
+      <obj_property name="ElementShortName">pr_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pr_state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/uut_ADC/t" type="array">
+      <obj_property name="ElementShortName">t[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/uut_ADC/tmax" type="array">
+      <obj_property name="ElementShortName">tmax[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmax[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/uut_ADC/pulse_cnt" type="array">
+      <obj_property name="ElementShortName">pulse_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pulse_cnt[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/uut_ADC/pulse_cnt_reg" type="array">
+      <obj_property name="ElementShortName">pulse_cnt_reg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pulse_cnt_reg[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/FRAME_SIZE" type="array">
+      <obj_property name="ElementShortName">FRAME_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_SIZE[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/uut_ADC/sample_cnt" type="array">
+      <obj_property name="ElementShortName">sample_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_cnt[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ADC_tb/uut_ADC/sample_cnt_reg" type="array">
+      <obj_property name="ElementShortName">sample_cnt_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_cnt_reg[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

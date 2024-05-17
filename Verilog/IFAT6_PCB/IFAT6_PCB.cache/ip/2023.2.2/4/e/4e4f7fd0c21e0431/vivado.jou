@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Tue Apr 16 08:26:14 2024
+# Process ID: 28152
+# Current directory: C:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.cache/ip/2023.2.2/4/e/4e4f7fd0c21e0431
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8044 C:\Users\jains\OneDrive - UC San Diego\research\IFAT6\IFAT6_PCB\Verilog\IFAT6_PCB\IFAT6_PCB.cache\ip\2023.2.2\4\e\4e4f7fd0c21e0431\FrontPanel_IFAT6.dcp
+# Log file: C:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.cache/ip/2023.2.2/4/e/4e4f7fd0c21e0431/vivado.log
+# Journal file: C:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.cache/ip/2023.2.2/4/e/4e4f7fd0c21e0431\vivado.jou
+# Running On: IFAT, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 34159 MB
+#-----------------------------------------------------------
+start_gui
+open_checkpoint {C:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.cache/ip/2023.2.2/4/e/4e4f7fd0c21e0431/FrontPanel_IFAT6.dcp}

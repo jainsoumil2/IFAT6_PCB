@@ -1,5 +1,5 @@
 # compile verilog/system verilog design source files
-verilog xil_defaultlib  --include "../../../../IFAT6_PCB.ip_user_files/ipstatic" --include "../../../../IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/common" --include "../../../../IFAT6_PCB.gen/sources_1/ip/frontpanel_IFAT6_1/gateware/simulation/FrontPanel" \
+verilog xil_defaultlib  --include "../../../../IFAT6_PCB.ip_user_files/ipstatic" --include "../../../../IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/common" --include "../../../../IFAT6_PCB.gen/sources_1/ip/FrontPanel_IFAT6_1/gateware/simulation/FrontPanel" \
 "../../../../IFAT6_PCB.gen/sources_1/ip/clk_50M/clk_50M_clk_wiz.v" \
 "../../../../IFAT6_PCB.gen/sources_1/ip/clk_50M/clk_50M.v" \
 "../../../../IFAT6_PCB.srcs/sources_1/new/dac.v" \

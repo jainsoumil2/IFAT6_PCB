@@ -1,0 +1,11 @@
++====================+===================+======================================+
+| Launch Setup Clock | Launch Hold Clock | Pin                                  |
++====================+===================+======================================+
+| clk_out1_clk_50M   | mmcm0_clk0        | ADC/FSM_sequential_pr_state_reg[0]/D |
+| mmcm0_clk0         | mmcm0_clk0        | OK_IFAT6/inst/ti40/trigff0_reg[0]/D  |
+| mmcm0_clk0         | mmcm0_clk0        | OK_IFAT6/inst/ti40/trigff0_reg[1]/D  |
+| mmcm0_clk0         | mmcm0_clk0        | OK_IFAT6/inst/ti40/trigff0_reg[3]/D  |
+| mmcm0_clk0         | mmcm0_clk0        | OK_IFAT6/inst/ti40/trigff0_reg[2]/D  |
+| mmcm0_clk0         | mmcm0_clk0        | OK_IFAT6/inst/ti40/trigff0_reg[5]/D  |
+| mmcm0_clk0         | mmcm0_clk0        | OK_IFAT6/inst/ti40/trigff0_reg[4]/D  |
++--------------------+-------------------+--------------------------------------+

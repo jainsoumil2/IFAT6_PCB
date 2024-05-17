@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TEST_BENCH_TEMPLATE_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TEST_BENCH_TEMPLATE" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="195.300 ns"></ZoomStartTime>
+      <ZoomEndTime time="604.801 ns"></ZoomEndTime>
+      <Cursor1Time time="445.300 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="325"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/TEST_BENCH_TEMPLATE/okClk" type="logic">
+      <obj_property name="ElementShortName">okClk</obj_property>
+      <obj_property name="ObjectShortName">okClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_BENCH_TEMPLATE/wi13_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi13_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi13_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_BENCH_TEMPLATE/ti48_ep_trigger" type="array">
+      <obj_property name="ElementShortName">ti48_ep_trigger[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ti48_ep_trigger[31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

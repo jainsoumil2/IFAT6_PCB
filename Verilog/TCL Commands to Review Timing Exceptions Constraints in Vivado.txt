@@ -1,0 +1,33 @@
+TCL Commands to Review Timing Exceptions (Timing Constraints) in Vivado (Vivado Design Suite User Guide: Using Constraints, UG903, (v2023.2) November 1, 2023, Pg. 75-76):
+
+report_methodology
+	The methodology check XDCB-1 reports the timing constraints
+	that reference large collections of objects (over 1000).
+
+report_exceptions
+ 	The report exception command () provides coverage and collision
+	information on the timing exceptions that have been defined.
+
+AMD recommends that you carefully analyze the following reports:
+
+report_exceptions -scope_override
+	This report provides the list of scoped timing constraints that a top-level timing constraint
+	partially or totally overrides. However, it does not report a scoped constraint overriden by
+	another scoped constraints (from the same scope or from a different scope). For example, this
+	option can be used to verify that the IP constraints are not overriden by some user's top-level 
+	constraints.
+
+report_exceptions –coverage
+	This report provides a logical path coverage for each timing exception. The number of objects
+	passed to the timing exception are compared to the number of startpoints and endpoints
+	effectively covered. You should review constraints that have significant differences between
+	the number of objects and the number of startpoints/endpoints.
+
+report_exceptions –ignored
+	This report provides the list of timing constraints overridden by other timing constraints (for
+	example, a set_false_path overridden by set_clock_group). You should review the
+	overridden constraints for correctness or remove the useless constraints.
+
+report_exceptions –ignored_objects
+	This report provides the list of startpoints and endpoints that are ignored due to, for example,
+	inexistent paths from those startpoints or to those endpoints.

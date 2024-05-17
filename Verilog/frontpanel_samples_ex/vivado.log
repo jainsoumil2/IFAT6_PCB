@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Wed Apr 17 14:00:16 2024
+# Process ID: 17008
+# Current directory: c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex
+# Command line: vivado.exe -notrace -source c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_samples/frontpanel_samples_ex.tcl
+# Log file: c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex/vivado.log
+# Journal file: c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex\vivado.jou
+# Running On: IFAT, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 34159 MB
+#-----------------------------------------------------------
+start_gui
+source {c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_samples/frontpanel_samples_ex.tcl} -notrace
+INFO: [open_example_project] Creating new example project...
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [open_example_project] Loading IP Catalog...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/jains/OneDrive'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/jains/OneDrive' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex'.)
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex/-'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex/UC'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex/San'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex/Diego/research/IFAT6/IFAT6_PCB/Verilog/FrontPanel-Vivado-IP-Dist-v1.0.5'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [open_example_project] Importing original IP ...
+WARNING: [IP_Flow 19-2162] IP 'frontpanel_samples' is locked:
+* IP definition 'frontpanel (1.0)' for IP 'frontpanel_samples' (customized with software release 2023.2.2) was not found in the IP Catalog.
+CRITICAL WARNING: [filemgmt 20-1366] Unable to reset target(s) for the following file is locked: c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex/frontpanel_samples_ex.srcs/sources_1/ip/frontpanel_samples/frontpanel_samples.xci
+Locked reason: 
+* IP definition 'frontpanel (1.0)' for IP 'frontpanel_samples' (customized with software release 2023.2.2) was not found in the IP Catalog.
+INFO: [open_example_project] Generating the example project IP ...
+WARNING: [Vivado 12-1783] Unsupported target specified: ''. Supported targets for this IP are: 'all' 'instantiation_template' 'example'. File: 'frontpanel_samples.xci'. 
+ERROR: [Vivado 12-1773] No legal targets specified.  Supported targets for this IP are: all instantiation_template example. File: 'frontpanel_samples.xci'.
+ERROR: [Common 17-39] 'generate_target' failed due to earlier errors.
+
+    while executing
+"generate_target [_filter_supported_targets {instantiation_template synthesis simulation implementation shared_logic} [get_ips frontpanel_samples]] [ge..."
+    invoked from within
+"if { $returnCode == 0 } { 
+  reset_target {open_example} [get_ips frontpanel_samples]
+
+  # Generate the IP
+  proc _filter_supported_targets {targets i..."
+    (file "c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_samples/frontpanel_samples_ex...." line 38)
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+CRITICAL WARNING: [filemgmt 20-730] Could not find a top module in the fileset sources_1.
+Resolution: With the gui up, review the source files in the Sources window. Use Add Sources to add any needed sources. If the files are disabled, enable them. You can also select the file and choose Set Used In from the pop-up menu. Review if they are being used at the proper points of the flow.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: frontpanel_samples
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex/frontpanel_samples_ex.srcs/sources_1/ip/frontpanel_samples/frontpanel_samples.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex/frontpanel_samples_ex.srcs/sources_1/ip/frontpanel_samples/frontpanel_samples.xci' in run frontpanel_samples_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+ERROR: [Common 17-70] Application Exception: Top module not set for fileset 'sources_1'. Please ensure that a valid value is provided for 'top'. The value for 'top' can be set/changed using the 'Top Module Name' field under 'Project Settings', or using the 'set_property top' Tcl command (e.g. set_property top <name> [current_fileset]).
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 14:02:41 2024...

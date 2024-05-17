@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Wed Apr 17 14:00:16 2024
+# Process ID: 17008
+# Current directory: c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex
+# Command line: vivado.exe -notrace -source c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_samples/frontpanel_samples_ex.tcl
+# Log file: c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex/vivado.log
+# Journal file: c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/frontpanel_samples_ex\vivado.jou
+# Running On: IFAT, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 34159 MB
+#-----------------------------------------------------------
+start_gui
+source {c:/Users/jains/OneDrive - UC San Diego/research/IFAT6/IFAT6_PCB/Verilog/IFAT6_PCB/IFAT6_PCB.gen/sources_1/ip/frontpanel_samples/frontpanel_samples_ex.tcl} -notrace
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8

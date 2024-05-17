@@ -1,0 +1,28 @@
+#################################################################################################
+# Create IP for the example design
+#################################################################################################
+# The following command was taken from "tcl_recreate_command.vh" from within the FrontPanel
+# Subsystem IP's Synthesis file group. You can find this file within the "IP Sources" panel.
+# This file contains a header that explains how to interpret each CONFIG parameter. You can
+# use these generated TCL commands within your own build scripts to recreate the IP.
+#
+
+create_ip -name frontpanel -vendor opalkelly.com -library ip -module_name frontpanel_counters
+set_property -dict [list \
+CONFIG.BOARD {XEM7310MT-A200} \
+CONFIG.WI.COUNT {1} \
+CONFIG.WI.ADDR_0 {0x00} \
+CONFIG.WO.COUNT {2} \
+CONFIG.WO.ADDR_0 {0x20} \
+CONFIG.WO.ADDR_1 {0x21} \
+CONFIG.TI.COUNT {1} \
+CONFIG.TI.ADDR_0 {0x40} \
+CONFIG.TO.COUNT {2} \
+CONFIG.TO.ADDR_0 {0x60} \
+CONFIG.TO.ADDR_1 {0x61} \
+] [get_ips frontpanel_counters]
+
+create_ip -name leds -vendor opalkelly.com -library ip -module_name leds_counters
+set_property -dict [list \
+CONFIG.BOARD {XEM7310MT-A200} \
+] [get_ips leds_counters]

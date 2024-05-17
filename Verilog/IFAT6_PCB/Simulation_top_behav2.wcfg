@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Simulation_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Simulation_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7.091666 us"></ZoomStartTime>
+      <ZoomEndTime time="29.521667 us"></ZoomEndTime>
+      <Cursor1Time time="25.781666 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="325"></NameColumnWidth>
+      <ValueColumnWidth column_width="123"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wave_markers>
+      <marker time="12845000" label="" />
+      <marker time="12825000" label="" />
+      <marker time="12785000" label="" />
+      <marker time="12805000" label="" />
+      <marker time="12765000" label="" />
+      <marker time="12865000" label="" />
+      <marker time="12885000" label="" />
+      <marker time="12905000" label="" />
+      <marker time="12925000" label="" />
+      <marker time="12945000" label="" />
+      <marker time="12965000" label="" />
+      <marker time="12985000" label="" />
+      <marker time="13005000" label="" />
+      <marker time="13045000" label="" />
+      <marker time="13025000" label="" />
+      <marker time="13065000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/Simulation_top/ADC_CSb" type="logic">
+      <obj_property name="ElementShortName">ADC_CSb</obj_property>
+      <obj_property name="ObjectShortName">ADC_CSb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC_SCLK" type="logic">
+      <obj_property name="ElementShortName">ADC_SCLK</obj_property>
+      <obj_property name="ObjectShortName">ADC_SCLK</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC_SDI" type="logic">
+      <obj_property name="ElementShortName">ADC_SDI</obj_property>
+      <obj_property name="ObjectShortName">ADC_SDI</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC_SDO" type="logic">
+      <obj_property name="ElementShortName">ADC_SDO</obj_property>
+      <obj_property name="ObjectShortName">ADC_SDO</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC/pulse_cnt_reg" type="array">
+      <obj_property name="ElementShortName">pulse_cnt_reg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pulse_cnt_reg[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC/SYNCb" type="logic">
+      <obj_property name="ElementShortName">SYNCb</obj_property>
+      <obj_property name="ObjectShortName">SYNCb</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC/SCLK" type="logic">
+      <obj_property name="ElementShortName">SCLK</obj_property>
+      <obj_property name="ObjectShortName">SCLK</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC/SDI" type="logic">
+      <obj_property name="ElementShortName">SDI</obj_property>
+      <obj_property name="ObjectShortName">SDI</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC/pr_state" type="array">
+      <obj_property name="ElementShortName">pr_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pr_state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC/pulse_cnt" type="array">
+      <obj_property name="ElementShortName">pulse_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pulse_cnt[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">20.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">10.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC/ADC_OUT" type="array">
+      <obj_property name="ElementShortName">ADC_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADC_OUT[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC_OUTPUT" type="array">
+      <obj_property name="ElementShortName">ADC_OUTPUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADC_OUTPUT[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

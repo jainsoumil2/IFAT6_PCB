@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Simulation_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Simulation_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="13,020.983 ns"></ZoomStartTime>
+      <ZoomEndTime time="13,185.684 ns"></ZoomEndTime>
+      <Cursor1Time time="13,048.433 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="325"></NameColumnWidth>
+      <ValueColumnWidth column_width="118"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="176" />
+   <wvobject fp_name="/Simulation_top/sys_clkp" type="logic">
+      <obj_property name="ElementShortName">sys_clkp</obj_property>
+      <obj_property name="ObjectShortName">sys_clkp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/sys_clkn" type="logic">
+      <obj_property name="ElementShortName">sys_clkn</obj_property>
+      <obj_property name="ObjectShortName">sys_clkn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC1_LDACb" type="logic">
+      <obj_property name="ElementShortName">DAC1_LDACb</obj_property>
+      <obj_property name="ObjectShortName">DAC1_LDACb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC2_LDACb" type="logic">
+      <obj_property name="ElementShortName">DAC2_LDACb</obj_property>
+      <obj_property name="ObjectShortName">DAC2_LDACb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC3_LDACb" type="logic">
+      <obj_property name="ElementShortName">DAC3_LDACb</obj_property>
+      <obj_property name="ObjectShortName">DAC3_LDACb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC4_LDACb" type="logic">
+      <obj_property name="ElementShortName">DAC4_LDACb</obj_property>
+      <obj_property name="ObjectShortName">DAC4_LDACb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC5_LDACb" type="logic">
+      <obj_property name="ElementShortName">DAC5_LDACb</obj_property>
+      <obj_property name="ObjectShortName">DAC5_LDACb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC1_CLRb" type="logic">
+      <obj_property name="ElementShortName">DAC1_CLRb</obj_property>
+      <obj_property name="ObjectShortName">DAC1_CLRb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC2_CLRb" type="logic">
+      <obj_property name="ElementShortName">DAC2_CLRb</obj_property>
+      <obj_property name="ObjectShortName">DAC2_CLRb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC3_CLRb" type="logic">
+      <obj_property name="ElementShortName">DAC3_CLRb</obj_property>
+      <obj_property name="ObjectShortName">DAC3_CLRb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC4_CLRb" type="logic">
+      <obj_property name="ElementShortName">DAC4_CLRb</obj_property>
+      <obj_property name="ObjectShortName">DAC4_CLRb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC5_CLRb" type="logic">
+      <obj_property name="ElementShortName">DAC5_CLRb</obj_property>
+      <obj_property name="ObjectShortName">DAC5_CLRb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC_SCLK" type="logic">
+      <obj_property name="ElementShortName">DAC_SCLK</obj_property>
+      <obj_property name="ObjectShortName">DAC_SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC1_SDI" type="logic">
+      <obj_property name="ElementShortName">DAC1_SDI</obj_property>
+      <obj_property name="ObjectShortName">DAC1_SDI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC2_SDI" type="logic">
+      <obj_property name="ElementShortName">DAC2_SDI</obj_property>
+      <obj_property name="ObjectShortName">DAC2_SDI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC3_SDI" type="logic">
+      <obj_property name="ElementShortName">DAC3_SDI</obj_property>
+      <obj_property name="ObjectShortName">DAC3_SDI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC4_SDI" type="logic">
+      <obj_property name="ElementShortName">DAC4_SDI</obj_property>
+      <obj_property name="ObjectShortName">DAC4_SDI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC5_SDI" type="logic">
+      <obj_property name="ElementShortName">DAC5_SDI</obj_property>
+      <obj_property name="ObjectShortName">DAC5_SDI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC1_SYNCb" type="logic">
+      <obj_property name="ElementShortName">DAC1_SYNCb</obj_property>
+      <obj_property name="ObjectShortName">DAC1_SYNCb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC2_SYNCb" type="logic">
+      <obj_property name="ElementShortName">DAC2_SYNCb</obj_property>
+      <obj_property name="ObjectShortName">DAC2_SYNCb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC3_SYNCb" type="logic">
+      <obj_property name="ElementShortName">DAC3_SYNCb</obj_property>
+      <obj_property name="ObjectShortName">DAC3_SYNCb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC4_SYNCb" type="logic">
+      <obj_property name="ElementShortName">DAC4_SYNCb</obj_property>
+      <obj_property name="ObjectShortName">DAC4_SYNCb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC5_SYNCb" type="logic">
+      <obj_property name="ElementShortName">DAC5_SYNCb</obj_property>
+      <obj_property name="ObjectShortName">DAC5_SYNCb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC_CSb" type="logic">
+      <obj_property name="ElementShortName">ADC_CSb</obj_property>
+      <obj_property name="ObjectShortName">ADC_CSb</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC_SCLK" type="logic">
+      <obj_property name="ElementShortName">ADC_SCLK</obj_property>
+      <obj_property name="ObjectShortName">ADC_SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC_SDI" type="logic">
+      <obj_property name="ElementShortName">ADC_SDI</obj_property>
+      <obj_property name="ObjectShortName">ADC_SDI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/PROBE_CLK_ADC" type="logic">
+      <obj_property name="ElementShortName">PROBE_CLK_ADC</obj_property>
+      <obj_property name="ObjectShortName">PROBE_CLK_ADC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/PROBE_CLK_DAC" type="logic">
+      <obj_property name="ElementShortName">PROBE_CLK_DAC</obj_property>
+      <obj_property name="ObjectShortName">PROBE_CLK_DAC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/PROBE_CLK_300M" type="logic">
+      <obj_property name="ElementShortName">PROBE_CLK_300M</obj_property>
+      <obj_property name="ObjectShortName">PROBE_CLK_300M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA0" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA0</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA1" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA1</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA2" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA2</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA3" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA3</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA4" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA4</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA5" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA5</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA6" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA6</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA7" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA7</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA8" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA8</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA9" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA9</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA9</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA10" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA10</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA11" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA11</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA11</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA12" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA12</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA13" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA13</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA13</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA14" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA14</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA14</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA15" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA15</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA15</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA16" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA16</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA16</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA17" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA17</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA17</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA18" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA18</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA18</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA19" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA19</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA19</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA20" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA20</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA20</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA21" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA21</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA21</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA22" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA22</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA22</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA23" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA23</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA23</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA_REQ" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA_REQ</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA_REQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/SHIFT_REG_D" type="logic">
+      <obj_property name="ElementShortName">SHIFT_REG_D</obj_property>
+      <obj_property name="ObjectShortName">SHIFT_REG_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/COL_SHIFT_REG_CLK" type="logic">
+      <obj_property name="ElementShortName">COL_SHIFT_REG_CLK</obj_property>
+      <obj_property name="ObjectShortName">COL_SHIFT_REG_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ROW_SHIFT_REG_CLK" type="logic">
+      <obj_property name="ElementShortName">ROW_SHIFT_REG_CLK</obj_property>
+      <obj_property name="ObjectShortName">ROW_SHIFT_REG_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ASYNC_RST" type="logic">
+      <obj_property name="ElementShortName">ASYNC_RST</obj_property>
+      <obj_property name="ObjectShortName">ASYNC_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/SHIFT_REG_SET" type="logic">
+      <obj_property name="ElementShortName">SHIFT_REG_SET</obj_property>
+      <obj_property name="ObjectShortName">SHIFT_REG_SET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ARRAY_SHIFT_REG_CLK" type="logic">
+      <obj_property name="ElementShortName">ARRAY_SHIFT_REG_CLK</obj_property>
+      <obj_property name="ObjectShortName">ARRAY_SHIFT_REG_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA_ACK" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA_ACK</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA_ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/PULSE_GEN_RST" type="logic">
+      <obj_property name="ElementShortName">PULSE_GEN_RST</obj_property>
+      <obj_property name="ObjectShortName">PULSE_GEN_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/_setLFSR" type="logic">
+      <obj_property name="ElementShortName">_setLFSR</obj_property>
+      <obj_property name="ObjectShortName">_setLFSR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/resetIFAT" type="logic">
+      <obj_property name="ElementShortName">resetIFAT</obj_property>
+      <obj_property name="ObjectShortName">resetIFAT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC_SDO" type="logic">
+      <obj_property name="ElementShortName">ADC_SDO</obj_property>
+      <obj_property name="ObjectShortName">ADC_SDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/INPUT_DATA_ACK" type="logic">
+      <obj_property name="ElementShortName">INPUT_DATA_ACK</obj_property>
+      <obj_property name="ObjectShortName">INPUT_DATA_ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA0" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA0</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA1" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA1</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA2" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA2</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA3" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA3</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA4" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA4</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA5" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA5</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA6" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA6</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA7" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA7</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA8" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA8</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA9" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA9</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA9</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA10" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA10</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA11" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA11</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA11</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA12" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA12</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA13" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA13</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA13</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/OUTPUT_DATA_REQ" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DATA_REQ</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DATA_REQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/okUH" type="array">
+      <obj_property name="ElementShortName">okUH[4:0]</obj_property>
+      <obj_property name="ObjectShortName">okUH[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/okHU" type="array">
+      <obj_property name="ElementShortName">okHU[2:0]</obj_property>
+      <obj_property name="ObjectShortName">okHU[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/okUHU" type="array">
+      <obj_property name="ElementShortName">okUHU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">okUHU[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/okAA" type="logic">
+      <obj_property name="ElementShortName">okAA</obj_property>
+      <obj_property name="ObjectShortName">okAA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/okClk" type="logic">
+      <obj_property name="ElementShortName">okClk</obj_property>
+      <obj_property name="ObjectShortName">okClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi00_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi00_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi00_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi01_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi01_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi01_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi02_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi02_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi02_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi03_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi03_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi03_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi04_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi04_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi04_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi05_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi05_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi05_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi06_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi06_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi06_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi07_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi07_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi07_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi08_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi08_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi08_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi09_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi09_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi09_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi0a_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi0a_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi0a_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi0b_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi0b_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi0b_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wi0c_ep_dataout" type="array">
+      <obj_property name="ElementShortName">wi0c_ep_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wi0c_ep_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wo20_ep_datain" type="array">
+      <obj_property name="ElementShortName">wo20_ep_datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wo20_ep_datain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wo21_ep_datain" type="array">
+      <obj_property name="ElementShortName">wo21_ep_datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wo21_ep_datain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wo22_ep_datain" type="array">
+      <obj_property name="ElementShortName">wo22_ep_datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wo22_ep_datain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wo23_ep_datain" type="array">
+      <obj_property name="ElementShortName">wo23_ep_datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wo23_ep_datain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wo24_ep_datain" type="array">
+      <obj_property name="ElementShortName">wo24_ep_datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wo24_ep_datain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ti40_ep_trigger" type="array">
+      <obj_property name="ElementShortName">ti40_ep_trigger[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ti40_ep_trigger[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ti41_ep_trigger" type="array">
+      <obj_property name="ElementShortName">ti41_ep_trigger[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ti41_ep_trigger[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ti40_ep_clk" type="logic">
+      <obj_property name="ElementShortName">ti40_ep_clk</obj_property>
+      <obj_property name="ObjectShortName">ti40_ep_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ti41_ep_clk" type="logic">
+      <obj_property name="ElementShortName">ti41_ep_clk</obj_property>
+      <obj_property name="ObjectShortName">ti41_ep_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/poa0_ep_datain" type="array">
+      <obj_property name="ElementShortName">poa0_ep_datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">poa0_ep_datain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/poa0_ep_read" type="logic">
+      <obj_property name="ElementShortName">poa0_ep_read</obj_property>
+      <obj_property name="ObjectShortName">poa0_ep_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/clk_50M" type="logic">
+      <obj_property name="ElementShortName">clk_50M</obj_property>
+      <obj_property name="ObjectShortName">clk_50M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/clk_120M" type="logic">
+      <obj_property name="ElementShortName">clk_120M</obj_property>
+      <obj_property name="ObjectShortName">clk_120M</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC1_SCLK" type="logic">
+      <obj_property name="ElementShortName">DAC1_SCLK</obj_property>
+      <obj_property name="ObjectShortName">DAC1_SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC2_SCLK" type="logic">
+      <obj_property name="ElementShortName">DAC2_SCLK</obj_property>
+      <obj_property name="ObjectShortName">DAC2_SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC3_SCLK" type="logic">
+      <obj_property name="ElementShortName">DAC3_SCLK</obj_property>
+      <obj_property name="ObjectShortName">DAC3_SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC4_SCLK" type="logic">
+      <obj_property name="ElementShortName">DAC4_SCLK</obj_property>
+      <obj_property name="ObjectShortName">DAC4_SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/DAC5_SCLK" type="logic">
+      <obj_property name="ElementShortName">DAC5_SCLK</obj_property>
+      <obj_property name="ObjectShortName">DAC5_SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADS7067_SPI_Input" type="array">
+      <obj_property name="ElementShortName">ADS7067_SPI_Input[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADS7067_SPI_Input[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADS7067_SCLK_Low_Time" type="array">
+      <obj_property name="ElementShortName">ADS7067_SCLK_Low_Time[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADS7067_SCLK_Low_Time[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADS7067_SCLK_High_Time" type="array">
+      <obj_property name="ElementShortName">ADS7067_SCLK_High_Time[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADS7067_SCLK_High_Time[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADS7067_Frame_Size" type="array">
+      <obj_property name="ElementShortName">ADS7067_Frame_Size[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADS7067_Frame_Size[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADS7067_Num_Samples" type="array">
+      <obj_property name="ElementShortName">ADS7067_Num_Samples[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADS7067_Num_Samples[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADS7067_Conv_Time" type="array">
+      <obj_property name="ElementShortName">ADS7067_Conv_Time[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADS7067_Conv_Time[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC_OUT" type="array">
+      <obj_property name="ElementShortName">ADC_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADC_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/State_Machine_Addr" type="array">
+      <obj_property name="ElementShortName">State_Machine_Addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">State_Machine_Addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ti42_ep_trigger" type="array">
+      <obj_property name="ElementShortName">ti42_ep_trigger[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ti42_ep_trigger[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ti42_ep_clk" type="logic">
+      <obj_property name="ElementShortName">ti42_ep_clk</obj_property>
+      <obj_property name="ObjectShortName">ti42_ep_clk</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/trigger_sync" type="logic">
+      <obj_property name="ElementShortName">trigger_sync</obj_property>
+      <obj_property name="ObjectShortName">trigger_sync</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/trigger_sync_prev" type="logic">
+      <obj_property name="ElementShortName">trigger_sync_prev</obj_property>
+      <obj_property name="ObjectShortName">trigger_sync_prev</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/write_pulse" type="logic">
+      <obj_property name="ElementShortName">write_pulse</obj_property>
+      <obj_property name="ObjectShortName">write_pulse</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/FIFO_din" type="array">
+      <obj_property name="ElementShortName">FIFO_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/FIFO_dout" type="array">
+      <obj_property name="ElementShortName">FIFO_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_dout[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wr_ack" type="logic">
+      <obj_property name="ElementShortName">wr_ack</obj_property>
+      <obj_property name="ObjectShortName">wr_ack</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/overflow" type="logic">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/underflow" type="logic">
+      <obj_property name="ElementShortName">underflow</obj_property>
+      <obj_property name="ObjectShortName">underflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[16:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[16:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[16:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/pipeIn" type="array">
+      <obj_property name="ElementShortName">pipeIn[0:127][7:0]</obj_property>
+      <obj_property name="ObjectShortName">pipeIn[0:127][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/pipeOut" type="array">
+      <obj_property name="ElementShortName">pipeOut[0:127][7:0]</obj_property>
+      <obj_property name="ObjectShortName">pipeOut[0:127][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/u32Address" type="array">
+      <obj_property name="ElementShortName">u32Address[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">u32Address[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/u32Data" type="array">
+      <obj_property name="ElementShortName">u32Data[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">u32Data[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/u32Count" type="array">
+      <obj_property name="ElementShortName">u32Count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">u32Count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/NO_MASK" type="array">
+      <obj_property name="ElementShortName">NO_MASK[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NO_MASK[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ADC_OUTPUT" type="array">
+      <obj_property name="ElementShortName">ADC_OUTPUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADC_OUTPUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/hi_clk" type="logic">
+      <obj_property name="ElementShortName">hi_clk</obj_property>
+      <obj_property name="ObjectShortName">hi_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/hi_drive" type="logic">
+      <obj_property name="ElementShortName">hi_drive</obj_property>
+      <obj_property name="ObjectShortName">hi_drive</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/hi_cmd" type="array">
+      <obj_property name="ElementShortName">hi_cmd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hi_cmd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/hi_busy" type="logic">
+      <obj_property name="ElementShortName">hi_busy</obj_property>
+      <obj_property name="ObjectShortName">hi_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/hi_datain" type="array">
+      <obj_property name="ElementShortName">hi_datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hi_datain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/hi_dataout" type="array">
+      <obj_property name="ElementShortName">hi_dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hi_dataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/WireIns" type="array">
+      <obj_property name="ElementShortName">WireIns[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">WireIns[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/WireOuts" type="array">
+      <obj_property name="ElementShortName">WireOuts[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">WireOuts[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/Triggered" type="array">
+      <obj_property name="ElementShortName">Triggered[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">Triggered[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/BlockDelayStates" type="array">
+      <obj_property name="ElementShortName">BlockDelayStates[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BlockDelayStates[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/ReadyCheckDelay" type="array">
+      <obj_property name="ElementShortName">ReadyCheckDelay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadyCheckDelay[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/PostReadyDelay" type="array">
+      <obj_property name="ElementShortName">PostReadyDelay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PostReadyDelay[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/pipeInSize" type="array">
+      <obj_property name="ElementShortName">pipeInSize[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pipeInSize[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/pipeOutSize" type="array">
+      <obj_property name="ElementShortName">pipeOutSize[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pipeOutSize[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/registerSetSize" type="array">
+      <obj_property name="ElementShortName">registerSetSize[31:0]</obj_property>
+      <obj_property name="ObjectShortName">registerSetSize[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/Tsys_clk" type="array">
+      <obj_property name="ElementShortName">Tsys_clk[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Tsys_clk[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/UPDATE_TO_READOUT_CLOCKS" type="array">
+      <obj_property name="ElementShortName">UPDATE_TO_READOUT_CLOCKS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UPDATE_TO_READOUT_CLOCKS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/Tti" type="array">
+      <obj_property name="ElementShortName">Tti[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Tti[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/Tep" type="other">
+      <obj_property name="ElementShortName">Tep</obj_property>
+      <obj_property name="ObjectShortName">Tep</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/TDOUT_DELAY" type="array">
+      <obj_property name="ElementShortName">TDOUT_DELAY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TDOUT_DELAY[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/TTRIG_DELAY" type="array">
+      <obj_property name="ElementShortName">TTRIG_DELAY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TTRIG_DELAY[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Simulation_top/tCK" type="array">
+      <obj_property name="ElementShortName">tCK[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tCK[31:0]</obj_property>
+   </wvobject>
+</wave_config>
